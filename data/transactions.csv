@@ -1,0 +1,29 @@
+transaction_id,transaction_line_id,date,account_id,entity_id,currency,amount,memo,type,subsidiary_id,is_non_posting
+T001,1,15/01/2024,1011,E001,USD,5000,Initial Cash Injection,Journal,1,F
+T001,2,15/01/2024,3020,E001,USD,-5000,Initial Cash Injection,Journal,1,F
+T002,1,20/01/2024,6011,E003,USD,1500,Jan Rent Payment,Vendor Bill,1,F
+T002,2,20/01/2024,2011,E003,USD,-1500,Jan Rent Payment,Vendor Bill,1,F
+T003,1,25/01/2024,1020,E001,USD,2500,Sale to Global Tech,Invoice,1,F
+T003,2,25/01/2024,4010,E001,USD,-2500,Sale to Global Tech,Invoice,1,F
+T004,1,28/01/2024,1011,E001,USD,2500,Payment from Global Tech,Customer Payment,1,F
+T004,2,28/01/2024,1020,E001,USD,-2500,Payment from Global Tech,Customer Payment,1,F
+T005,1,01/02/2024,2011,E003,USD,1500,Payment for Jan Rent,Vendor Payment,1,F
+T005,2,01/02/2024,1011,E003,USD,-1500,Payment for Jan Rent,Vendor Payment,1,F
+T006,1,10/02/2024,6012,E007,USD,3000,Feb Salaries,Journal,1,F
+T006,2,10/02/2024,1011,E007,USD,-3000,Feb Salaries,Journal,1,F
+T007,1,15/02/2024,1020,E005,USD,1000,Service for Client Corp,Invoice,1,F
+T007,2,15/02/2024,4020,E005,USD,-1000,Service for Client Corp,Invoice,1,F
+T008,1,20/02/2024,6014,E004,USD,500,Advertising Bill Feb,Vendor Bill,1,F
+T008,2,20/02/2024,2011,E004,USD,-500,Advertising Bill Feb,Vendor Bill,1,F
+T009,1,01/03/2024,1012,E002,GBP,4000,Initial Cash UK,Journal,2,F
+T009,2,01/03/2024,3020,E002,GBP,-4000,Initial Cash UK,Journal,2,F
+T010,1,05/03/2024,6011,E006,GBP,1000,Mar Rent UK,Vendor Bill,2,F
+T010,2,05/03/2024,2011,E006,GBP,-1000,Mar Rent UK,Vendor Bill,2,F
+T011,1,10/03/2024,1020,E002,GBP,1800,Sale to Innovate Co.,Invoice,2,F
+T011,2,10/03/2024,4010,E002,GBP,-1800,Sale to Innovate Co.,Invoice,2,F
+T012,1,15/03/2024,1011,E001,USD,75,Bank Fees March,Journal,1,F
+T012,2,15/03/2024,6015,E001,USD,-75,Bank Fees March,Journal,1,F
+T013,1,01/04/2024,1030,,USD,2000,Inventory Purchase,Vendor Bill,1,F
+T013,2,01/04/2024,2011,,USD,-2000,Inventory Purchase,Vendor Bill,1,F
+T014,1,05/04/2024,5010,,USD,1200,COGS for Sale T003,Journal,1,F
+T014,2,05/04/2024,1030,,USD,-1200,COGS for Sale T003,Journal,1,F

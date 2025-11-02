@@ -1,0 +1,3 @@
+subsidiary_id,subsidiary_name,currency,parent_subsidiary_id
+1,US Subsidiary,USD,
+2,UK Subsidiary,GBP,

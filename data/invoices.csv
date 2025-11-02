@@ -1,0 +1,4 @@
+invoice_id,customer_id,issue_date,due_date,status,amount,currency,subsidiary_id
+INV001,E001,2024-01-25,2024-02-24,Paid,2500.0,USD,1
+INV002,E005,2024-02-15,2024-03-14,Open,1000.0,USD,1
+INV003,E002,2024-03-10,2024-04-09,Open,1800.0,GBP,2
