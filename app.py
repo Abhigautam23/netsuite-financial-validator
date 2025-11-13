@@ -71,7 +71,8 @@ with st.expander("📖 How to use this app", expanded=False):
     
     ### Important Notes
     
-    - Only **posting transactions** are included in reports (nonposting = FALSE)
+    - **All transactions** are shown by default (both posting and non-posting)
+    - Use the **"Exclude Non-Posting Transactions"** filter in the sidebar to filter them out
     - All processing happens client-side (no data stored)
     - Large datasets (>100K rows) may take 30-60 seconds to process
     """)
