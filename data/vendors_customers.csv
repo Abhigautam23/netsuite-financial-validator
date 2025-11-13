@@ -1,8 +1,0 @@
-entity_id,name,country,type,subsidiary_id
-E001,Global Tech Solutions,USA,Customer,1
-E002,Innovate Co.,Canada,Customer,2
-E003,Supplies Inc.,USA,Vendor,1
-E004,Marketing Solutions,UK,Vendor,1
-E005,Client Corp,USA,Customer,1
-E006,Consulting Services Ltd.,UK,Vendor,2
-E007,Local Services,USA,Vendor,1

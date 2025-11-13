@@ -1,0 +1,282 @@
+id,fullname,accttype
+1000,Cash - Operating - 01,Bank
+1001,Cash - Operating - 02,Bank
+1002,Cash - Operating - 03,Bank
+1003,Cash - Operating - 04,Bank
+1004,Cash - Operating - 05,Bank
+1005,Cash - Operating - 06,Bank
+1006,Cash - Operating - 07,Bank
+1007,Cash - Operating - 08,Bank
+1008,Cash - Operating - 09,Bank
+1009,Cash - Operating - 10,Bank
+1010,Cash - Payroll,Bank
+1011,Cash - Savings - 01,Bank
+1012,Cash - Savings - 02,Bank
+1013,Accounts Receivable - 01,AcctRec
+1014,Accounts Receivable - 02,AcctRec
+1015,Accounts Receivable - 03,AcctRec
+1016,Accounts Receivable - 04,AcctRec
+1017,Accounts Receivable - 05,AcctRec
+1018,Accounts Receivable - 06,AcctRec
+1019,Accounts Receivable - 07,AcctRec
+1020,Accounts Receivable - 08,AcctRec
+1021,Accounts Receivable - 09,AcctRec
+1022,Accounts Receivable - 10,AcctRec
+1023,Accounts Receivable - 11,AcctRec
+1024,Accounts Receivable - 12,AcctRec
+1025,Accounts Receivable - 13,AcctRec
+1026,Accounts Receivable - 14,AcctRec
+1027,Accounts Receivable - 15,AcctRec
+1028,Allowance for Doubtful Accounts - 01,AcctRec
+1029,Allowance for Doubtful Accounts - 02,AcctRec
+1030,Inventory - Raw Materials - 01,OthCurrAsset
+1031,Inventory - Raw Materials - 02,OthCurrAsset
+1032,Inventory - Raw Materials - 03,OthCurrAsset
+1033,Inventory - Raw Materials - 04,OthCurrAsset
+1034,Inventory - Raw Materials - 05,OthCurrAsset
+1035,Inventory - Raw Materials - 06,OthCurrAsset
+1036,Inventory - Raw Materials - 07,OthCurrAsset
+1037,Inventory - Raw Materials - 08,OthCurrAsset
+1038,Inventory - Finished Goods - 01,OthCurrAsset
+1039,Inventory - Finished Goods - 02,OthCurrAsset
+1040,Inventory - Finished Goods - 03,OthCurrAsset
+1041,Inventory - Finished Goods - 04,OthCurrAsset
+1042,Inventory - Finished Goods - 05,OthCurrAsset
+1043,Inventory - Finished Goods - 06,OthCurrAsset
+1044,Inventory - Finished Goods - 07,OthCurrAsset
+1045,Inventory - Finished Goods - 08,OthCurrAsset
+1046,Prepaid Expenses - 01,OthCurrAsset
+1047,Prepaid Expenses - 02,OthCurrAsset
+1048,Prepaid Expenses - 03,OthCurrAsset
+1049,Prepaid Expenses - 04,OthCurrAsset
+1050,Prepaid Expenses - 05,OthCurrAsset
+1051,Employee Advances - 01,OthCurrAsset
+1052,Employee Advances - 02,OthCurrAsset
+1053,Employee Advances - 03,OthCurrAsset
+1054,Buildings - 01,FixedAsset
+1055,Buildings - 02,FixedAsset
+1056,Buildings - 03,FixedAsset
+1057,Buildings - 04,FixedAsset
+1058,Buildings - 05,FixedAsset
+1059,Equipment - 01,FixedAsset
+1060,Equipment - 02,FixedAsset
+1061,Equipment - 03,FixedAsset
+1062,Equipment - 04,FixedAsset
+1063,Equipment - 05,FixedAsset
+1064,Equipment - 06,FixedAsset
+1065,Equipment - 07,FixedAsset
+1066,Equipment - 08,FixedAsset
+1067,Equipment - 09,FixedAsset
+1068,Equipment - 10,FixedAsset
+1069,Furniture and Fixtures - 01,FixedAsset
+1070,Furniture and Fixtures - 02,FixedAsset
+1071,Furniture and Fixtures - 03,FixedAsset
+1072,Furniture and Fixtures - 04,FixedAsset
+1073,Furniture and Fixtures - 05,FixedAsset
+1074,Vehicles - 01,FixedAsset
+1075,Vehicles - 02,FixedAsset
+1076,Vehicles - 03,FixedAsset
+1077,Vehicles - 04,FixedAsset
+1078,Vehicles - 05,FixedAsset
+1079,Accumulated Depreciation - 01,FixedAsset
+1080,Accumulated Depreciation - 02,FixedAsset
+1081,Accumulated Depreciation - 03,FixedAsset
+1082,Accumulated Depreciation - 04,FixedAsset
+1083,Accumulated Depreciation - 05,FixedAsset
+1084,Accumulated Depreciation - 06,FixedAsset
+1085,Accumulated Depreciation - 07,FixedAsset
+1086,Accumulated Depreciation - 08,FixedAsset
+1087,Intangible Assets - 01,OthAsset
+1088,Intangible Assets - 02,OthAsset
+1089,Intangible Assets - 03,OthAsset
+1090,Intangible Assets - 04,OthAsset
+1091,Intangible Assets - 05,OthAsset
+1092,Long-term Investments - 01,OthAsset
+1093,Long-term Investments - 02,OthAsset
+1094,Long-term Investments - 03,OthAsset
+1095,Security Deposits - 01,OthAsset
+1096,Security Deposits - 02,OthAsset
+1097,Accounts Payable - 01,AcctPay
+1098,Accounts Payable - 02,AcctPay
+1099,Accounts Payable - 03,AcctPay
+1100,Accounts Payable - 04,AcctPay
+1101,Accounts Payable - 05,AcctPay
+1102,Accounts Payable - 06,AcctPay
+1103,Accounts Payable - 07,AcctPay
+1104,Accounts Payable - 08,AcctPay
+1105,Accounts Payable - 09,AcctPay
+1106,Accounts Payable - 10,AcctPay
+1107,Accounts Payable - 11,AcctPay
+1108,Accounts Payable - 12,AcctPay
+1109,Accounts Payable - 13,AcctPay
+1110,Accounts Payable - 14,AcctPay
+1111,Accounts Payable - 15,AcctPay
+1112,Accrued Expenses - 01,AcctPay
+1113,Accrued Expenses - 02,AcctPay
+1114,Accrued Expenses - 03,AcctPay
+1115,Accrued Expenses - 04,AcctPay
+1116,Accrued Expenses - 05,AcctPay
+1117,Accrued Expenses - 06,AcctPay
+1118,Accrued Expenses - 07,AcctPay
+1119,Accrued Expenses - 08,AcctPay
+1120,Sales Tax Payable - 01,OthCurrLiab
+1121,Sales Tax Payable - 02,OthCurrLiab
+1122,Sales Tax Payable - 03,OthCurrLiab
+1123,Sales Tax Payable - 04,OthCurrLiab
+1124,Sales Tax Payable - 05,OthCurrLiab
+1125,Payroll Liabilities - 01,OthCurrLiab
+1126,Payroll Liabilities - 02,OthCurrLiab
+1127,Payroll Liabilities - 03,OthCurrLiab
+1128,Payroll Liabilities - 04,OthCurrLiab
+1129,Payroll Liabilities - 05,OthCurrLiab
+1130,Payroll Liabilities - 06,OthCurrLiab
+1131,Payroll Liabilities - 07,OthCurrLiab
+1132,Payroll Liabilities - 08,OthCurrLiab
+1133,Credit Cards Payable - 01,OthCurrLiab
+1134,Credit Cards Payable - 02,OthCurrLiab
+1135,Credit Cards Payable - 03,OthCurrLiab
+1136,Credit Cards Payable - 04,OthCurrLiab
+1137,Credit Cards Payable - 05,OthCurrLiab
+1138,Short-term Loans - 01,OthCurrLiab
+1139,Short-term Loans - 02,OthCurrLiab
+1140,Short-term Loans - 03,OthCurrLiab
+1141,Long-term Debt - 01,LongTermLiab
+1142,Long-term Debt - 02,LongTermLiab
+1143,Long-term Debt - 03,LongTermLiab
+1144,Long-term Debt - 04,LongTermLiab
+1145,Long-term Debt - 05,LongTermLiab
+1146,Deferred Tax Liability - 01,LongTermLiab
+1147,Deferred Tax Liability - 02,LongTermLiab
+1148,Deferred Tax Liability - 03,LongTermLiab
+1149,Common Stock - 01,Equity
+1150,Common Stock - 02,Equity
+1151,Retained Earnings - 01,Equity
+1152,Retained Earnings - 02,Equity
+1153,Additional Paid-in Capital - 01,Equity
+1154,Additional Paid-in Capital - 02,Equity
+1155,Product Sales - 01,Income
+1156,Product Sales - 02,Income
+1157,Product Sales - 03,Income
+1158,Product Sales - 04,Income
+1159,Product Sales - 05,Income
+1160,Product Sales - 06,Income
+1161,Product Sales - 07,Income
+1162,Product Sales - 08,Income
+1163,Product Sales - 09,Income
+1164,Product Sales - 10,Income
+1165,Product Sales - 11,Income
+1166,Product Sales - 12,Income
+1167,Product Sales - 13,Income
+1168,Product Sales - 14,Income
+1169,Product Sales - 15,Income
+1170,Service Revenue - 01,Income
+1171,Service Revenue - 02,Income
+1172,Service Revenue - 03,Income
+1173,Service Revenue - 04,Income
+1174,Service Revenue - 05,Income
+1175,Service Revenue - 06,Income
+1176,Service Revenue - 07,Income
+1177,Service Revenue - 08,Income
+1178,Service Revenue - 09,Income
+1179,Service Revenue - 10,Income
+1180,Consulting Revenue - 01,Income
+1181,Consulting Revenue - 02,Income
+1182,Consulting Revenue - 03,Income
+1183,Consulting Revenue - 04,Income
+1184,Consulting Revenue - 05,Income
+1185,Interest Income - 01,OthIncome
+1186,Interest Income - 02,OthIncome
+1187,Interest Income - 03,OthIncome
+1188,Gain on Asset Sales - 01,OthIncome
+1189,Gain on Asset Sales - 02,OthIncome
+1190,Cost of Goods Sold - Products - 01,COGS
+1191,Cost of Goods Sold - Products - 02,COGS
+1192,Cost of Goods Sold - Products - 03,COGS
+1193,Cost of Goods Sold - Products - 04,COGS
+1194,Cost of Goods Sold - Products - 05,COGS
+1195,Cost of Goods Sold - Products - 06,COGS
+1196,Cost of Goods Sold - Products - 07,COGS
+1197,Cost of Goods Sold - Products - 08,COGS
+1198,Cost of Goods Sold - Products - 09,COGS
+1199,Cost of Goods Sold - Products - 10,COGS
+1200,Cost of Goods Sold - Services - 01,COGS
+1201,Cost of Goods Sold - Services - 02,COGS
+1202,Cost of Goods Sold - Services - 03,COGS
+1203,Cost of Goods Sold - Services - 04,COGS
+1204,Cost of Goods Sold - Services - 05,COGS
+1205,Cost of Goods Sold - Services - 06,COGS
+1206,Cost of Goods Sold - Services - 07,COGS
+1207,Cost of Goods Sold - Services - 08,COGS
+1208,Freight and Shipping - 01,COGS
+1209,Freight and Shipping - 02,COGS
+1210,Freight and Shipping - 03,COGS
+1211,Freight and Shipping - 04,COGS
+1212,Freight and Shipping - 05,COGS
+1213,Salaries and Wages - 01,Expense
+1214,Salaries and Wages - 02,Expense
+1215,Salaries and Wages - 03,Expense
+1216,Salaries and Wages - 04,Expense
+1217,Salaries and Wages - 05,Expense
+1218,Salaries and Wages - 06,Expense
+1219,Salaries and Wages - 07,Expense
+1220,Salaries and Wages - 08,Expense
+1221,Salaries and Wages - 09,Expense
+1222,Salaries and Wages - 10,Expense
+1223,Salaries and Wages - 11,Expense
+1224,Salaries and Wages - 12,Expense
+1225,Rent Expense - 01,Expense
+1226,Rent Expense - 02,Expense
+1227,Rent Expense - 03,Expense
+1228,Rent Expense - 04,Expense
+1229,Rent Expense - 05,Expense
+1230,Rent Expense - 06,Expense
+1231,Rent Expense - 07,Expense
+1232,Rent Expense - 08,Expense
+1233,Utilities - 01,Expense
+1234,Utilities - 02,Expense
+1235,Utilities - 03,Expense
+1236,Utilities - 04,Expense
+1237,Utilities - 05,Expense
+1238,Utilities - 06,Expense
+1239,Office Supplies - 01,Expense
+1240,Office Supplies - 02,Expense
+1241,Office Supplies - 03,Expense
+1242,Office Supplies - 04,Expense
+1243,Office Supplies - 05,Expense
+1244,Marketing and Advertising - 01,Expense
+1245,Marketing and Advertising - 02,Expense
+1246,Marketing and Advertising - 03,Expense
+1247,Marketing and Advertising - 04,Expense
+1248,Marketing and Advertising - 05,Expense
+1249,Marketing and Advertising - 06,Expense
+1250,Marketing and Advertising - 07,Expense
+1251,Marketing and Advertising - 08,Expense
+1252,Travel and Entertainment - 01,Expense
+1253,Travel and Entertainment - 02,Expense
+1254,Travel and Entertainment - 03,Expense
+1255,Travel and Entertainment - 04,Expense
+1256,Travel and Entertainment - 05,Expense
+1257,Travel and Entertainment - 06,Expense
+1258,Insurance - 01,Expense
+1259,Insurance - 02,Expense
+1260,Insurance - 03,Expense
+1261,Insurance - 04,Expense
+1262,Professional Fees - 01,Expense
+1263,Professional Fees - 02,Expense
+1264,Professional Fees - 03,Expense
+1265,Professional Fees - 04,Expense
+1266,Professional Fees - 05,Expense
+1267,Depreciation Expense - 01,Expense
+1268,Depreciation Expense - 02,Expense
+1269,Depreciation Expense - 03,Expense
+1270,Depreciation Expense - 04,Expense
+1271,IT and Software - 01,Expense
+1272,IT and Software - 02,Expense
+1273,IT and Software - 03,Expense
+1274,IT and Software - 04,Expense
+1275,IT and Software - 05,Expense
+1276,Interest Expense - 01,OthExpense
+1277,Interest Expense - 02,OthExpense
+1278,Interest Expense - 03,OthExpense
+1279,Loss on Asset Disposal - 01,OthExpense
+1280,Loss on Asset Disposal - 02,OthExpense

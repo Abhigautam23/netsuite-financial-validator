@@ -1,4 +1,0 @@
-log_id,user_id,action,timestamp
-1,U001,Viewed Balance Sheet,2024-04-10 09:00:00
-2,U002,Exported Invoice Aging,2024-04-10 09:10:00
-3,U003,Refreshed Data,2024-04-10 09:15:00

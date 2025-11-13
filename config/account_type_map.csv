@@ -1,0 +1,19 @@
+account_type,category,financial_statement
+Bank,Asset,Balance Sheet
+AcctRec,Asset,Balance Sheet
+OthCurrAsset,Asset,Balance Sheet
+FixedAsset,Asset,Balance Sheet
+OthAsset,Asset,Balance Sheet
+AcctPay,Liability,Balance Sheet
+OthCurrLiab,Liability,Balance Sheet
+LongTermLiab,Liability,Balance Sheet
+Equity,Equity,Balance Sheet
+Income,Revenue,Profit & Loss
+Expense,Expense,Profit & Loss
+COGS,Expense,Profit & Loss
+OthIncome,Revenue,Profit & Loss
+OthExpense,Expense,Profit & Loss
+
+
+
+

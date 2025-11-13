@@ -1,3 +1,0 @@
-valuation_id,item_id,valuation_date,quantity,unit_cost,total_value,subsidiary_id
-1,ITEM001,2024-03-31,100,20.0,2000.0,1
-2,ITEM002,2024-03-31,200,15.0,3000.0,1
