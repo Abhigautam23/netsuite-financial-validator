@@ -208,7 +208,8 @@ if st.session_state.get('data_loaded', False):
 st.markdown("---")
 st.markdown("""
 <div style='text-align:center; color:#666;'>
-<p><b>NetSuite Financial Reporting</b> | Built with Streamlit &amp; DuckDB</p>
+<p><b>NetSuite Close Validator</b> | Built with Streamlit &amp; DuckDB</p>
 <p>All data processing happens locally — no data is stored or transmitted</p>
+<p style='font-size:0.85rem;'>Built by <a href='https://suiteclose.co.uk' target='_blank' style='color:#888; text-decoration:none;'>SuiteClose</a> · suiteclose.co.uk</p>
 </div>
 """, unsafe_allow_html=True)
