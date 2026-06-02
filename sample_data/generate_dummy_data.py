@@ -1,325 +1,154 @@
 """
-Dummy Data Generator for NetSuite Financial Reporting MVP
-Generates realistic sample data for testing without real NetSuite exports
+Dummy Data Generator for NetSuite Financial Reporting
+Generates a flat GL transaction detail CSV for testing.
 
 Usage:
     python sample_data/generate_dummy_data.py
 
 Output:
-    Creates 5 CSV files in sample_data/ directory:
-    - account.csv
-    - subsidiary.csv
-    - transaction.csv
-    - transactionline.csv
-    - transactionaccountingline.csv
+    sample_data/gl_transactions.csv
+    Columns: transaction_id, date, period, account_name, account_type,
+             subsidiary, department, debit, credit
 """
 
 import pandas as pd
 import numpy as np
-from datetime import datetime, timedelta
+from datetime import date, timedelta
 import random
 import os
 
-# Set seed for reproducibility
 random.seed(42)
 np.random.seed(42)
 
-# Output directory
 OUTPUT_DIR = os.path.dirname(os.path.abspath(__file__))
 
-print("🚀 Starting NetSuite dummy data generation...")
-print(f"📁 Output directory: {OUTPUT_DIR}")
+print("🚀 Generating flat GL transaction detail CSV...")
 
-# ============================================================================
-# 1. Generate Subsidiaries (10 subsidiaries)
-# ============================================================================
-print("\n📊 Generating subsidiaries...")
-
-subsidiaries = [
-    {"id": 1, "name": "US Headquarters"},
-    {"id": 2, "name": "UK Operations"},
-    {"id": 3, "name": "Germany GmbH"},
-    {"id": 4, "name": "France SAS"},
-    {"id": 5, "name": "Canada Inc"},
-    {"id": 6, "name": "Australia Pty Ltd"},
-    {"id": 7, "name": "Japan KK"},
-    {"id": 8, "name": "Singapore Pte Ltd"},
-    {"id": 9, "name": "Mexico SA"},
-    {"id": 10, "name": "Brazil Ltda"},
+# Reference data
+SUBSIDIARIES = [
+    "US Headquarters", "UK Operations", "Germany GmbH", "France SAS",
+    "Canada Inc", "Australia Pty Ltd", "Japan KK", "Singapore Pte Ltd",
 ]
 
-df_subsidiary = pd.DataFrame(subsidiaries)
-print(f"✅ Generated {len(df_subsidiary)} subsidiaries")
+DEPARTMENTS = ["Engineering", "Sales", "Marketing", "Finance", "Operations", ""]
 
-# ============================================================================
-# 2. Generate Chart of Accounts (200 accounts)
-# ============================================================================
-print("\n📊 Generating chart of accounts...")
-
-# Define account structure
-account_definitions = [
-    # Assets - Bank
-    ("Cash - Operating", "Bank", 10),
-    ("Cash - Payroll", "Bank", 1),
-    ("Cash - Savings", "Bank", 2),
-    
-    # Assets - Accounts Receivable
-    ("Accounts Receivable", "AcctRec", 15),
-    ("Allowance for Doubtful Accounts", "AcctRec", 2),
-    
-    # Assets - Other Current Assets
-    ("Inventory - Raw Materials", "OthCurrAsset", 8),
-    ("Inventory - Finished Goods", "OthCurrAsset", 8),
-    ("Prepaid Expenses", "OthCurrAsset", 5),
-    ("Employee Advances", "OthCurrAsset", 3),
-    
-    # Assets - Fixed Assets
-    ("Buildings", "FixedAsset", 5),
-    ("Equipment", "FixedAsset", 10),
-    ("Furniture and Fixtures", "FixedAsset", 5),
-    ("Vehicles", "FixedAsset", 5),
-    ("Accumulated Depreciation", "FixedAsset", 8),
-    
-    # Assets - Other Assets
-    ("Intangible Assets", "OthAsset", 5),
-    ("Long-term Investments", "OthAsset", 3),
-    ("Security Deposits", "OthAsset", 2),
-    
-    # Liabilities - Accounts Payable
-    ("Accounts Payable", "AcctPay", 15),
-    ("Accrued Expenses", "AcctPay", 8),
-    
-    # Liabilities - Other Current Liabilities
-    ("Sales Tax Payable", "OthCurrLiab", 5),
-    ("Payroll Liabilities", "OthCurrLiab", 8),
-    ("Credit Cards Payable", "OthCurrLiab", 5),
-    ("Short-term Loans", "OthCurrLiab", 3),
-    
-    # Liabilities - Long Term
-    ("Long-term Debt", "LongTermLiab", 5),
-    ("Deferred Tax Liability", "LongTermLiab", 3),
-    
-    # Equity
-    ("Common Stock", "Equity", 2),
-    ("Retained Earnings", "Equity", 2),
-    ("Additional Paid-in Capital", "Equity", 2),
-    
-    # Income
-    ("Product Sales", "Income", 15),
-    ("Service Revenue", "Income", 10),
-    ("Consulting Revenue", "Income", 5),
-    
-    # Other Income
-    ("Interest Income", "OthIncome", 3),
-    ("Gain on Asset Sales", "OthIncome", 2),
-    
-    # Cost of Goods Sold
-    ("Cost of Goods Sold - Products", "COGS", 10),
-    ("Cost of Goods Sold - Services", "COGS", 8),
-    ("Freight and Shipping", "COGS", 5),
-    
-    # Expenses
-    ("Salaries and Wages", "Expense", 12),
-    ("Rent Expense", "Expense", 8),
-    ("Utilities", "Expense", 6),
-    ("Office Supplies", "Expense", 5),
-    ("Marketing and Advertising", "Expense", 8),
-    ("Travel and Entertainment", "Expense", 6),
-    ("Insurance", "Expense", 4),
-    ("Professional Fees", "Expense", 5),
-    ("Depreciation Expense", "Expense", 4),
-    ("IT and Software", "Expense", 5),
-    
-    # Other Expenses
-    ("Interest Expense", "OthExpense", 3),
-    ("Loss on Asset Disposal", "OthExpense", 2),
+ACCOUNTS = [
+    # (name, type)
+    ("Cash - Operating",                 "Bank"),
+    ("Cash - Payroll",                   "Bank"),
+    ("Accounts Receivable",              "AcctRec"),
+    ("Allowance for Doubtful Accounts",  "AcctRec"),
+    ("Inventory - Raw Materials",        "OthCurrAsset"),
+    ("Inventory - Finished Goods",       "OthCurrAsset"),
+    ("Prepaid Expenses",                 "OthCurrAsset"),
+    ("Buildings",                        "FixedAsset"),
+    ("Equipment",                        "FixedAsset"),
+    ("Accumulated Depreciation",         "FixedAsset"),
+    ("Intangible Assets",                "OthAsset"),
+    ("Accounts Payable",                 "AcctPay"),
+    ("Accrued Expenses",                 "AcctPay"),
+    ("Sales Tax Payable",                "OthCurrLiab"),
+    ("Payroll Liabilities",              "OthCurrLiab"),
+    ("Short-term Loans",                 "OthCurrLiab"),
+    ("Long-term Debt",                   "LongTermLiab"),
+    ("Common Stock",                     "Equity"),
+    ("Retained Earnings",                "Equity"),
+    ("Product Sales",                    "Income"),
+    ("Service Revenue",                  "Income"),
+    ("Consulting Revenue",               "Income"),
+    ("Interest Income",                  "OthIncome"),
+    ("Cost of Goods Sold - Products",    "COGS"),
+    ("Cost of Goods Sold - Services",    "COGS"),
+    ("Salaries and Wages",               "Expense"),
+    ("Rent Expense",                     "Expense"),
+    ("Utilities",                        "Expense"),
+    ("Office Supplies",                  "Expense"),
+    ("Marketing and Advertising",        "Expense"),
+    ("Travel and Entertainment",         "Expense"),
+    ("Professional Fees",                "Expense"),
+    ("IT and Software",                  "Expense"),
+    ("Interest Expense",                 "OthExpense"),
 ]
 
-accounts = []
-account_id = 1000
+ACCOUNT_MAP = {name: acct_type for name, acct_type in ACCOUNTS}
 
-for base_name, acct_type, count in account_definitions:
-    for i in range(count):
-        if count == 1:
-            fullname = base_name
-        else:
-            fullname = f"{base_name} - {i+1:02d}"
-        
-        accounts.append({
-            "id": account_id,
-            "fullname": fullname,
-            "accttype": acct_type
-        })
-        account_id += 1
+income_accounts  = [n for n, t in ACCOUNTS if t in ("Income", "OthIncome")]
+expense_accounts = [n for n, t in ACCOUNTS if t in ("Expense", "COGS", "OthExpense")]
+asset_accounts   = [n for n, t in ACCOUNTS if t in ("Bank", "AcctRec", "OthCurrAsset")]
+liability_accounts = [n for n, t in ACCOUNTS if t in ("AcctPay", "OthCurrLiab")]
 
-df_account = pd.DataFrame(accounts)
-print(f"✅ Generated {len(df_account)} accounts")
 
-# ============================================================================
-# 3. Generate Transactions (2,000 transactions)
-# ============================================================================
-print("\n📊 Generating transactions...")
+def random_date(start=date(2024, 1, 1), end=date(2024, 12, 31)):
+    delta = (end - start).days
+    return start + timedelta(days=random.randint(0, delta))
 
-num_transactions = 2000
-transaction_ids = list(range(50000, 50000 + num_transactions))
 
-df_transaction = pd.DataFrame({
-    "id": transaction_ids
-})
-print(f"✅ Generated {len(df_transaction)} transactions")
+def period_name(d):
+    return d.strftime("%b %Y")
 
-# ============================================================================
-# 4. Generate Transaction Lines (4,000 lines)
-# ============================================================================
-print("\n📊 Generating transaction lines...")
 
-# Each transaction gets 1-3 lines on average (targeting 4000 total)
-transaction_lines = []
-line_id = 1
+rows = []
+NUM_TRANSACTIONS = 2000
 
-for txn_id in transaction_ids:
-    # Randomly assign 1-3 lines per transaction
-    num_lines = random.choices([1, 2, 3], weights=[0.3, 0.5, 0.2])[0]
-    
-    for _ in range(num_lines):
-        transaction_lines.append({
-            "transaction": txn_id,
-            "subsidiary": random.choice(df_subsidiary["id"].tolist())
-        })
-        line_id += 1
+print(f"  Generating {NUM_TRANSACTIONS} transactions...")
 
-df_transactionline = pd.DataFrame(transaction_lines)
-print(f"✅ Generated {len(df_transactionline)} transaction lines")
+for txn_num in range(NUM_TRANSACTIONS):
+    txn_id   = f"TXN{50000 + txn_num}"
+    txn_date = random_date()
+    period   = period_name(txn_date)
+    sub      = random.choice(SUBSIDIARIES)
+    dept     = random.choice(DEPARTMENTS)
+    amount   = round(random.uniform(100, 50_000), 2)
 
-# ============================================================================
-# 5. Generate Transaction Accounting Lines (4,000+ lines)
-# ============================================================================
-print("\n📊 Generating transaction accounting lines...")
-
-# For each transaction, create balanced accounting entries (debits = credits)
-accounting_lines = []
-
-for txn_id in transaction_ids:
-    # Get account type categories for realistic transactions
-    income_accounts = df_account[df_account["accttype"].isin(["Income", "OthIncome"])]["id"].tolist()
-    expense_accounts = df_account[df_account["accttype"].isin(["Expense", "COGS", "OthExpense"])]["id"].tolist()
-    asset_accounts = df_account[df_account["accttype"].isin(["Bank", "AcctRec", "OthCurrAsset"])]["id"].tolist()
-    liability_accounts = df_account[df_account["accttype"].isin(["AcctPay", "OthCurrLiab"])]["id"].tolist()
-    
-    # Generate different transaction types
     txn_type = random.choices(
         ["sale", "expense", "payment", "receipt"],
-        weights=[0.35, 0.35, 0.15, 0.15]
+        weights=[0.35, 0.35, 0.15, 0.15],
     )[0]
-    
-    # Base amount for transaction
-    amount = round(random.uniform(100, 50000), 2)
-    
+
+    def add(acct, is_debit):
+        rows.append({
+            "transaction_id": txn_id,
+            "date":           txn_date.isoformat(),
+            "period":         period,
+            "account_name":   acct,
+            "account_type":   ACCOUNT_MAP[acct],
+            "subsidiary":     sub,
+            "department":     dept,
+            "debit":          amount if is_debit else 0.0,
+            "credit":         0.0    if is_debit else amount,
+        })
+
     if txn_type == "sale":
-        # Debit: AR or Cash, Credit: Revenue
-        accounting_lines.append({
-            "transaction": txn_id,
-            "account": random.choice(asset_accounts),
-            "amount": amount  # Debit (positive)
-        })
-        accounting_lines.append({
-            "transaction": txn_id,
-            "account": random.choice(income_accounts),
-            "amount": -amount  # Credit (negative)
-        })
-        
+        add(random.choice(asset_accounts),  True)   # Debit AR/Cash
+        add(random.choice(income_accounts), False)  # Credit Revenue
     elif txn_type == "expense":
-        # Debit: Expense, Credit: Cash or AP
-        accounting_lines.append({
-            "transaction": txn_id,
-            "account": random.choice(expense_accounts),
-            "amount": amount  # Debit (positive)
-        })
-        accounting_lines.append({
-            "transaction": txn_id,
-            "account": random.choice(asset_accounts + liability_accounts),
-            "amount": -amount  # Credit (negative)
-        })
-        
+        add(random.choice(expense_accounts),              True)   # Debit Expense
+        add(random.choice(asset_accounts + liability_accounts), False)  # Credit Cash/AP
     elif txn_type == "payment":
-        # Debit: AP, Credit: Cash
-        accounting_lines.append({
-            "transaction": txn_id,
-            "account": random.choice(liability_accounts),
-            "amount": amount  # Debit (positive)
-        })
-        accounting_lines.append({
-            "transaction": txn_id,
-            "account": random.choice(asset_accounts),
-            "amount": -amount  # Credit (negative)
-        })
-        
+        add(random.choice(liability_accounts), True)   # Debit AP
+        add(random.choice(asset_accounts),     False)  # Credit Cash
     else:  # receipt
-        # Debit: Cash, Credit: AR
-        accounting_lines.append({
-            "transaction": txn_id,
-            "account": random.choice(asset_accounts),
-            "amount": amount  # Debit (positive)
-        })
-        accounting_lines.append({
-            "transaction": txn_id,
-            "account": random.choice(asset_accounts),
-            "amount": -amount  # Credit (negative)
-        })
+        add(random.choice(asset_accounts), True)   # Debit Cash
+        add(random.choice(asset_accounts), False)  # Credit AR
 
-df_tal = pd.DataFrame(accounting_lines)
-print(f"✅ Generated {len(df_tal)} transaction accounting lines")
+df = pd.DataFrame(rows)
+output_path = os.path.join(OUTPUT_DIR, "gl_transactions.csv")
+df.to_csv(output_path, index=False)
 
-# ============================================================================
-# 6. Save all files to CSV
-# ============================================================================
-print("\n💾 Saving CSV files...")
+total_debits  = df["debit"].sum()
+total_credits = df["credit"].sum()
 
-files = {
-    "account.csv": df_account,
-    "subsidiary.csv": df_subsidiary,
-    "transaction.csv": df_transaction,
-    "transactionline.csv": df_transactionline,
-    "transactionaccountingline.csv": df_tal
-}
-
-for filename, df in files.items():
-    filepath = os.path.join(OUTPUT_DIR, filename)
-    df.to_csv(filepath, index=False)
-    print(f"  ✅ {filename} ({len(df):,} rows)")
-
-# ============================================================================
-# 7. Print Summary Statistics
-# ============================================================================
-print("\n" + "="*60)
-print("📊 SUMMARY STATISTICS")
-print("="*60)
-print(f"Subsidiaries:               {len(df_subsidiary):>10,}")
-print(f"Accounts:                   {len(df_account):>10,}")
-print(f"Transactions:               {len(df_transaction):>10,}")
-print(f"Transaction Lines:          {len(df_transactionline):>10,}")
-print(f"Accounting Lines:           {len(df_tal):>10,}")
-print("="*60)
-
-# Verify accounting balance
-total_debits = df_tal[df_tal["amount"] > 0]["amount"].sum()
-total_credits = abs(df_tal[df_tal["amount"] < 0]["amount"].sum())
-balance_diff = total_debits - total_credits
-
-print(f"\n💰 ACCOUNTING VERIFICATION")
-print(f"Total Debits:               ${total_debits:>15,.2f}")
-print(f"Total Credits:              ${total_credits:>15,.2f}")
-print(f"Difference:                 ${balance_diff:>15,.2f}")
-
-if abs(balance_diff) < 1:
-    print("✅ Books are balanced!")
-else:
-    print("⚠️  Minor rounding difference detected")
-
-print("\n✨ Data generation complete!")
-print(f"📁 Files saved to: {OUTPUT_DIR}")
-print("\n🚀 Ready to test! Upload these files in the Streamlit app.")
-
-
-
-
+print(f"\n{'='*55}")
+print("📊 SUMMARY")
+print(f"{'='*55}")
+print(f"Rows:                      {len(df):>10,}")
+print(f"Transactions:              {df['transaction_id'].nunique():>10,}")
+print(f"Accounts:                  {df['account_name'].nunique():>10,}")
+print(f"Subsidiaries:              {df['subsidiary'].nunique():>10,}")
+print(f"Periods:                   {df['period'].nunique():>10,}")
+print(f"Total Debits:  ${total_debits:>18,.2f}")
+print(f"Total Credits: ${total_credits:>18,.2f}")
+print(f"Variance:      ${total_debits - total_credits:>18,.2f}")
+print(f"{'='*55}")
+print(f"✅ Saved to {output_path}")
+print("🚀 Upload gl_transactions.csv in the Streamlit app to test.")
