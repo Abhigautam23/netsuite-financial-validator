@@ -60,33 +60,24 @@ def calculate_pnl_totals(pnl_df):
 
 
 def display_validation_metrics(validations):
-    """Display data quality summary metrics."""
-    st.subheader("🔍 Data Quality Checks")
+    """Display data quality summary as a compact chip strip."""
+    from .styles import stat_chips
 
-    col1, col2, col3, col4 = st.columns(4)
+    variance = round(validations['total_debits'] - validations['total_credits'], 2)
+    if abs(variance) < 0.01:
+        var_kind, var_value = "ok", "Balanced"
+    elif abs(variance) < 100:
+        var_kind, var_value = "warn", f"${variance:,.2f}"
+    else:
+        var_kind, var_value = "bad", f"${variance:,.2f}"
 
-    with col1:
-        st.metric("Total Transactions", f"{validations['total_transactions']:,}")
-
-    with col2:
-        st.metric("Null Accounts", validations['null_accounts'], delta_color="inverse")
-        if validations['null_accounts'] > 0:
-            st.warning(f"⚠️ {validations['null_accounts']} rows missing account name")
-
-    with col3:
-        st.metric("Missing Subsidiaries", validations['missing_subsidiaries'], delta_color="inverse")
-        if validations['missing_subsidiaries'] > 0:
-            st.warning(f"⚠️ {validations['missing_subsidiaries']} rows missing subsidiary")
-
-    with col4:
-        variance = round(validations['total_debits'] - validations['total_credits'], 2)
-        st.metric("Debit/Credit Variance", f"${variance:,.2f}")
-        if abs(variance) < 0.01:
-            st.success("✅ Balanced")
-        elif abs(variance) < 100:
-            st.warning("⚠️ Minor variance")
-        else:
-            st.error("❌ Out of balance")
+    stat_chips([
+        ("Null accounts", f"{validations['null_accounts']:,}",
+         "bad" if validations['null_accounts'] else "ok"),
+        ("Missing subsidiaries", f"{validations['missing_subsidiaries']:,}",
+         "bad" if validations['missing_subsidiaries'] else "ok"),
+        ("D/C variance", var_value, var_kind),
+    ])
 
 
 def display_balance_sheet_metrics(totals):

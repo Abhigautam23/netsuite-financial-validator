@@ -53,7 +53,6 @@ def get_base_query_with_filters(filters):
     """
 
 
-@st.cache_data(ttl=300)
 def get_available_filters(_con):
     """Query distinct filter values from gl_transactions."""
     result = {}
@@ -93,59 +92,63 @@ def get_available_filters(_con):
     return result
 
 
+# Multiselect widget keys, exported so app reset can clear stale selections.
+FILTER_KEYS = {
+    'subsidiaries':  'flt_subsidiaries',
+    'periods':       'flt_periods',
+    'departments':   'flt_departments',
+    'account_types': 'flt_account_types',
+}
+
+_FILTER_LABELS = {
+    'subsidiaries':  ("Subsidiary",   "All subsidiaries"),
+    'periods':       ("Period",       "All periods"),
+    'departments':   ("Department",   "All departments"),
+    'account_types': ("Account type", "All account types"),
+}
+
+
+def _clear_filters():
+    for key in FILTER_KEYS.values():
+        if key in st.session_state:
+            st.session_state[key] = []
+
+
 def render_filter_sidebar(_con):
     """Render sidebar filters and return selected values."""
-    st.sidebar.header("🔍 Filters")
-
     available = get_available_filters(_con)
-    selected = {}
 
-    st.sidebar.markdown("### Filter By:")
+    # Widget state from the previous run drives the badge rendered above them.
+    active = sum(1 for key in FILTER_KEYS.values() if st.session_state.get(key))
 
-    if available['subsidiaries']:
-        selected['subsidiaries'] = st.sidebar.multiselect(
-            "Subsidiaries",
-            options=available['subsidiaries'],
-            default=None,
-            help="Leave empty to include all subsidiaries."
+    with st.sidebar:
+        badge = f'<span class="sc-filter-badge">{active}</span>' if active else ""
+        st.markdown(
+            f'<div class="sc-side-title">Filters {badge}</div>',
+            unsafe_allow_html=True,
         )
-    else:
-        selected['subsidiaries'] = []
 
-    if available['periods']:
-        selected['periods'] = st.sidebar.multiselect(
-            "Periods",
-            options=available['periods'],
-            default=None,
-            help="Leave empty to include all periods."
-        )
-    else:
-        selected['periods'] = []
+        selected = {}
+        for field, key in FILTER_KEYS.items():
+            label, placeholder = _FILTER_LABELS[field]
+            if available[field]:
+                selected[field] = st.multiselect(
+                    label,
+                    options=available[field],
+                    placeholder=placeholder,
+                    key=key,
+                )
+            else:
+                selected[field] = []
 
-    if available['departments']:
-        selected['departments'] = st.sidebar.multiselect(
-            "Departments",
-            options=available['departments'],
-            default=None,
-            help="Leave empty to include all departments."
-        )
-    else:
-        selected['departments'] = []
-
-    if available['account_types']:
-        selected['account_types'] = st.sidebar.multiselect(
-            "Account Types",
-            options=available['account_types'],
-            default=None,
-            help="Leave empty to include all account types."
-        )
-    else:
-        selected['account_types'] = []
-
-    active = sum(1 for k in ('subsidiaries', 'periods', 'departments', 'account_types') if selected.get(k))
-    if active:
-        st.sidebar.success(f"✅ {active} filter(s) active")
-    else:
-        st.sidebar.info("ℹ️ No filters applied (showing all data)")
+        if active:
+            st.button(
+                "Clear all filters",
+                type="tertiary",
+                icon=":material/filter_alt_off:",
+                on_click=_clear_filters,
+            )
+        else:
+            st.caption("No filters applied — showing all data.")
 
     return selected

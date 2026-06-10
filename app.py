@@ -1,215 +1,265 @@
 """
-NetSuite Financial Reporting MVP
+NetSuite Close Validator
 Streamlit app for analysing a flat NetSuite GL transaction detail export.
 """
 
 import streamlit as st
-from utils.load_data import load_all_data
-from utils.transforms import render_filter_sidebar
+
+from utils.styles import (
+    inject_css, render_topbar, render_footer, section_header,
+    stat_chips, empty_state, icon,
+)
+from utils.load_data import load_flat_csv, validate_columns, build_database
+from utils.transforms import render_filter_sidebar, FILTER_KEYS
 from utils.calculations import run_data_validations, display_validation_metrics
 from utils.trial_balance import generate_trial_balance, display_trial_balance
 from utils.p_and_l import generate_pnl, display_pnl, display_periodised_pnl
 from utils.balance_sheet import generate_balance_sheet, display_balance_sheet
 from utils.close_health import display_close_health
-from utils.export import export_to_pdf
 
 st.set_page_config(
     page_title="NetSuite Close Validator",
-    page_icon="📊",
+    page_icon="✅",
     layout="wide",
-    initial_sidebar_state="expanded",
+    initial_sidebar_state="auto",
 )
 
+inject_css()
+
+# Landing-only overrides; colour/radius tokens come from the design system
+# variables defined in utils/styles.py.
 st.markdown("""
 <style>
-.main-header { font-size:3rem; font-weight:bold; color:#1f77b4; text-align:center; margin-bottom:1rem; }
-.sub-header  { text-align:center; color:#666; margin-bottom:2rem; }
+.st-key-demo_dl button {
+    width: 100%;
+    border: 1px solid var(--accent);
+    border-radius: var(--radius);
+    padding: 8px 12px;
+    background: transparent;
+    color: var(--text);
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: background .15s ease;
+}
+.st-key-demo_dl button:hover {
+    background: var(--accent-bg);
+    border-color: var(--accent);
+    color: var(--text);
+}
+/* Match the rendered height of the "What you'll get" card alongside */
+.st-key-upload_card { min-height: 474px; }
 </style>
 """, unsafe_allow_html=True)
 
-st.markdown('<h1 class="main-header">📊 NetSuite Close Validator</h1>', unsafe_allow_html=True)
-st.markdown('<p class="sub-header">Professional financial reporting from a NetSuite GL transaction detail export</p>', unsafe_allow_html=True)
+render_topbar()
 
-# Instructions
-with st.expander("📖 How to use this app", expanded=False):
-    st.markdown("""
-### How to export from NetSuite
+if "uploader_seq" not in st.session_state:
+    st.session_state.uploader_seq = 0
 
-In NetSuite, go to: **Reports → Saved Searches → Transaction Detail**
 
-Include these columns in your saved search:
+def reset_data():
+    for key in ("con", "stats", "data_loaded", "file_key", "file_name",
+                "failed_key", "fail_msg", *FILTER_KEYS.values()):
+        st.session_state.pop(key, None)
+    st.session_state.uploader_seq += 1
 
-`Internal ID` · `Date` · `Posting Period` · `Account` · `Account Type` · `Subsidiary` · `Department` · `Debit` · `Credit`
 
-Export as CSV and upload it here.
+def process_upload(uploaded_file):
+    """Parse, validate, and load the export with a visible progress sequence."""
+    file_key = f"{uploaded_file.name}:{uploaded_file.size}"
 
-**What you get:**
-- Trial Balance, P&L, and Balance Sheet from your export
-- Close Health Check — which periods are balanced, which transactions do not tie
-- Download any report as CSV
-
-*Nothing is stored. Everything runs in your session.*
-""")
-
-# File upload
-st.subheader("📁 Upload GL Transaction Detail CSV")
-
-_sample_path = "sample_data/gl_transactions.csv"
-try:
-    with open(_sample_path, "rb") as _f:
-        st.download_button(
-            "⬇️ Download sample gl_transactions.csv",
-            _f,
-            file_name="gl_transactions.csv",
-            mime="text/csv",
-            help="Download the sample file to see the expected column format before uploading your own data",
-        )
-except FileNotFoundError:
-    pass
-
-st.caption("Not sure about the format? Download the sample file above, explore it, then upload your own data.")
-
-uploaded_file = st.file_uploader(
-    "Select your NetSuite GL export file",
-    type=["csv"],
-    help="Flat CSV with columns: transaction_id, date, period, account_name, account_type, subsidiary, department, debit, credit",
-)
-
-run_button = st.button("🚀 Generate Reports", type="primary", use_container_width=True)
-
-if run_button:
-    if uploaded_file is None:
-        st.error("❌ Please upload a CSV file before generating reports.")
-        st.stop()
+    if st.session_state.get("failed_key") == file_key:
+        st.error(st.session_state.get("fail_msg", "This file could not be processed."))
+        return
 
     try:
-        con, stats = load_all_data(uploaded_file)
+        with st.status("Processing export…", expanded=True) as status:
+            st.write("Parsing CSV…")
+            df = load_flat_csv(uploaded_file)
+            if df is None:
+                raise ValueError("Could not read the CSV file.")
 
-        st.success("✅ Data loaded successfully!")
+            st.write("Validating columns…")
+            validate_columns(df)
 
-        col1, col2, col3, col4, col5 = st.columns(5)
-        col1.metric("Total Rows",     f"{stats['total_rows']:,}")
-        col2.metric("Transactions",   f"{stats['transactions']:,}")
-        col3.metric("Accounts",       f"{stats['accounts']:,}")
-        col4.metric("Subsidiaries",   f"{stats['subsidiaries']:,}")
-        col5.metric("Periods",        f"{stats['periods']:,}")
+            st.write("Building reports…")
+            if len(df) > 500_000:
+                st.caption("Large dataset — this may take 1–2 minutes.")
+            con, stats = build_database(df)
 
-        if stats['total_rows'] > 500_000:
-            st.warning("⚠️ Large dataset detected. Processing may take 1–2 minutes.")
-        elif stats['total_rows'] > 100_000:
-            st.info("ℹ️ Medium dataset. Processing may take 30–60 seconds.")
-
-        st.session_state['con'] = con
-        st.session_state['data_loaded'] = True
-
-        st.markdown("---")
-        st.info("👈 Use the sidebar to apply filters, then select a report tab below.")
-
+            status.update(label="Reports ready", state="complete", expanded=False)
     except Exception as e:
-        st.error(f"❌ Error loading data: {str(e)}")
-        st.exception(e)
-        st.stop()
+        st.session_state.failed_key = file_key
+        st.session_state.fail_msg = f"Could not process this file: {e}"
+        st.error(st.session_state.fail_msg)
+        return
 
-# Reporting section
-if st.session_state.get('data_loaded', False):
-    con = st.session_state['con']
+    st.session_state.con = con
+    st.session_state.stats = stats
+    st.session_state.file_key = file_key
+    st.session_state.file_name = uploaded_file.name
+    st.session_state.data_loaded = True
+    st.rerun()
+
+
+# ── Landing / upload state ────────────────────────────────────────────────────
+if not st.session_state.get("data_loaded", False):
+    left, right = st.columns([1.5, 1], gap="large")
+
+    with left:
+        with st.container(border=True, key="upload_card"):
+            st.markdown(
+                '<p class="sc-card-title">Upload GL transaction detail</p>'
+                '<p class="sc-card-caption">Drop a flat CSV export below — reports '
+                'generate automatically.</p>',
+                unsafe_allow_html=True,
+            )
+            uploaded_file = st.file_uploader(
+                "Upload GL transaction detail CSV",
+                type=["csv"],
+                key=f"gl_csv_{st.session_state.uploader_seq}",
+                label_visibility="collapsed",
+            )
+            st.markdown(
+                '<p class="sc-card-caption" style="margin:4px 0 0;">Required columns: '
+                '<code>transaction_id</code> · <code>date</code> · <code>period</code> · '
+                '<code>account_name</code> · <code>account_type</code> · '
+                '<code>subsidiary</code> · <code>debit</code> · <code>credit</code></p>',
+                unsafe_allow_html=True,
+            )
+
+            with st.expander("How to export from NetSuite"):
+                st.markdown("""
+**Reports → Saved Searches → Transaction Detail**
+
+Include these columns: `Internal ID` · `Date` · `Posting Period` · `Account` ·
+`Account Type` · `Subsidiary` · `Department` · `Debit` · `Credit`
+
+Export as CSV and upload it here. Nothing is stored — all processing runs in
+your browser session.
+""")
+
+            if uploaded_file is not None:
+                process_upload(uploaded_file)
+
+    with right:
+        with st.container(border=True, key="benefits_card"):
+            st.markdown(
+                f"""
+                <p class="sc-card-title">What you'll get</p>
+                <ul class="sc-report-list">
+                  <li><span class="sc-ric">{icon('table')}</span>
+                      <span>Trial Balance<small>Net balance by account and subsidiary</small></span></li>
+                  <li><span class="sc-ric">{icon('trend')}</span>
+                      <span>Profit &amp; Loss<small>Revenue, expenses, and net income</small></span></li>
+                  <li><span class="sc-ric">{icon('calendar')}</span>
+                      <span>Periodised P&amp;L<small>Monthly, quarterly, and yearly views</small></span></li>
+                  <li><span class="sc-ric">{icon('layers')}</span>
+                      <span>Balance Sheet<small>Assets, liabilities, and equity</small></span></li>
+                  <li><span class="sc-ric">{icon('shield')}</span>
+                      <span>Close Health Check<small>Four automated anomaly checks on your GL</small></span></li>
+                </ul>
+                """,
+                unsafe_allow_html=True,
+            )
+
+            try:
+                with open("sample_data/gl_transactions_demo.csv", "rb") as f:
+                    st.download_button(
+                        "Download demo file",
+                        f,
+                        file_name="gl_transactions_demo.csv",
+                        mime="text/csv",
+                        type="secondary",
+                        icon=":material/download:",
+                        width="stretch",
+                        key="demo_dl",
+                    )
+                st.caption(
+                    "1,987-row sample with four planted errors — upload it to see "
+                    "every Close Health check fire."
+                )
+            except FileNotFoundError:
+                pass
+
+# ── Loaded state ──────────────────────────────────────────────────────────────
+else:
+    con = st.session_state["con"]
+    stats = st.session_state["stats"]
+
+    period_range = "—"
+    if stats.get("date_min") and stats.get("date_max"):
+        period_range = (
+            f"{stats['date_min'].strftime('%b %Y')} – {stats['date_max'].strftime('%b %Y')}"
+        )
+
+    strip_left, strip_right = st.columns([5, 1.2], vertical_alignment="center")
+    with strip_left:
+        stat_chips([
+            ("File", st.session_state.get("file_name", "—")),
+            ("Rows", f"{stats['total_rows']:,}"),
+            ("Transactions", f"{stats['transactions']:,}"),
+            ("Accounts", f"{stats['accounts']:,}"),
+            ("Subsidiaries", f"{stats['subsidiaries']:,}"),
+            ("Periods", f"{stats['periods']:,}"),
+            ("Range", period_range),
+        ])
+    with strip_right:
+        st.button(
+            "Load different file",
+            type="tertiary",
+            icon=":material/restart_alt:",
+            on_click=reset_data,
+        )
 
     filters = render_filter_sidebar(con)
 
-    with st.spinner("Running data validations..."):
-        validations = run_data_validations(con, filters)
-
+    validations = run_data_validations(con, filters)
     display_validation_metrics(validations)
 
-    st.markdown("---")
-    st.subheader("📊 Financial Reports")
-
-    tab1, tab2, tab3, tab4, tab5 = st.tabs([
-        "📋 Trial Balance",
-        "💰 Profit & Loss",
-        "📅 Periodised P&L",
-        "🏦 Balance Sheet",
-        "🔒 Close Health Check",
+    tab_tb, tab_pnl, tab_ppnl, tab_bs, tab_health = st.tabs([
+        "Trial Balance",
+        "Profit & Loss",
+        "Periodised P&L",
+        "Balance Sheet",
+        "Close Health Check",
     ])
 
-    with tab1:
-        with st.spinner("Generating Trial Balance..."):
-            tb_df = generate_trial_balance(con, filters)
-            display_trial_balance(tb_df)
+    with tab_tb:
+        try:
+            with st.spinner("Generating Trial Balance…"):
+                tb_df = generate_trial_balance(con, filters)
+            display_trial_balance(tb_df, filters)
+        except Exception as e:
+            st.error(f"Trial Balance unavailable: {e}")
 
-            if not tb_df.empty and len(tb_df) <= 1000:
-                pdf_data = export_to_pdf(
-                    {
-                        'dataframe': tb_df,
-                        'metrics': {
-                            'Total Accounts': f"{len(tb_df):,}",
-                            'Total Debits':   f"${tb_df[tb_df['total_amount'] > 0]['total_amount'].sum():,.2f}",
-                            'Total Credits':  f"${abs(tb_df[tb_df['total_amount'] < 0]['total_amount'].sum()):,.2f}",
-                        },
-                    },
-                    "Trial Balance",
-                    filters,
-                )
-                st.download_button("📄 Download Trial Balance PDF", pdf_data, "trial_balance.pdf", "application/pdf")
+    with tab_pnl:
+        try:
+            with st.spinner("Generating Profit & Loss…"):
+                pnl_df = generate_pnl(con, filters)
+            display_pnl(pnl_df, filters)
+        except Exception as e:
+            st.error(f"Profit & Loss unavailable: {e}")
 
-    with tab2:
-        with st.spinner("Generating Profit & Loss..."):
-            pnl_df = generate_pnl(con, filters)
-            display_pnl(pnl_df)
+    with tab_ppnl:
+        try:
+            with st.spinner("Generating Periodised P&L…"):
+                display_periodised_pnl(con, filters)
+        except Exception as e:
+            st.error(f"Periodised P&L unavailable: {e}")
 
-            if not pnl_df.empty and len(pnl_df) <= 1000:
-                from utils.calculations import calculate_pnl_totals
-                totals = calculate_pnl_totals(pnl_df)
-                pdf_data = export_to_pdf(
-                    {
-                        'dataframe': pnl_df,
-                        'metrics': {
-                            'Total Revenue':  f"${totals['revenue']:,.2f}",
-                            'Total Expenses': f"${totals['expenses']:,.2f}",
-                            'Net Income':     f"${totals['net_income']:,.2f}",
-                        },
-                    },
-                    "Profit & Loss",
-                    filters,
-                )
-                st.download_button("📄 Download P&L PDF", pdf_data, "profit_and_loss.pdf", "application/pdf")
+    with tab_bs:
+        try:
+            with st.spinner("Generating Balance Sheet…"):
+                bs_df = generate_balance_sheet(con, filters)
+            display_balance_sheet(bs_df, filters)
+        except Exception as e:
+            st.error(f"Balance Sheet unavailable: {e}")
 
-    with tab3:
-        with st.spinner("Generating Periodised P&L..."):
-            display_periodised_pnl(con, filters)
+    with tab_health:
+        try:
+            display_close_health(con)
+        except Exception as e:
+            st.error(f"Close Health Check unavailable: {e}")
 
-    with tab4:
-        with st.spinner("Generating Balance Sheet..."):
-            bs_df = generate_balance_sheet(con, filters)
-            display_balance_sheet(bs_df)
-
-            if not bs_df.empty and len(bs_df) <= 1000:
-                from utils.calculations import calculate_balance_sheet_totals
-                totals = calculate_balance_sheet_totals(bs_df)
-                pdf_data = export_to_pdf(
-                    {
-                        'dataframe': bs_df,
-                        'metrics': {
-                            'Total Assets':      f"${totals['assets']:,.2f}",
-                            'Total Liabilities': f"${abs(totals['liabilities']):,.2f}",
-                            'Total Equity':      f"${abs(totals['equity']):,.2f}",
-                            'Balance Check':     f"${totals['balance_check']:,.2f}",
-                        },
-                    },
-                    "Balance Sheet",
-                    filters,
-                )
-                st.download_button("📄 Download Balance Sheet PDF", bs_df.to_csv(index=False).encode(), "balance_sheet.csv", "text/csv")
-
-    with tab5:
-        display_close_health(con)
-
-# Footer
-st.markdown("---")
-st.markdown("""
-<div style='text-align:center; color:#666;'>
-<p>NetSuite Close Validator | Built with Streamlit and DuckDB</p>
-<p>All data processing happens locally, no data is stored</p>
-<p>Built by <a href='https://suiteclose.co.uk' target='_blank' style='color:#888; text-decoration:none;'>SuiteClose</a></p>
-</div>
-""", unsafe_allow_html=True)
+render_footer()

@@ -1,6 +1,12 @@
+[browser]
+gatherUsageStats = false
+
 [theme]
-base="dark"
-primaryColor="#2e8bff"
-backgroundColor="#0e1117"
-secondaryBackgroundColor="#1c1f26"
-textColor="#fafafa"
+base = "dark"
+primaryColor = "#5B8DEF"
+backgroundColor = "#0B0F17"
+secondaryBackgroundColor = "#121826"
+textColor = "#E7ECF4"
+borderColor = "#222C3F"
+baseRadius = "10px"
+font = "Inter, sans-serif"

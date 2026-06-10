@@ -1,0 +1,1988 @@
+transaction_id,date,period,account_name,account_type,subsidiary,department,debit,credit
+TXN50000,2024-01-21,Jan 2024,Cash - Payroll,Bank,US Headquarters,Engineering,37206.75,0.0
+TXN50000,2024-01-21,Jan 2024,Interest Income,OthIncome,US Headquarters,Engineering,0.0,37206.75
+TXN50001,2024-01-04,Jan 2024,Inventory - Finished Goods,OthCurrAsset,Australia Pty Ltd,,44662.89,0.0
+TXN50001,2024-01-04,Jan 2024,Product Sales,Income,Australia Pty Ltd,,0.0,44662.89
+TXN50002,2024-01-01,Jan 2024,Marketing and Advertising,Expense,US Headquarters,Sales,12016.71,0.0
+TXN50002,2024-01-01,Jan 2024,Inventory - Finished Goods,OthCurrAsset,US Headquarters,Sales,0.0,12016.71
+TXN50003,2024-01-23,Jan 2024,Prepaid Insurance,OthCurrAsset,Australia Pty Ltd,,27474.6,0.0
+TXN50003,2024-01-23,Jan 2024,Service Revenue,Income,Australia Pty Ltd,,0.0,27474.6
+TXN50004,2024-01-26,Jan 2024,Cash - Payroll,Bank,US Headquarters,Sales,35057.9,0.0
+TXN50004,2024-01-26,Jan 2024,Product Sales,Income,US Headquarters,Sales,0.0,35057.9
+TXN50005,2024-01-31,Jan 2024,Accounts Receivable,AcctRec,Germany GmbH,Engineering,5090.92,0.0
+TXN50005,2024-01-31,Jan 2024,Interest Income,OthIncome,Germany GmbH,Engineering,0.0,5090.92
+TXN50006,2024-01-09,Jan 2024,Inventory - Finished Goods,OthCurrAsset,US Headquarters,,23241.53,0.0
+TXN50006,2024-01-09,Jan 2024,Product Sales,Income,US Headquarters,,0.0,23241.53
+TXN50007,2024-01-18,Jan 2024,Sales Tax Payable,OthCurrLiab,Germany GmbH,,31116.73,0.0
+TXN50007,2024-01-18,Jan 2024,Cash - Payroll,Bank,Germany GmbH,,0.0,31116.73
+TXN50008,2024-01-23,Jan 2024,Cost of Goods Sold,COGS,US Headquarters,Engineering,33232.53,0.0
+TXN50008,2024-01-23,Jan 2024,Inventory - Finished Goods,OthCurrAsset,US Headquarters,Engineering,0.0,33232.53
+TXN50009,2024-01-28,Jan 2024,Rent Expense,Expense,US Headquarters,Finance,14259.69,0.0
+TXN50009,2024-01-28,Jan 2024,Accounts Receivable,AcctRec,US Headquarters,Finance,0.0,14259.69
+TXN50010,2024-01-12,Jan 2024,Professional Fees,Expense,Germany GmbH,Sales,33673.67,0.0
+TXN50010,2024-01-12,Jan 2024,Cash - Payroll,Bank,Germany GmbH,Sales,0.0,33673.67
+TXN50011,2024-01-20,Jan 2024,Inventory - Finished Goods,OthCurrAsset,Australia Pty Ltd,Sales,26939.92,0.0
+TXN50011,2024-01-20,Jan 2024,Service Revenue,Income,Australia Pty Ltd,Sales,0.0,26939.92
+TXN50012,2024-01-09,Jan 2024,Interest Expense,OthExpense,Australia Pty Ltd,,28069.01,0.0
+TXN50012,2024-01-09,Jan 2024,Cash - Operating,Bank,Australia Pty Ltd,,0.0,28069.01
+TXN50013,2024-01-08,Jan 2024,Prepaid Insurance,OthCurrAsset,US Headquarters,Marketing,20357.66,0.0
+TXN50013,2024-01-08,Jan 2024,Interest Income,OthIncome,US Headquarters,Marketing,0.0,20357.66
+TXN50014,2024-01-11,Jan 2024,Sales Tax Payable,OthCurrLiab,UK Operations,,25211.95,0.0
+TXN50014,2024-01-11,Jan 2024,Inventory - Finished Goods,OthCurrAsset,UK Operations,,0.0,25211.95
+TXN50015,2024-01-05,Jan 2024,Rent Expense,Expense,Germany GmbH,Sales,12708.06,0.0
+TXN50015,2024-01-05,Jan 2024,Payroll Liabilities,OthCurrLiab,Germany GmbH,Sales,0.0,12708.06
+TXN50016,2024-01-29,Jan 2024,Accounts Payable,AcctPay,Canada Inc,Finance,18418.82,0.0
+TXN50016,2024-01-29,Jan 2024,Prepaid Insurance,OthCurrAsset,Canada Inc,Finance,0.0,18418.82
+TXN50017,2024-01-16,Jan 2024,Cash - Payroll,Bank,US Headquarters,Engineering,43124.59,0.0
+TXN50017,2024-01-16,Jan 2024,Interest Income,OthIncome,US Headquarters,Engineering,0.0,43124.59
+TXN50018,2024-01-14,Jan 2024,Utilities,Expense,Canada Inc,Engineering,19545.98,0.0
+TXN50018,2024-01-14,Jan 2024,Prepaid Insurance,OthCurrAsset,Canada Inc,Engineering,0.0,19545.98
+TXN50019,2024-01-18,Jan 2024,Marketing and Advertising,Expense,US Headquarters,,36175.73,0.0
+TXN50019,2024-01-18,Jan 2024,Prepaid Insurance,OthCurrAsset,US Headquarters,,0.0,36175.73
+TXN50020,2024-01-25,Jan 2024,Utilities,Expense,Australia Pty Ltd,Marketing,6021.83,0.0
+TXN50020,2024-01-25,Jan 2024,Cash - Operating,Bank,Australia Pty Ltd,Marketing,0.0,6021.83
+TXN50021,2024-01-31,Jan 2024,Salaries and Wages,Expense,Australia Pty Ltd,,13537.76,0.0
+TXN50021,2024-01-31,Jan 2024,Cash - Payroll,Bank,Australia Pty Ltd,,0.0,13537.76
+TXN50022,2024-01-28,Jan 2024,Salaries and Wages,Expense,Australia Pty Ltd,Marketing,42162.63,0.0
+TXN50022,2024-01-28,Jan 2024,Accounts Receivable,AcctRec,Australia Pty Ltd,Marketing,0.0,42162.63
+TXN50023,2024-01-12,Jan 2024,Accounts Payable,AcctPay,UK Operations,Operations,47698.24,0.0
+TXN50023,2024-01-12,Jan 2024,Prepaid Insurance,OthCurrAsset,UK Operations,Operations,0.0,47698.24
+TXN50024,2024-01-11,Jan 2024,Accounts Receivable,AcctRec,France SAS,Engineering,6037.45,0.0
+TXN50024,2024-01-11,Jan 2024,Product Sales,Income,France SAS,Engineering,0.0,6037.45
+TXN50025,2024-01-02,Jan 2024,Inventory - Finished Goods,OthCurrAsset,UK Operations,Operations,47374.0,0.0
+TXN50025,2024-01-02,Jan 2024,Product Sales,Income,UK Operations,Operations,0.0,47374.0
+TXN50026,2024-01-25,Jan 2024,Marketing and Advertising,Expense,Canada Inc,Sales,6855.38,0.0
+TXN50026,2024-01-25,Jan 2024,Accounts Receivable,AcctRec,Canada Inc,Sales,0.0,6855.38
+TXN50027,2024-01-09,Jan 2024,Prepaid Insurance,OthCurrAsset,Canada Inc,Operations,21445.33,0.0
+TXN50027,2024-01-09,Jan 2024,Interest Income,OthIncome,Canada Inc,Operations,0.0,21445.33
+TXN50028,2024-01-23,Jan 2024,Sales Tax Payable,OthCurrLiab,UK Operations,,15929.96,0.0
+TXN50028,2024-01-23,Jan 2024,Accounts Receivable,AcctRec,UK Operations,,0.0,15929.96
+TXN50029,2024-01-15,Jan 2024,Accounts Receivable,AcctRec,Canada Inc,Finance,6489.71,0.0
+TXN50029,2024-01-15,Jan 2024,Product Sales,Income,Canada Inc,Finance,0.0,6489.71
+TXN50030,2024-01-19,Jan 2024,Cash - Operating,Bank,Canada Inc,Sales,29627.79,0.0
+TXN50030,2024-01-19,Jan 2024,Product Sales,Income,Canada Inc,Sales,0.0,29627.79
+TXN50031,2024-01-03,Jan 2024,Inventory - Finished Goods,OthCurrAsset,US Headquarters,Marketing,4007.44,0.0
+TXN50031,2024-01-03,Jan 2024,Product Sales,Income,US Headquarters,Marketing,0.0,4007.44
+TXN50032,2024-01-18,Jan 2024,Utilities,Expense,UK Operations,,46807.95,0.0
+TXN50032,2024-01-18,Jan 2024,Inventory - Finished Goods,OthCurrAsset,UK Operations,,0.0,46807.95
+TXN50033,2024-01-26,Jan 2024,Inventory - Finished Goods,OthCurrAsset,France SAS,Finance,9925.29,0.0
+TXN50033,2024-01-26,Jan 2024,Service Revenue,Income,France SAS,Finance,0.0,9925.29
+TXN50034,2024-01-14,Jan 2024,Cash - Operating,Bank,France SAS,Finance,43259.92,0.0
+TXN50034,2024-01-14,Jan 2024,Product Sales,Income,France SAS,Finance,0.0,43259.92
+TXN50035,2024-01-13,Jan 2024,Cash - Payroll,Bank,Australia Pty Ltd,Marketing,40129.33,0.0
+TXN50035,2024-01-13,Jan 2024,Product Sales,Income,Australia Pty Ltd,Marketing,0.0,40129.33
+TXN50036,2024-01-18,Jan 2024,Cash - Payroll,Bank,France SAS,Sales,21383.14,0.0
+TXN50036,2024-01-18,Jan 2024,Product Sales,Income,France SAS,Sales,0.0,21383.14
+TXN50037,2024-01-15,Jan 2024,Accounts Payable,AcctPay,Canada Inc,Engineering,3004.12,0.0
+TXN50037,2024-01-15,Jan 2024,Cash - Operating,Bank,Canada Inc,Engineering,0.0,3004.12
+TXN50038,2024-01-30,Jan 2024,Interest Expense,OthExpense,UK Operations,Sales,20617.5,0.0
+TXN50038,2024-01-30,Jan 2024,Payroll Liabilities,OthCurrLiab,UK Operations,Sales,0.0,20617.5
+TXN50039,2024-01-29,Jan 2024,Payroll Liabilities,OthCurrLiab,US Headquarters,Sales,19259.17,0.0
+TXN50039,2024-01-29,Jan 2024,Inventory - Finished Goods,OthCurrAsset,US Headquarters,Sales,0.0,19259.17
+TXN50040,2024-01-10,Jan 2024,Sales Tax Payable,OthCurrLiab,France SAS,,47887.22,0.0
+TXN50040,2024-01-10,Jan 2024,Inventory - Finished Goods,OthCurrAsset,France SAS,,0.0,47887.22
+TXN50041,2024-01-05,Jan 2024,Prepaid Insurance,OthCurrAsset,UK Operations,Marketing,11276.19,0.0
+TXN50041,2024-01-05,Jan 2024,Product Sales,Income,UK Operations,Marketing,0.0,11276.19
+TXN50042,2024-01-24,Jan 2024,Interest Expense,OthExpense,Germany GmbH,Engineering,2982.05,0.0
+TXN50042,2024-01-24,Jan 2024,Accounts Receivable,AcctRec,Germany GmbH,Engineering,0.0,2982.05
+TXN50043,2024-01-02,Jan 2024,Cash - Operating,Bank,Canada Inc,Engineering,42641.46,0.0
+TXN50043,2024-01-02,Jan 2024,Interest Income,OthIncome,Canada Inc,Engineering,0.0,42641.46
+TXN50044,2024-01-28,Jan 2024,Accounts Payable,AcctPay,UK Operations,Finance,6434.39,0.0
+TXN50044,2024-01-28,Jan 2024,Prepaid Insurance,OthCurrAsset,UK Operations,Finance,0.0,6434.39
+TXN50045,2024-01-20,Jan 2024,Marketing and Advertising,Expense,US Headquarters,Operations,4558.18,0.0
+TXN50045,2024-01-20,Jan 2024,Accounts Payable,AcctPay,US Headquarters,Operations,0.0,4558.18
+TXN50046,2024-01-30,Jan 2024,Accounts Receivable,AcctRec,Germany GmbH,Sales,33651.44,0.0
+TXN50046,2024-01-30,Jan 2024,Service Revenue,Income,Germany GmbH,Sales,0.0,33651.44
+TXN50047,2024-01-05,Jan 2024,Cash - Operating,Bank,Australia Pty Ltd,,15349.86,0.0
+TXN50047,2024-01-05,Jan 2024,Product Sales,Income,Australia Pty Ltd,,0.0,15349.86
+TXN50048,2024-01-15,Jan 2024,Cash - Payroll,Bank,Canada Inc,Operations,49806.77,0.0
+TXN50048,2024-01-15,Jan 2024,Interest Income,OthIncome,Canada Inc,Operations,0.0,49806.77
+TXN50049,2024-01-09,Jan 2024,Payroll Liabilities,OthCurrLiab,UK Operations,Marketing,44102.78,0.0
+TXN50049,2024-01-09,Jan 2024,Accounts Receivable,AcctRec,UK Operations,Marketing,0.0,44102.78
+TXN50050,2024-01-06,Jan 2024,Interest Expense,OthExpense,France SAS,Operations,35325.23,0.0
+TXN50050,2024-01-06,Jan 2024,Cash - Operating,Bank,France SAS,Operations,0.0,35325.23
+TXN50051,2024-01-22,Jan 2024,Cash - Payroll,Bank,Canada Inc,Marketing,46621.92,0.0
+TXN50051,2024-01-22,Jan 2024,Service Revenue,Income,Canada Inc,Marketing,0.0,46621.92
+TXN50052,2024-01-04,Jan 2024,Prepaid Insurance,OthCurrAsset,US Headquarters,,27884.57,0.0
+TXN50052,2024-01-04,Jan 2024,Product Sales,Income,US Headquarters,,0.0,27884.57
+TXN50053,2024-01-23,Jan 2024,Sales Tax Payable,OthCurrLiab,Germany GmbH,Sales,34531.11,0.0
+TXN50053,2024-01-23,Jan 2024,Inventory - Finished Goods,OthCurrAsset,Germany GmbH,Sales,0.0,34531.11
+TXN50054,2024-01-09,Jan 2024,Accounts Payable,AcctPay,US Headquarters,Engineering,31897.08,0.0
+TXN50054,2024-01-09,Jan 2024,Cash - Operating,Bank,US Headquarters,Engineering,0.0,31897.08
+TXN50055,2024-01-11,Jan 2024,Inventory - Finished Goods,OthCurrAsset,UK Operations,,49000.0,0.0
+TXN50055,2024-01-11,Jan 2024,Interest Income,OthIncome,UK Operations,,0.0,49000.0
+TXN50056,2024-01-23,Jan 2024,Cash - Payroll,Bank,France SAS,Operations,978.65,0.0
+TXN50056,2024-01-23,Jan 2024,Interest Income,OthIncome,France SAS,Operations,0.0,978.65
+TXN50057,2024-01-02,Jan 2024,Cost of Goods Sold,COGS,Germany GmbH,Operations,27849.99,0.0
+TXN50057,2024-01-02,Jan 2024,Prepaid Insurance,OthCurrAsset,Germany GmbH,Operations,0.0,27849.99
+TXN50058,2024-01-12,Jan 2024,Cash - Operating,Bank,US Headquarters,Marketing,10898.79,0.0
+TXN50058,2024-01-12,Jan 2024,Service Revenue,Income,US Headquarters,Marketing,0.0,10898.79
+TXN50059,2024-01-25,Jan 2024,Salaries and Wages,Expense,Canada Inc,Finance,48704.93,0.0
+TXN50059,2024-01-25,Jan 2024,Accounts Receivable,AcctRec,Canada Inc,Finance,0.0,48704.93
+TXN50060,2024-01-26,Jan 2024,Rent Expense,Expense,UK Operations,Finance,1726.92,0.0
+TXN50060,2024-01-26,Jan 2024,Payroll Liabilities,OthCurrLiab,UK Operations,Finance,0.0,1726.92
+TXN50061,2024-01-26,Jan 2024,Cash - Operating,Bank,Australia Pty Ltd,,40632.09,0.0
+TXN50061,2024-01-26,Jan 2024,Service Revenue,Income,Australia Pty Ltd,,0.0,40632.09
+TXN50062,2024-01-28,Jan 2024,Payroll Liabilities,OthCurrLiab,US Headquarters,Finance,11510.47,0.0
+TXN50062,2024-01-28,Jan 2024,Accounts Receivable,AcctRec,US Headquarters,Finance,0.0,11510.47
+TXN50063,2024-01-10,Jan 2024,Accounts Receivable,AcctRec,UK Operations,Sales,1671.39,0.0
+TXN50063,2024-01-10,Jan 2024,Service Revenue,Income,UK Operations,Sales,0.0,1671.39
+TXN50064,2024-01-28,Jan 2024,Professional Fees,Expense,US Headquarters,Marketing,17881.73,0.0
+TXN50064,2024-01-28,Jan 2024,Accounts Payable,AcctPay,US Headquarters,Marketing,0.0,17881.73
+TXN50065,2024-01-31,Jan 2024,Prepaid Insurance,OthCurrAsset,US Headquarters,Engineering,43913.4,0.0
+TXN50065,2024-01-31,Jan 2024,Service Revenue,Income,US Headquarters,Engineering,0.0,43913.4
+TXN50066,2024-01-02,Jan 2024,Rent Expense,Expense,US Headquarters,Operations,22010.91,0.0
+TXN50066,2024-01-02,Jan 2024,Payroll Liabilities,OthCurrLiab,US Headquarters,Operations,0.0,22010.91
+TXN50067,2024-01-20,Jan 2024,Rent Expense,Expense,Canada Inc,Engineering,19567.17,0.0
+TXN50067,2024-01-20,Jan 2024,Cash - Operating,Bank,Canada Inc,Engineering,0.0,19567.17
+TXN50068,2024-01-23,Jan 2024,Sales Tax Payable,OthCurrLiab,France SAS,Engineering,26236.06,0.0
+TXN50068,2024-01-23,Jan 2024,Cash - Payroll,Bank,France SAS,Engineering,0.0,26236.06
+TXN50069,2024-01-12,Jan 2024,Sales Tax Payable,OthCurrLiab,France SAS,Engineering,47469.29,0.0
+TXN50069,2024-01-12,Jan 2024,Accounts Receivable,AcctRec,France SAS,Engineering,0.0,47469.29
+TXN50070,2024-02-22,Feb 2024,Professional Fees,Expense,US Headquarters,,45052.32,0.0
+TXN50070,2024-02-22,Feb 2024,Payroll Liabilities,OthCurrLiab,US Headquarters,,0.0,45052.32
+TXN50071,2024-02-11,Feb 2024,Inventory - Finished Goods,OthCurrAsset,France SAS,,15134.93,0.0
+TXN50071,2024-02-11,Feb 2024,Interest Income,OthIncome,France SAS,,0.0,15134.93
+TXN50072,2024-02-13,Feb 2024,Rent Expense,Expense,Australia Pty Ltd,,45188.87,0.0
+TXN50072,2024-02-13,Feb 2024,Payroll Liabilities,OthCurrLiab,Australia Pty Ltd,,0.0,45188.87
+TXN50073,2024-02-18,Feb 2024,Marketing and Advertising,Expense,US Headquarters,Marketing,14702.23,0.0
+TXN50073,2024-02-18,Feb 2024,Accounts Payable,AcctPay,US Headquarters,Marketing,0.0,14702.23
+TXN50074,2024-02-15,Feb 2024,Interest Expense,OthExpense,France SAS,Finance,33943.55,0.0
+TXN50074,2024-02-15,Feb 2024,Accounts Receivable,AcctRec,France SAS,Finance,0.0,33943.55
+TXN50075,2024-02-22,Feb 2024,Rent Expense,Expense,US Headquarters,Marketing,26014.87,0.0
+TXN50075,2024-02-22,Feb 2024,Cash - Payroll,Bank,US Headquarters,Marketing,0.0,26014.87
+TXN50076,2024-02-27,Feb 2024,Accounts Payable,AcctPay,UK Operations,,15865.76,0.0
+TXN50076,2024-02-27,Feb 2024,Cash - Operating,Bank,UK Operations,,0.0,15865.76
+TXN50077,2024-02-02,Feb 2024,Utilities,Expense,UK Operations,Finance,30758.06,0.0
+TXN50077,2024-02-02,Feb 2024,Payroll Liabilities,OthCurrLiab,UK Operations,Finance,0.0,30758.06
+TXN50078,2024-02-29,Feb 2024,Utilities,Expense,Australia Pty Ltd,Operations,10124.54,0.0
+TXN50078,2024-02-29,Feb 2024,Payroll Liabilities,OthCurrLiab,Australia Pty Ltd,Operations,0.0,10124.54
+TXN50079,2024-02-08,Feb 2024,Accounts Payable,AcctPay,UK Operations,,34537.31,0.0
+TXN50079,2024-02-08,Feb 2024,Inventory - Finished Goods,OthCurrAsset,UK Operations,,0.0,34537.31
+TXN50080,2024-02-08,Feb 2024,Cash - Payroll,Bank,UK Operations,,26138.91,0.0
+TXN50080,2024-02-08,Feb 2024,Product Sales,Income,UK Operations,,0.0,26138.91
+TXN50081,2024-02-15,Feb 2024,Sales Tax Payable,OthCurrLiab,UK Operations,Finance,33545.1,0.0
+TXN50081,2024-02-15,Feb 2024,Accounts Receivable,AcctRec,UK Operations,Finance,0.0,33545.1
+TXN50082,2024-02-25,Feb 2024,Payroll Liabilities,OthCurrLiab,France SAS,Operations,40842.82,0.0
+TXN50082,2024-02-25,Feb 2024,Prepaid Insurance,OthCurrAsset,France SAS,Operations,0.0,40842.82
+TXN50083,2024-02-15,Feb 2024,Interest Expense,OthExpense,UK Operations,,43144.0,0.0
+TXN50083,2024-02-15,Feb 2024,Inventory - Finished Goods,OthCurrAsset,UK Operations,,0.0,43144.0
+TXN50084,2024-02-27,Feb 2024,Professional Fees,Expense,Australia Pty Ltd,Marketing,38407.78,0.0
+TXN50084,2024-02-27,Feb 2024,Inventory - Finished Goods,OthCurrAsset,Australia Pty Ltd,Marketing,0.0,38407.78
+TXN50085,2024-02-09,Feb 2024,Accounts Receivable,AcctRec,France SAS,Engineering,35820.47,0.0
+TXN50085,2024-02-09,Feb 2024,Service Revenue,Income,France SAS,Engineering,0.0,35820.47
+TXN50086,2024-02-29,Feb 2024,Cash - Payroll,Bank,Canada Inc,Engineering,7349.52,0.0
+TXN50086,2024-02-29,Feb 2024,Interest Income,OthIncome,Canada Inc,Engineering,0.0,7349.52
+TXN50087,2024-02-07,Feb 2024,Utilities,Expense,US Headquarters,Finance,20676.17,0.0
+TXN50087,2024-02-07,Feb 2024,Cash - Operating,Bank,US Headquarters,Finance,0.0,20676.17
+TXN50088,2024-02-07,Feb 2024,Professional Fees,Expense,France SAS,Finance,45289.5,0.0
+TXN50088,2024-02-07,Feb 2024,Cash - Operating,Bank,France SAS,Finance,0.0,45289.5
+TXN50089,2024-02-28,Feb 2024,Payroll Liabilities,OthCurrLiab,Canada Inc,Finance,24110.5,0.0
+TXN50089,2024-02-28,Feb 2024,Inventory - Finished Goods,OthCurrAsset,Canada Inc,Finance,0.0,24110.5
+TXN50090,2024-02-28,Feb 2024,Marketing and Advertising,Expense,France SAS,Operations,37502.03,0.0
+TXN50090,2024-02-28,Feb 2024,Inventory - Finished Goods,OthCurrAsset,France SAS,Operations,0.0,37502.03
+TXN50091,2024-02-16,Feb 2024,Accounts Receivable,AcctRec,UK Operations,Marketing,22073.88,0.0
+TXN50091,2024-02-16,Feb 2024,Interest Income,OthIncome,UK Operations,Marketing,0.0,22073.88
+TXN50092,2024-02-22,Feb 2024,Salaries and Wages,Expense,France SAS,,8669.71,0.0
+TXN50092,2024-02-22,Feb 2024,Cash - Operating,Bank,France SAS,,0.0,8669.71
+TXN50093,2024-02-13,Feb 2024,Inventory - Finished Goods,OthCurrAsset,Canada Inc,Operations,33318.49,0.0
+TXN50093,2024-02-13,Feb 2024,Product Sales,Income,Canada Inc,Operations,0.0,33318.49
+TXN50094,2024-02-28,Feb 2024,Cash - Payroll,Bank,France SAS,Sales,2989.09,0.0
+TXN50094,2024-02-28,Feb 2024,Service Revenue,Income,France SAS,Sales,0.0,2989.09
+TXN50095,2024-02-11,Feb 2024,Payroll Liabilities,OthCurrLiab,Germany GmbH,Finance,14273.7,0.0
+TXN50095,2024-02-11,Feb 2024,Accounts Receivable,AcctRec,Germany GmbH,Finance,0.0,14273.7
+TXN50096,2024-02-27,Feb 2024,Rent Expense,Expense,US Headquarters,Finance,1459.47,0.0
+TXN50096,2024-02-27,Feb 2024,Inventory - Finished Goods,OthCurrAsset,US Headquarters,Finance,0.0,1459.47
+TXN50097,2024-02-21,Feb 2024,Cash - Payroll,Bank,US Headquarters,,2492.78,0.0
+TXN50097,2024-02-21,Feb 2024,Product Sales,Income,US Headquarters,,0.0,2492.78
+TXN50098,2024-02-27,Feb 2024,Cash - Operating,Bank,US Headquarters,Operations,8042.93,0.0
+TXN50098,2024-02-27,Feb 2024,Interest Income,OthIncome,US Headquarters,Operations,0.0,8042.93
+TXN50099,2024-02-07,Feb 2024,Prepaid Insurance,OthCurrAsset,France SAS,,13184.06,0.0
+TXN50099,2024-02-07,Feb 2024,Interest Income,OthIncome,France SAS,,0.0,13184.06
+TXN50100,2024-02-24,Feb 2024,Accounts Receivable,AcctRec,Australia Pty Ltd,Engineering,39000.7,0.0
+TXN50100,2024-02-24,Feb 2024,Product Sales,Income,Australia Pty Ltd,Engineering,0.0,39000.7
+TXN50101,2024-02-19,Feb 2024,Payroll Liabilities,OthCurrLiab,US Headquarters,Marketing,29001.94,0.0
+TXN50101,2024-02-19,Feb 2024,Inventory - Finished Goods,OthCurrAsset,US Headquarters,Marketing,0.0,29001.94
+TXN50102,2024-02-23,Feb 2024,Accounts Payable,AcctPay,UK Operations,Engineering,29808.84,0.0
+TXN50102,2024-02-23,Feb 2024,Cash - Operating,Bank,UK Operations,Engineering,0.0,29808.84
+TXN50103,2024-02-23,Feb 2024,Prepaid Insurance,OthCurrAsset,Germany GmbH,,30220.37,0.0
+TXN50103,2024-02-23,Feb 2024,Product Sales,Income,Germany GmbH,,0.0,30220.37
+TXN50104,2024-02-12,Feb 2024,Accounts Receivable,AcctRec,Canada Inc,Finance,33245.31,0.0
+TXN50104,2024-02-12,Feb 2024,Product Sales,Income,Canada Inc,Finance,0.0,33245.31
+TXN50105,2024-02-28,Feb 2024,Sales Tax Payable,OthCurrLiab,France SAS,Finance,5724.17,0.0
+TXN50105,2024-02-28,Feb 2024,Inventory - Finished Goods,OthCurrAsset,France SAS,Finance,0.0,5724.17
+TXN50106,2024-02-23,Feb 2024,Professional Fees,Expense,UK Operations,Finance,9218.78,0.0
+TXN50106,2024-02-23,Feb 2024,Prepaid Insurance,OthCurrAsset,UK Operations,Finance,0.0,9218.78
+TXN50107,2024-02-20,Feb 2024,Sales Tax Payable,OthCurrLiab,Canada Inc,Finance,23511.25,0.0
+TXN50107,2024-02-20,Feb 2024,Accounts Receivable,AcctRec,Canada Inc,Finance,0.0,23511.25
+TXN50108,2024-02-11,Feb 2024,Interest Expense,OthExpense,UK Operations,Engineering,14306.95,0.0
+TXN50108,2024-02-11,Feb 2024,Sales Tax Payable,OthCurrLiab,UK Operations,Engineering,0.0,14306.95
+TXN50109,2024-02-19,Feb 2024,Accounts Receivable,AcctRec,Canada Inc,,19259.97,0.0
+TXN50109,2024-02-19,Feb 2024,Product Sales,Income,Canada Inc,,0.0,19259.97
+TXN50110,2024-02-16,Feb 2024,Prepaid Insurance,OthCurrAsset,UK Operations,Marketing,39992.7,0.0
+TXN50110,2024-02-16,Feb 2024,Interest Income,OthIncome,UK Operations,Marketing,0.0,39992.7
+TXN50111,2024-02-29,Feb 2024,Accounts Payable,AcctPay,Germany GmbH,Operations,1002.48,0.0
+TXN50111,2024-02-29,Feb 2024,Cash - Payroll,Bank,Germany GmbH,Operations,0.0,1002.48
+TXN50112,2024-02-24,Feb 2024,Inventory - Finished Goods,OthCurrAsset,France SAS,Finance,27981.22,0.0
+TXN50112,2024-02-24,Feb 2024,Interest Income,OthIncome,France SAS,Finance,0.0,27981.22
+TXN50113,2024-02-23,Feb 2024,Cash - Payroll,Bank,France SAS,Finance,39750.18,0.0
+TXN50113,2024-02-23,Feb 2024,Service Revenue,Income,France SAS,Finance,0.0,39750.18
+TXN50114,2024-02-23,Feb 2024,Prepaid Insurance,OthCurrAsset,UK Operations,Marketing,33366.02,0.0
+TXN50114,2024-02-23,Feb 2024,Interest Income,OthIncome,UK Operations,Marketing,0.0,33366.02
+TXN50115,2024-02-12,Feb 2024,Inventory - Finished Goods,OthCurrAsset,France SAS,,27744.23,0.0
+TXN50115,2024-02-12,Feb 2024,Service Revenue,Income,France SAS,,0.0,27744.23
+TXN50116,2024-02-10,Feb 2024,Cash - Operating,Bank,Germany GmbH,Sales,6472.47,0.0
+TXN50116,2024-02-10,Feb 2024,Interest Income,OthIncome,Germany GmbH,Sales,0.0,6472.47
+TXN50117,2024-02-18,Feb 2024,Rent Expense,Expense,Australia Pty Ltd,Sales,9981.28,0.0
+TXN50117,2024-02-18,Feb 2024,Prepaid Insurance,OthCurrAsset,Australia Pty Ltd,Sales,0.0,9981.28
+TXN50118,2024-02-04,Feb 2024,Cash - Operating,Bank,UK Operations,Marketing,11760.42,0.0
+TXN50118,2024-02-04,Feb 2024,Interest Income,OthIncome,UK Operations,Marketing,0.0,11760.42
+TXN50119,2024-02-18,Feb 2024,Accounts Receivable,AcctRec,UK Operations,Marketing,2753.03,0.0
+TXN50119,2024-02-18,Feb 2024,Interest Income,OthIncome,UK Operations,Marketing,0.0,2753.03
+TXN50120,2024-02-05,Feb 2024,Accounts Receivable,AcctRec,Australia Pty Ltd,Finance,5578.09,0.0
+TXN50120,2024-02-05,Feb 2024,Service Revenue,Income,Australia Pty Ltd,Finance,0.0,5578.09
+TXN50121,2024-02-16,Feb 2024,Inventory - Finished Goods,OthCurrAsset,France SAS,Marketing,9626.0,0.0
+TXN50121,2024-02-16,Feb 2024,Product Sales,Income,France SAS,Marketing,0.0,9626.0
+TXN50122,2024-02-27,Feb 2024,Professional Fees,Expense,US Headquarters,Finance,24841.45,0.0
+TXN50122,2024-02-27,Feb 2024,Cash - Operating,Bank,US Headquarters,Finance,0.0,24841.45
+TXN50123,2024-02-05,Feb 2024,Cash - Payroll,Bank,UK Operations,Operations,47481.72,0.0
+TXN50123,2024-02-05,Feb 2024,Product Sales,Income,UK Operations,Operations,0.0,47481.72
+TXN50124,2024-02-18,Feb 2024,Interest Expense,OthExpense,France SAS,Operations,30008.28,0.0
+TXN50124,2024-02-18,Feb 2024,Payroll Liabilities,OthCurrLiab,France SAS,Operations,0.0,30008.28
+TXN50125,2024-02-15,Feb 2024,Payroll Liabilities,OthCurrLiab,France SAS,Marketing,43078.25,0.0
+TXN50125,2024-02-15,Feb 2024,Prepaid Insurance,OthCurrAsset,France SAS,Marketing,0.0,43078.25
+TXN50126,2024-02-20,Feb 2024,Cash - Payroll,Bank,US Headquarters,Operations,48025.38,0.0
+TXN50126,2024-02-20,Feb 2024,Interest Income,OthIncome,US Headquarters,Operations,0.0,48025.38
+TXN50127,2024-02-07,Feb 2024,Prepaid Insurance,OthCurrAsset,Germany GmbH,,4518.78,0.0
+TXN50127,2024-02-07,Feb 2024,Product Sales,Income,Germany GmbH,,0.0,4518.78
+TXN50128,2024-02-06,Feb 2024,Rent Expense,Expense,US Headquarters,Finance,22799.93,0.0
+TXN50128,2024-02-06,Feb 2024,Cash - Operating,Bank,US Headquarters,Finance,0.0,22799.93
+TXN50129,2024-02-08,Feb 2024,Accounts Payable,AcctPay,Germany GmbH,,14494.56,0.0
+TXN50129,2024-02-08,Feb 2024,Cash - Payroll,Bank,Germany GmbH,,0.0,14494.56
+TXN50130,2024-02-09,Feb 2024,Payroll Liabilities,OthCurrLiab,Australia Pty Ltd,Operations,33228.56,0.0
+TXN50130,2024-02-09,Feb 2024,Cash - Operating,Bank,Australia Pty Ltd,Operations,0.0,33228.56
+TXN50131,2024-02-18,Feb 2024,Cash - Payroll,Bank,UK Operations,,7874.98,0.0
+TXN50131,2024-02-18,Feb 2024,Product Sales,Income,UK Operations,,0.0,7874.98
+TXN50132,2024-02-02,Feb 2024,Payroll Liabilities,OthCurrLiab,UK Operations,Marketing,29954.68,0.0
+TXN50132,2024-02-02,Feb 2024,Inventory - Finished Goods,OthCurrAsset,UK Operations,Marketing,0.0,29954.68
+TXN50133,2024-02-04,Feb 2024,Rent Expense,Expense,France SAS,,15552.51,0.0
+TXN50133,2024-02-04,Feb 2024,Sales Tax Payable,OthCurrLiab,France SAS,,0.0,15552.51
+TXN50134,2024-02-15,Feb 2024,Rent Expense,Expense,US Headquarters,Operations,2473.11,0.0
+TXN50134,2024-02-15,Feb 2024,Prepaid Insurance,OthCurrAsset,US Headquarters,Operations,0.0,2473.11
+TXN50135,2024-02-01,Feb 2024,Sales Tax Payable,OthCurrLiab,US Headquarters,Sales,48114.6,0.0
+TXN50135,2024-02-01,Feb 2024,Prepaid Insurance,OthCurrAsset,US Headquarters,Sales,0.0,48114.6
+TXN50136,2024-02-01,Feb 2024,Salaries and Wages,Expense,Australia Pty Ltd,Marketing,29024.23,0.0
+TXN50136,2024-02-01,Feb 2024,Sales Tax Payable,OthCurrLiab,Australia Pty Ltd,Marketing,0.0,29024.23
+TXN50137,2024-02-17,Feb 2024,Prepaid Insurance,OthCurrAsset,Australia Pty Ltd,Finance,45845.6,0.0
+TXN50137,2024-02-17,Feb 2024,Service Revenue,Income,Australia Pty Ltd,Finance,0.0,45845.6
+TXN50138,2024-02-21,Feb 2024,Rent Expense,Expense,France SAS,Engineering,23765.51,0.0
+TXN50138,2024-02-21,Feb 2024,Cash - Payroll,Bank,France SAS,Engineering,0.0,23765.51
+TXN50139,2024-02-28,Feb 2024,Professional Fees,Expense,UK Operations,Marketing,20876.43,0.0
+TXN50139,2024-02-28,Feb 2024,Payroll Liabilities,OthCurrLiab,UK Operations,Marketing,0.0,20876.43
+TXN50140,2024-03-27,Mar 2024,Accounts Receivable,AcctRec,Canada Inc,Engineering,23013.88,0.0
+TXN50140,2024-03-27,Mar 2024,Product Sales,Income,Canada Inc,Engineering,0.0,23013.88
+TXN50141,2024-03-25,Mar 2024,Prepaid Insurance,OthCurrAsset,France SAS,Operations,41333.9,0.0
+TXN50141,2024-03-25,Mar 2024,Service Revenue,Income,France SAS,Operations,0.0,41333.9
+TXN50142,2024-03-14,Mar 2024,Utilities,Expense,US Headquarters,Sales,26162.75,0.0
+TXN50142,2024-03-14,Mar 2024,Sales Tax Payable,OthCurrLiab,US Headquarters,Sales,0.0,26162.75
+TXN50143,2024-03-25,Mar 2024,Accounts Receivable,AcctRec,US Headquarters,Sales,13719.28,0.0
+TXN50143,2024-03-25,Mar 2024,Service Revenue,Income,US Headquarters,Sales,0.0,13719.28
+TXN50144,2024-03-29,Mar 2024,Sales Tax Payable,OthCurrLiab,Australia Pty Ltd,Finance,6510.59,0.0
+TXN50144,2024-03-29,Mar 2024,Cash - Payroll,Bank,Australia Pty Ltd,Finance,0.0,6510.59
+TXN50145,2024-03-23,Mar 2024,Cost of Goods Sold,COGS,UK Operations,Marketing,27766.53,0.0
+TXN50145,2024-03-23,Mar 2024,Inventory - Finished Goods,OthCurrAsset,UK Operations,Marketing,0.0,27766.53
+TXN50146,2024-03-27,Mar 2024,Salaries and Wages,Expense,US Headquarters,Finance,47379.51,0.0
+TXN50146,2024-03-27,Mar 2024,Sales Tax Payable,OthCurrLiab,US Headquarters,Finance,0.0,47379.51
+TXN50147,2024-03-30,Mar 2024,Inventory - Finished Goods,OthCurrAsset,Australia Pty Ltd,Marketing,25689.16,0.0
+TXN50147,2024-03-30,Mar 2024,Service Revenue,Income,Australia Pty Ltd,Marketing,0.0,25689.16
+TXN50148,2024-03-08,Mar 2024,Prepaid Insurance,OthCurrAsset,France SAS,Operations,7659.78,0.0
+TXN50148,2024-03-08,Mar 2024,Interest Income,OthIncome,France SAS,Operations,0.0,7659.78
+TXN50149,2024-03-24,Mar 2024,Utilities,Expense,UK Operations,Engineering,14174.25,0.0
+TXN50149,2024-03-24,Mar 2024,Accounts Payable,AcctPay,UK Operations,Engineering,0.0,14174.25
+TXN50150,2024-03-30,Mar 2024,Accounts Receivable,AcctRec,Canada Inc,Marketing,41117.2,0.0
+TXN50150,2024-03-30,Mar 2024,Interest Income,OthIncome,Canada Inc,Marketing,0.0,41117.2
+TXN50151,2024-03-19,Mar 2024,Utilities,Expense,Australia Pty Ltd,Finance,43330.4,0.0
+TXN50151,2024-03-19,Mar 2024,Accounts Payable,AcctPay,Australia Pty Ltd,Finance,0.0,43330.4
+TXN50152,2024-03-11,Mar 2024,Accounts Payable,AcctPay,Canada Inc,Operations,19171.9,0.0
+TXN50152,2024-03-11,Mar 2024,Cash - Payroll,Bank,Canada Inc,Operations,0.0,19171.9
+TXN50153,2024-03-19,Mar 2024,Rent Expense,Expense,France SAS,Sales,42872.64,0.0
+TXN50153,2024-03-19,Mar 2024,Sales Tax Payable,OthCurrLiab,France SAS,Sales,0.0,42872.64
+TXN50154,2024-03-23,Mar 2024,Professional Fees,Expense,France SAS,Finance,49426.49,0.0
+TXN50154,2024-03-23,Mar 2024,Accounts Receivable,AcctRec,France SAS,Finance,0.0,49426.49
+TXN50155,2024-03-16,Mar 2024,Interest Expense,OthExpense,US Headquarters,Sales,25363.41,0.0
+TXN50155,2024-03-16,Mar 2024,Cash - Payroll,Bank,US Headquarters,Sales,0.0,25363.41
+TXN50156,2024-03-28,Mar 2024,Professional Fees,Expense,France SAS,Engineering,26534.58,0.0
+TXN50156,2024-03-28,Mar 2024,Accounts Receivable,AcctRec,France SAS,Engineering,0.0,26534.58
+TXN50157,2024-03-14,Mar 2024,Rent Expense,Expense,Australia Pty Ltd,Sales,4204.0,0.0
+TXN50157,2024-03-14,Mar 2024,Accounts Payable,AcctPay,Australia Pty Ltd,Sales,0.0,4204.0
+TXN50158,2024-03-20,Mar 2024,Sales Tax Payable,OthCurrLiab,Australia Pty Ltd,Finance,32666.91,0.0
+TXN50158,2024-03-20,Mar 2024,Prepaid Insurance,OthCurrAsset,Australia Pty Ltd,Finance,0.0,32666.91
+TXN50159,2024-03-13,Mar 2024,Interest Expense,OthExpense,Germany GmbH,,36076.51,0.0
+TXN50159,2024-03-13,Mar 2024,Cash - Operating,Bank,Germany GmbH,,0.0,36076.51
+TXN50160,2024-03-20,Mar 2024,Accounts Payable,AcctPay,US Headquarters,Sales,31742.47,0.0
+TXN50160,2024-03-20,Mar 2024,Cash - Operating,Bank,US Headquarters,Sales,0.0,31742.47
+TXN50161,2024-03-14,Mar 2024,Cash - Payroll,Bank,US Headquarters,,35342.6,0.0
+TXN50161,2024-03-14,Mar 2024,Interest Income,OthIncome,US Headquarters,,0.0,35342.6
+TXN50162,2024-03-10,Mar 2024,Accounts Receivable,AcctRec,US Headquarters,Engineering,16556.55,0.0
+TXN50162,2024-03-10,Mar 2024,Service Revenue,Income,US Headquarters,Engineering,0.0,16556.55
+TXN50163,2024-03-14,Mar 2024,Interest Expense,OthExpense,UK Operations,Sales,26792.73,0.0
+TXN50163,2024-03-14,Mar 2024,Accounts Receivable,AcctRec,UK Operations,Sales,0.0,26792.73
+TXN50164,2024-03-06,Mar 2024,Cash - Payroll,Bank,UK Operations,Engineering,30669.84,0.0
+TXN50164,2024-03-06,Mar 2024,Service Revenue,Income,UK Operations,Engineering,0.0,30669.84
+TXN50165,2024-03-30,Mar 2024,Utilities,Expense,Canada Inc,Sales,11993.33,0.0
+TXN50165,2024-03-30,Mar 2024,Prepaid Insurance,OthCurrAsset,Canada Inc,Sales,0.0,11993.33
+TXN50166,2024-03-22,Mar 2024,Salaries and Wages,Expense,US Headquarters,Finance,45109.87,0.0
+TXN50166,2024-03-22,Mar 2024,Cash - Payroll,Bank,US Headquarters,Finance,0.0,45109.87
+TXN50167,2024-03-15,Mar 2024,Sales Tax Payable,OthCurrLiab,Germany GmbH,Operations,15308.14,0.0
+TXN50167,2024-03-15,Mar 2024,Accounts Receivable,AcctRec,Germany GmbH,Operations,0.0,15308.14
+TXN50168,2024-03-15,Mar 2024,Accounts Payable,AcctPay,Germany GmbH,Sales,49968.99,0.0
+TXN50168,2024-03-15,Mar 2024,Cash - Payroll,Bank,Germany GmbH,Sales,0.0,49968.99
+TXN50169,2024-03-13,Mar 2024,Payroll Liabilities,OthCurrLiab,Canada Inc,Marketing,28953.19,0.0
+TXN50169,2024-03-13,Mar 2024,Cash - Operating,Bank,Canada Inc,Marketing,0.0,28953.19
+TXN50170,2024-03-27,Mar 2024,Professional Fees,Expense,Australia Pty Ltd,Finance,14086.78,0.0
+TXN50170,2024-03-27,Mar 2024,Cash - Operating,Bank,Australia Pty Ltd,Finance,0.0,14086.78
+TXN50171,2024-03-30,Mar 2024,Payroll Liabilities,OthCurrLiab,Canada Inc,,25088.0,0.0
+TXN50171,2024-03-30,Mar 2024,Cash - Payroll,Bank,Canada Inc,,0.0,25088.0
+TXN50172,2024-03-20,Mar 2024,Professional Fees,Expense,Germany GmbH,Sales,32012.58,0.0
+TXN50172,2024-03-20,Mar 2024,Accounts Receivable,AcctRec,Germany GmbH,Sales,0.0,32012.58
+TXN50173,2024-03-21,Mar 2024,Inventory - Finished Goods,OthCurrAsset,US Headquarters,,32493.86,0.0
+TXN50173,2024-03-21,Mar 2024,Product Sales,Income,US Headquarters,,0.0,32493.86
+TXN50174,2024-03-19,Mar 2024,Payroll Liabilities,OthCurrLiab,Germany GmbH,,7004.88,0.0
+TXN50174,2024-03-19,Mar 2024,Inventory - Finished Goods,OthCurrAsset,Germany GmbH,,0.0,7004.88
+TXN50175,2024-03-06,Mar 2024,Payroll Liabilities,OthCurrLiab,UK Operations,Sales,39432.38,0.0
+TXN50175,2024-03-06,Mar 2024,Prepaid Insurance,OthCurrAsset,UK Operations,Sales,0.0,39432.38
+TXN50176,2024-03-17,Mar 2024,Payroll Liabilities,OthCurrLiab,Germany GmbH,Sales,13220.02,0.0
+TXN50176,2024-03-17,Mar 2024,Accounts Receivable,AcctRec,Germany GmbH,Sales,0.0,13220.02
+TXN50177,2024-03-24,Mar 2024,Cash - Payroll,Bank,Germany GmbH,Engineering,23682.4,0.0
+TXN50177,2024-03-24,Mar 2024,Interest Income,OthIncome,Germany GmbH,Engineering,0.0,23682.4
+TXN50178,2024-03-24,Mar 2024,Payroll Liabilities,OthCurrLiab,Australia Pty Ltd,Finance,48379.85,0.0
+TXN50178,2024-03-24,Mar 2024,Cash - Operating,Bank,Australia Pty Ltd,Finance,0.0,48379.85
+TXN50179,2024-03-26,Mar 2024,Accounts Receivable,AcctRec,France SAS,Engineering,13590.7,0.0
+TXN50179,2024-03-26,Mar 2024,Interest Income,OthIncome,France SAS,Engineering,0.0,13590.7
+TXN50180,2024-03-24,Mar 2024,Payroll Liabilities,OthCurrLiab,Australia Pty Ltd,Marketing,29435.72,0.0
+TXN50180,2024-03-24,Mar 2024,Cash - Operating,Bank,Australia Pty Ltd,Marketing,0.0,29435.72
+TXN50181,2024-03-22,Mar 2024,Sales Tax Payable,OthCurrLiab,UK Operations,Finance,1738.72,0.0
+TXN50181,2024-03-22,Mar 2024,Accounts Receivable,AcctRec,UK Operations,Finance,0.0,1738.72
+TXN50182,2024-03-30,Mar 2024,Utilities,Expense,Canada Inc,Sales,32558.79,0.0
+TXN50182,2024-03-30,Mar 2024,Prepaid Insurance,OthCurrAsset,Canada Inc,Sales,0.0,32558.79
+TXN50183,2024-03-21,Mar 2024,Payroll Liabilities,OthCurrLiab,France SAS,Engineering,7418.96,0.0
+TXN50183,2024-03-21,Mar 2024,Inventory - Finished Goods,OthCurrAsset,France SAS,Engineering,0.0,7418.96
+TXN50184,2024-03-04,Mar 2024,Inventory - Finished Goods,OthCurrAsset,US Headquarters,Sales,44419.34,0.0
+TXN50184,2024-03-04,Mar 2024,Service Revenue,Income,US Headquarters,Sales,0.0,44419.34
+TXN50185,2024-03-22,Mar 2024,Professional Fees,Expense,Australia Pty Ltd,,47325.72,0.0
+TXN50185,2024-03-22,Mar 2024,Accounts Receivable,AcctRec,Australia Pty Ltd,,0.0,47325.72
+TXN50186,2024-03-29,Mar 2024,Utilities,Expense,France SAS,,5401.57,0.0
+TXN50186,2024-03-29,Mar 2024,Prepaid Insurance,OthCurrAsset,France SAS,,0.0,5401.57
+TXN50187,2024-03-02,Mar 2024,Salaries and Wages,Expense,Australia Pty Ltd,Marketing,11254.85,0.0
+TXN50187,2024-03-02,Mar 2024,Accounts Payable,AcctPay,Australia Pty Ltd,Marketing,0.0,11254.85
+TXN50188,2024-03-04,Mar 2024,Payroll Liabilities,OthCurrLiab,Australia Pty Ltd,Marketing,27451.06,0.0
+TXN50188,2024-03-04,Mar 2024,Cash - Operating,Bank,Australia Pty Ltd,Marketing,0.0,27451.06
+TXN50189,2024-03-13,Mar 2024,Payroll Liabilities,OthCurrLiab,Germany GmbH,Sales,48426.24,0.0
+TXN50189,2024-03-13,Mar 2024,Cash - Operating,Bank,Germany GmbH,Sales,0.0,48426.24
+TXN50190,2024-03-22,Mar 2024,Accounts Payable,AcctPay,UK Operations,,32154.9,0.0
+TXN50190,2024-03-22,Mar 2024,Accounts Receivable,AcctRec,UK Operations,,0.0,32154.9
+TXN50191,2024-03-08,Mar 2024,Sales Tax Payable,OthCurrLiab,UK Operations,Operations,10657.68,0.0
+TXN50191,2024-03-08,Mar 2024,Cash - Payroll,Bank,UK Operations,Operations,0.0,10657.68
+TXN50192,2024-03-19,Mar 2024,Prepaid Insurance,OthCurrAsset,UK Operations,Sales,16763.7,0.0
+TXN50192,2024-03-19,Mar 2024,Product Sales,Income,UK Operations,Sales,0.0,16763.7
+TXN50193,2024-03-09,Mar 2024,Cost of Goods Sold,COGS,UK Operations,Sales,27240.67,0.0
+TXN50193,2024-03-09,Mar 2024,Cash - Operating,Bank,UK Operations,Sales,0.0,27240.67
+TXN50194,2024-03-05,Mar 2024,Accounts Receivable,AcctRec,US Headquarters,Marketing,39604.24,0.0
+TXN50194,2024-03-05,Mar 2024,Product Sales,Income,US Headquarters,Marketing,0.0,39604.24
+TXN50195,2024-03-06,Mar 2024,Cost of Goods Sold,COGS,Germany GmbH,Engineering,6774.55,0.0
+TXN50195,2024-03-06,Mar 2024,Cash - Payroll,Bank,Germany GmbH,Engineering,0.0,6774.55
+TXN50196,2024-03-16,Mar 2024,Prepaid Insurance,OthCurrAsset,France SAS,Marketing,25905.28,0.0
+TXN50196,2024-03-16,Mar 2024,Product Sales,Income,France SAS,Marketing,0.0,25905.28
+TXN50197,2024-03-31,Mar 2024,Sales Tax Payable,OthCurrLiab,Canada Inc,Engineering,36498.53,0.0
+TXN50197,2024-03-31,Mar 2024,Prepaid Insurance,OthCurrAsset,Canada Inc,Engineering,0.0,36498.53
+TXN50198,2024-03-10,Mar 2024,Inventory - Finished Goods,OthCurrAsset,France SAS,,48219.3,0.0
+TXN50198,2024-03-10,Mar 2024,Service Revenue,Income,France SAS,,0.0,48219.3
+TXN50199,2024-03-14,Mar 2024,Accounts Payable,AcctPay,Australia Pty Ltd,Engineering,24768.31,0.0
+TXN50199,2024-03-14,Mar 2024,Cash - Operating,Bank,Australia Pty Ltd,Engineering,0.0,24768.31
+TXN50200,2024-03-11,Mar 2024,Prepaid Insurance,OthCurrAsset,Canada Inc,Sales,3751.27,0.0
+TXN50200,2024-03-11,Mar 2024,Interest Income,OthIncome,Canada Inc,Sales,0.0,3751.27
+TXN50201,2024-03-23,Mar 2024,Utilities,Expense,Germany GmbH,Finance,49734.07,0.0
+TXN50201,2024-03-23,Mar 2024,Payroll Liabilities,OthCurrLiab,Germany GmbH,Finance,0.0,49734.07
+TXN50202,2024-03-04,Mar 2024,Interest Expense,OthExpense,Australia Pty Ltd,Engineering,42713.24,0.0
+TXN50202,2024-03-04,Mar 2024,Inventory - Finished Goods,OthCurrAsset,Australia Pty Ltd,Engineering,0.0,42713.24
+TXN50203,2024-03-14,Mar 2024,Payroll Liabilities,OthCurrLiab,France SAS,Sales,20983.77,0.0
+TXN50203,2024-03-14,Mar 2024,Inventory - Finished Goods,OthCurrAsset,France SAS,Sales,0.0,20983.77
+TXN50204,2024-03-24,Mar 2024,Rent Expense,Expense,US Headquarters,Marketing,21624.82,0.0
+TXN50204,2024-03-24,Mar 2024,Accounts Receivable,AcctRec,US Headquarters,Marketing,0.0,21624.82
+TXN50205,2024-03-22,Mar 2024,Inventory - Finished Goods,OthCurrAsset,France SAS,Engineering,5015.63,0.0
+TXN50205,2024-03-22,Mar 2024,Product Sales,Income,France SAS,Engineering,0.0,5015.63
+TXN50206,2024-03-24,Mar 2024,Marketing and Advertising,Expense,Australia Pty Ltd,Marketing,40682.58,0.0
+TXN50206,2024-03-24,Mar 2024,Accounts Payable,AcctPay,Australia Pty Ltd,Marketing,0.0,40682.58
+TXN50207,2024-03-22,Mar 2024,Interest Expense,OthExpense,US Headquarters,Finance,18003.1,0.0
+TXN50207,2024-03-22,Mar 2024,Payroll Liabilities,OthCurrLiab,US Headquarters,Finance,0.0,18003.1
+TXN50208,2024-03-28,Mar 2024,Rent Expense,Expense,Australia Pty Ltd,Engineering,48435.73,0.0
+TXN50208,2024-03-28,Mar 2024,Cash - Payroll,Bank,Australia Pty Ltd,Engineering,0.0,48435.73
+TXN50209,2024-03-19,Mar 2024,Interest Expense,OthExpense,Canada Inc,Sales,8159.14,0.0
+TXN50209,2024-03-19,Mar 2024,Cash - Payroll,Bank,Canada Inc,Sales,0.0,8159.14
+TXN50210,2024-04-12,Apr 2024,Cash - Payroll,Bank,Canada Inc,Marketing,6186.82,0.0
+TXN50210,2024-04-12,Apr 2024,Service Revenue,Income,Canada Inc,Marketing,0.0,6186.82
+TXN50211,2024-04-28,Apr 2024,Cost of Goods Sold,COGS,Canada Inc,Operations,30871.88,0.0
+TXN50211,2024-04-28,Apr 2024,Prepaid Insurance,OthCurrAsset,Canada Inc,Operations,0.0,30871.88
+TXN50212,2024-04-01,Apr 2024,Accounts Receivable,AcctRec,UK Operations,Marketing,35283.59,0.0
+TXN50212,2024-04-01,Apr 2024,Service Revenue,Income,UK Operations,Marketing,0.0,35283.59
+TXN50213,2024-04-01,Apr 2024,Salaries and Wages,Expense,UK Operations,Sales,28532.89,0.0
+TXN50213,2024-04-01,Apr 2024,Cash - Operating,Bank,UK Operations,Sales,0.0,28532.89
+TXN50214,2024-04-03,Apr 2024,Rent Expense,Expense,Australia Pty Ltd,Operations,11149.08,0.0
+TXN50214,2024-04-03,Apr 2024,Accounts Receivable,AcctRec,Australia Pty Ltd,Operations,0.0,11149.08
+TXN50215,2024-04-12,Apr 2024,Sales Tax Payable,OthCurrLiab,Germany GmbH,,16556.95,0.0
+TXN50215,2024-04-12,Apr 2024,Cash - Operating,Bank,Germany GmbH,,0.0,16556.95
+TXN50216,2024-04-29,Apr 2024,Professional Fees,Expense,US Headquarters,Sales,8291.79,0.0
+TXN50216,2024-04-29,Apr 2024,Cash - Payroll,Bank,US Headquarters,Sales,0.0,8291.79
+TXN50217,2024-04-09,Apr 2024,Utilities,Expense,France SAS,,21488.73,0.0
+TXN50217,2024-04-09,Apr 2024,Prepaid Insurance,OthCurrAsset,France SAS,,0.0,21488.73
+TXN50218,2024-04-07,Apr 2024,Prepaid Insurance,OthCurrAsset,Canada Inc,Engineering,17586.06,0.0
+TXN50218,2024-04-07,Apr 2024,Service Revenue,Income,Canada Inc,Engineering,0.0,17586.06
+TXN50219,2024-04-17,Apr 2024,Prepaid Insurance,OthCurrAsset,Australia Pty Ltd,Marketing,2748.16,0.0
+TXN50219,2024-04-17,Apr 2024,Product Sales,Income,Australia Pty Ltd,Marketing,0.0,2748.16
+TXN50220,2024-04-01,Apr 2024,Interest Expense,OthExpense,UK Operations,Marketing,47293.54,0.0
+TXN50220,2024-04-01,Apr 2024,Prepaid Insurance,OthCurrAsset,UK Operations,Marketing,0.0,47293.54
+TXN50221,2024-04-10,Apr 2024,Salaries and Wages,Expense,Germany GmbH,Engineering,882.63,0.0
+TXN50221,2024-04-10,Apr 2024,Accounts Receivable,AcctRec,Germany GmbH,Engineering,0.0,882.63
+TXN50222,2024-04-13,Apr 2024,Professional Fees,Expense,Canada Inc,,11890.48,0.0
+TXN50222,2024-04-13,Apr 2024,Accounts Payable,AcctPay,Canada Inc,,0.0,11890.48
+TXN50223,2024-04-03,Apr 2024,Cash - Operating,Bank,France SAS,,2593.96,0.0
+TXN50223,2024-04-03,Apr 2024,Service Revenue,Income,France SAS,,0.0,2593.96
+TXN50224,2024-04-19,Apr 2024,Rent Expense,Expense,France SAS,Operations,20518.93,0.0
+TXN50224,2024-04-19,Apr 2024,Cash - Payroll,Bank,France SAS,Operations,0.0,20518.93
+TXN50225,2024-04-13,Apr 2024,Payroll Liabilities,OthCurrLiab,US Headquarters,Marketing,9007.72,0.0
+TXN50225,2024-04-13,Apr 2024,Accounts Receivable,AcctRec,US Headquarters,Marketing,0.0,9007.72
+TXN50226,2024-04-03,Apr 2024,Marketing and Advertising,Expense,France SAS,Engineering,12544.17,0.0
+TXN50226,2024-04-03,Apr 2024,Cash - Payroll,Bank,France SAS,Engineering,0.0,12544.17
+TXN50227,2024-04-13,Apr 2024,Cash - Payroll,Bank,Germany GmbH,,17305.91,0.0
+TXN50227,2024-04-13,Apr 2024,Product Sales,Income,Germany GmbH,,0.0,17305.91
+TXN50228,2024-04-17,Apr 2024,Accounts Receivable,AcctRec,Australia Pty Ltd,Engineering,26764.94,0.0
+TXN50228,2024-04-17,Apr 2024,Service Revenue,Income,Australia Pty Ltd,Engineering,0.0,26764.94
+TXN50229,2024-04-24,Apr 2024,Cash - Payroll,Bank,Australia Pty Ltd,Sales,12195.31,0.0
+TXN50229,2024-04-24,Apr 2024,Product Sales,Income,Australia Pty Ltd,Sales,0.0,12195.31
+TXN50230,2024-04-20,Apr 2024,Sales Tax Payable,OthCurrLiab,UK Operations,,4229.99,0.0
+TXN50230,2024-04-20,Apr 2024,Inventory - Finished Goods,OthCurrAsset,UK Operations,,0.0,4229.99
+TXN50231,2024-04-15,Apr 2024,Sales Tax Payable,OthCurrLiab,Canada Inc,Operations,22720.81,0.0
+TXN50231,2024-04-15,Apr 2024,Prepaid Insurance,OthCurrAsset,Canada Inc,Operations,0.0,22720.81
+TXN50232,2024-04-11,Apr 2024,Inventory - Finished Goods,OthCurrAsset,Australia Pty Ltd,Marketing,7972.39,0.0
+TXN50232,2024-04-11,Apr 2024,Interest Income,OthIncome,Australia Pty Ltd,Marketing,0.0,7972.39
+TXN50233,2024-04-10,Apr 2024,Rent Expense,Expense,Germany GmbH,Operations,3280.52,0.0
+TXN50233,2024-04-10,Apr 2024,Sales Tax Payable,OthCurrLiab,Germany GmbH,Operations,0.0,3280.52
+TXN50234,2024-04-15,Apr 2024,Cash - Operating,Bank,US Headquarters,Engineering,18752.51,0.0
+TXN50234,2024-04-15,Apr 2024,Interest Income,OthIncome,US Headquarters,Engineering,0.0,18752.51
+TXN50235,2024-04-20,Apr 2024,Interest Expense,OthExpense,Canada Inc,Finance,23404.23,0.0
+TXN50235,2024-04-20,Apr 2024,Cash - Operating,Bank,Canada Inc,Finance,0.0,23404.23
+TXN50236,2024-04-15,Apr 2024,Marketing and Advertising,Expense,Canada Inc,,9817.85,0.0
+TXN50236,2024-04-15,Apr 2024,Accounts Receivable,AcctRec,Canada Inc,,0.0,9817.85
+TXN50237,2024-04-02,Apr 2024,Sales Tax Payable,OthCurrLiab,France SAS,Engineering,40642.86,0.0
+TXN50237,2024-04-02,Apr 2024,Cash - Operating,Bank,France SAS,Engineering,0.0,40642.86
+TXN50238,2024-04-17,Apr 2024,Utilities,Expense,Australia Pty Ltd,Sales,2437.54,0.0
+TXN50238,2024-04-17,Apr 2024,Accounts Receivable,AcctRec,Australia Pty Ltd,Sales,0.0,2437.54
+TXN50239,2024-04-12,Apr 2024,Professional Fees,Expense,Germany GmbH,Marketing,19677.12,0.0
+TXN50239,2024-04-12,Apr 2024,Cash - Operating,Bank,Germany GmbH,Marketing,0.0,19677.12
+TXN50240,2024-04-26,Apr 2024,Prepaid Insurance,OthCurrAsset,Australia Pty Ltd,,17065.14,0.0
+TXN50240,2024-04-26,Apr 2024,Interest Income,OthIncome,Australia Pty Ltd,,0.0,17065.14
+TXN50241,2024-04-13,Apr 2024,Marketing and Advertising,Expense,Germany GmbH,Marketing,36324.82,0.0
+TXN50241,2024-04-13,Apr 2024,Accounts Receivable,AcctRec,Germany GmbH,Marketing,0.0,36324.82
+TXN50242,2024-04-11,Apr 2024,Payroll Liabilities,OthCurrLiab,US Headquarters,Operations,33348.8,0.0
+TXN50242,2024-04-11,Apr 2024,Inventory - Finished Goods,OthCurrAsset,US Headquarters,Operations,0.0,33348.8
+TXN50243,2024-04-05,Apr 2024,Inventory - Finished Goods,OthCurrAsset,Canada Inc,,46931.11,0.0
+TXN50243,2024-04-05,Apr 2024,Interest Income,OthIncome,Canada Inc,,0.0,46931.11
+TXN50244,2024-04-26,Apr 2024,Sales Tax Payable,OthCurrLiab,Germany GmbH,Sales,33670.76,0.0
+TXN50244,2024-04-26,Apr 2024,Prepaid Insurance,OthCurrAsset,Germany GmbH,Sales,0.0,33670.76
+TXN50245,2024-04-03,Apr 2024,Accounts Receivable,AcctRec,Australia Pty Ltd,,21458.62,0.0
+TXN50245,2024-04-03,Apr 2024,Service Revenue,Income,Australia Pty Ltd,,0.0,21458.62
+TXN50246,2024-04-06,Apr 2024,Salaries and Wages,Expense,UK Operations,Marketing,47409.58,0.0
+TXN50246,2024-04-06,Apr 2024,Accounts Receivable,AcctRec,UK Operations,Marketing,0.0,47409.58
+TXN50247,2024-04-05,Apr 2024,Prepaid Insurance,OthCurrAsset,US Headquarters,Marketing,42299.21,0.0
+TXN50247,2024-04-05,Apr 2024,Interest Income,OthIncome,US Headquarters,Marketing,0.0,42299.21
+TXN50248,2024-04-29,Apr 2024,Sales Tax Payable,OthCurrLiab,Canada Inc,Engineering,33265.5,0.0
+TXN50248,2024-04-29,Apr 2024,Cash - Payroll,Bank,Canada Inc,Engineering,0.0,33265.5
+TXN50249,2024-04-20,Apr 2024,Sales Tax Payable,OthCurrLiab,France SAS,Sales,8531.24,0.0
+TXN50249,2024-04-20,Apr 2024,Cash - Payroll,Bank,France SAS,Sales,0.0,8531.24
+TXN50250,2024-04-24,Apr 2024,Salaries and Wages,Expense,France SAS,Engineering,20837.5,0.0
+TXN50250,2024-04-24,Apr 2024,Sales Tax Payable,OthCurrLiab,France SAS,Engineering,0.0,20837.5
+TXN50251,2024-04-20,Apr 2024,Cash - Payroll,Bank,Germany GmbH,,39298.12,0.0
+TXN50251,2024-04-20,Apr 2024,Service Revenue,Income,Germany GmbH,,0.0,39298.12
+TXN50252,2024-04-26,Apr 2024,Payroll Liabilities,OthCurrLiab,France SAS,Sales,18708.13,0.0
+TXN50252,2024-04-26,Apr 2024,Inventory - Finished Goods,OthCurrAsset,France SAS,Sales,0.0,18708.13
+TXN50253,2024-04-25,Apr 2024,Salaries and Wages,Expense,Germany GmbH,Finance,25393.88,0.0
+TXN50253,2024-04-25,Apr 2024,Inventory - Finished Goods,OthCurrAsset,Germany GmbH,Finance,0.0,25393.88
+TXN50254,2024-04-26,Apr 2024,Inventory - Finished Goods,OthCurrAsset,Canada Inc,Sales,43713.6,0.0
+TXN50254,2024-04-26,Apr 2024,Service Revenue,Income,Canada Inc,Sales,0.0,43713.6
+TXN50255,2024-04-18,Apr 2024,Payroll Liabilities,OthCurrLiab,US Headquarters,,42371.67,0.0
+TXN50255,2024-04-18,Apr 2024,Cash - Operating,Bank,US Headquarters,,0.0,42371.67
+TXN50256,2024-04-25,Apr 2024,Interest Expense,OthExpense,UK Operations,Marketing,22741.3,0.0
+TXN50256,2024-04-25,Apr 2024,Payroll Liabilities,OthCurrLiab,UK Operations,Marketing,0.0,22741.3
+TXN50257,2024-04-03,Apr 2024,Payroll Liabilities,OthCurrLiab,UK Operations,Finance,44289.17,0.0
+TXN50257,2024-04-03,Apr 2024,Cash - Operating,Bank,UK Operations,Finance,0.0,44289.17
+TXN50258,2024-04-13,Apr 2024,Payroll Liabilities,OthCurrLiab,Canada Inc,Marketing,12171.01,0.0
+TXN50258,2024-04-13,Apr 2024,Cash - Payroll,Bank,Canada Inc,Marketing,0.0,12171.01
+TXN50259,2024-04-01,Apr 2024,Interest Expense,OthExpense,Germany GmbH,Engineering,42039.23,0.0
+TXN50259,2024-04-01,Apr 2024,Accounts Receivable,AcctRec,Germany GmbH,Engineering,0.0,42039.23
+TXN50260,2024-04-05,Apr 2024,Interest Expense,OthExpense,US Headquarters,Marketing,45911.11,0.0
+TXN50260,2024-04-05,Apr 2024,Accounts Receivable,AcctRec,US Headquarters,Marketing,0.0,45911.11
+TXN50261,2024-04-25,Apr 2024,Cash - Operating,Bank,Australia Pty Ltd,Finance,22705.77,0.0
+TXN50261,2024-04-25,Apr 2024,Product Sales,Income,Australia Pty Ltd,Finance,0.0,22705.77
+TXN50262,2024-04-09,Apr 2024,Marketing and Advertising,Expense,UK Operations,Sales,27665.81,0.0
+TXN50262,2024-04-09,Apr 2024,Payroll Liabilities,OthCurrLiab,UK Operations,Sales,0.0,27665.81
+TXN50263,2024-04-04,Apr 2024,Inventory - Finished Goods,OthCurrAsset,Germany GmbH,Sales,15406.98,0.0
+TXN50263,2024-04-04,Apr 2024,Interest Income,OthIncome,Germany GmbH,Sales,0.0,15406.98
+TXN50264,2024-04-26,Apr 2024,Payroll Liabilities,OthCurrLiab,Canada Inc,Finance,3608.95,0.0
+TXN50264,2024-04-26,Apr 2024,Prepaid Insurance,OthCurrAsset,Canada Inc,Finance,0.0,3608.95
+TXN50265,2024-04-18,Apr 2024,Cash - Payroll,Bank,US Headquarters,,26011.1,0.0
+TXN50265,2024-04-18,Apr 2024,Service Revenue,Income,US Headquarters,,0.0,26011.1
+TXN50266,2024-04-14,Apr 2024,Salaries and Wages,Expense,US Headquarters,Operations,17964.39,0.0
+TXN50266,2024-04-14,Apr 2024,Cash - Payroll,Bank,US Headquarters,Operations,0.0,17964.39
+TXN50267,2024-04-17,Apr 2024,Interest Expense,OthExpense,Germany GmbH,Engineering,47693.48,0.0
+TXN50267,2024-04-17,Apr 2024,Cash - Operating,Bank,Germany GmbH,Engineering,0.0,47693.48
+TXN50268,2024-04-13,Apr 2024,Payroll Liabilities,OthCurrLiab,France SAS,Engineering,31965.7,0.0
+TXN50268,2024-04-13,Apr 2024,Cash - Operating,Bank,France SAS,Engineering,0.0,31965.7
+TXN50269,2024-04-12,Apr 2024,Cost of Goods Sold,COGS,US Headquarters,Marketing,12435.73,0.0
+TXN50269,2024-04-12,Apr 2024,Accounts Payable,AcctPay,US Headquarters,Marketing,0.0,12435.73
+TXN50270,2024-04-05,Apr 2024,Accounts Payable,AcctPay,US Headquarters,Marketing,27527.68,0.0
+TXN50270,2024-04-05,Apr 2024,Inventory - Finished Goods,OthCurrAsset,US Headquarters,Marketing,0.0,27527.68
+TXN50271,2024-04-23,Apr 2024,Inventory - Finished Goods,OthCurrAsset,France SAS,,9522.76,0.0
+TXN50271,2024-04-23,Apr 2024,Product Sales,Income,France SAS,,0.0,9522.76
+TXN50272,2024-04-10,Apr 2024,Payroll Liabilities,OthCurrLiab,UK Operations,Engineering,39659.91,0.0
+TXN50272,2024-04-10,Apr 2024,Accounts Receivable,AcctRec,UK Operations,Engineering,0.0,39659.91
+TXN50273,2024-04-17,Apr 2024,Cash - Payroll,Bank,France SAS,Operations,23933.29,0.0
+TXN50273,2024-04-17,Apr 2024,Service Revenue,Income,France SAS,Operations,0.0,23933.29
+TXN50274,2024-04-12,Apr 2024,Accounts Receivable,AcctRec,US Headquarters,,16930.27,0.0
+TXN50274,2024-04-12,Apr 2024,Service Revenue,Income,US Headquarters,,0.0,16930.27
+TXN50275,2024-04-29,Apr 2024,Payroll Liabilities,OthCurrLiab,France SAS,,22266.96,0.0
+TXN50275,2024-04-29,Apr 2024,Cash - Payroll,Bank,France SAS,,0.0,22266.96
+TXN50276,2024-04-16,Apr 2024,Rent Expense,Expense,Australia Pty Ltd,Finance,18683.67,0.0
+TXN50276,2024-04-16,Apr 2024,Cash - Payroll,Bank,Australia Pty Ltd,Finance,0.0,18683.67
+TXN50277,2024-04-24,Apr 2024,Accounts Payable,AcctPay,France SAS,Engineering,21815.05,0.0
+TXN50277,2024-04-24,Apr 2024,Prepaid Insurance,OthCurrAsset,France SAS,Engineering,0.0,21815.05
+TXN50278,2024-04-10,Apr 2024,Rent Expense,Expense,Germany GmbH,Engineering,4463.41,0.0
+TXN50278,2024-04-10,Apr 2024,Sales Tax Payable,OthCurrLiab,Germany GmbH,Engineering,0.0,4463.41
+TXN50279,2024-04-20,Apr 2024,Utilities,Expense,Australia Pty Ltd,Finance,8748.92,0.0
+TXN50279,2024-04-20,Apr 2024,Cash - Operating,Bank,Australia Pty Ltd,Finance,0.0,8748.92
+TXN50280,2024-05-24,May 2024,Cash - Operating,Bank,Germany GmbH,Operations,49908.45,0.0
+TXN50280,2024-05-24,May 2024,Product Sales,Income,Germany GmbH,Operations,0.0,49908.45
+TXN50281,2024-05-22,May 2024,Sales Tax Payable,OthCurrLiab,Australia Pty Ltd,Finance,18483.9,0.0
+TXN50281,2024-05-22,May 2024,Cash - Payroll,Bank,Australia Pty Ltd,Finance,0.0,18483.9
+TXN50282,2024-05-31,May 2024,Utilities,Expense,US Headquarters,Sales,42509.13,0.0
+TXN50282,2024-05-31,May 2024,Cash - Operating,Bank,US Headquarters,Sales,0.0,42509.13
+TXN50283,2024-05-05,May 2024,Inventory - Finished Goods,OthCurrAsset,US Headquarters,Sales,39036.51,0.0
+TXN50283,2024-05-05,May 2024,Interest Income,OthIncome,US Headquarters,Sales,0.0,39036.51
+TXN50284,2024-05-02,May 2024,Payroll Liabilities,OthCurrLiab,Canada Inc,Sales,34113.57,0.0
+TXN50284,2024-05-02,May 2024,Inventory - Finished Goods,OthCurrAsset,Canada Inc,Sales,0.0,34113.57
+TXN50285,2024-05-25,May 2024,Accounts Receivable,AcctRec,US Headquarters,Operations,7315.91,0.0
+TXN50285,2024-05-25,May 2024,Interest Income,OthIncome,US Headquarters,Operations,0.0,7315.91
+TXN50286,2024-05-09,May 2024,Prepaid Insurance,OthCurrAsset,UK Operations,Engineering,1782.71,0.0
+TXN50286,2024-05-09,May 2024,Service Revenue,Income,UK Operations,Engineering,0.0,1782.71
+TXN50287,2024-05-30,May 2024,Inventory - Finished Goods,OthCurrAsset,Canada Inc,Engineering,13457.95,0.0
+TXN50287,2024-05-30,May 2024,Product Sales,Income,Canada Inc,Engineering,0.0,13457.95
+TXN50288,2024-05-20,May 2024,Cost of Goods Sold,COGS,Germany GmbH,,45865.71,0.0
+TXN50288,2024-05-20,May 2024,Accounts Receivable,AcctRec,Germany GmbH,,0.0,45865.71
+TXN50289,2024-05-28,May 2024,Cost of Goods Sold,COGS,US Headquarters,Finance,9046.49,0.0
+TXN50289,2024-05-28,May 2024,Accounts Payable,AcctPay,US Headquarters,Finance,0.0,9046.49
+TXN50290,2024-05-22,May 2024,Rent Expense,Expense,Germany GmbH,,3714.48,0.0
+TXN50290,2024-05-22,May 2024,Accounts Receivable,AcctRec,Germany GmbH,,0.0,3714.48
+TXN50291,2024-05-23,May 2024,Marketing and Advertising,Expense,Australia Pty Ltd,,32066.15,0.0
+TXN50291,2024-05-23,May 2024,Inventory - Finished Goods,OthCurrAsset,Australia Pty Ltd,,0.0,32066.15
+TXN50292,2024-05-04,May 2024,Rent Expense,Expense,UK Operations,Sales,12218.44,0.0
+TXN50292,2024-05-04,May 2024,Accounts Payable,AcctPay,UK Operations,Sales,0.0,12218.44
+TXN50293,2024-05-15,May 2024,Accounts Receivable,AcctRec,Canada Inc,Sales,30791.44,0.0
+TXN50293,2024-05-15,May 2024,Service Revenue,Income,Canada Inc,Sales,0.0,30791.44
+TXN50294,2024-05-23,May 2024,Interest Expense,OthExpense,Australia Pty Ltd,Finance,26521.93,0.0
+TXN50294,2024-05-23,May 2024,Cash - Payroll,Bank,Australia Pty Ltd,Finance,0.0,26521.93
+TXN50295,2024-05-05,May 2024,Marketing and Advertising,Expense,Germany GmbH,,4171.17,0.0
+TXN50295,2024-05-05,May 2024,Accounts Payable,AcctPay,Germany GmbH,,0.0,4171.17
+TXN50296,2024-05-05,May 2024,Salaries and Wages,Expense,Canada Inc,,29595.41,0.0
+TXN50296,2024-05-05,May 2024,Payroll Liabilities,OthCurrLiab,Canada Inc,,0.0,29595.41
+TXN50297,2024-05-17,May 2024,Cash - Payroll,Bank,US Headquarters,Engineering,26146.06,0.0
+TXN50297,2024-05-17,May 2024,Service Revenue,Income,US Headquarters,Engineering,0.0,26146.06
+TXN50298,2024-05-30,May 2024,Payroll Liabilities,OthCurrLiab,Australia Pty Ltd,Sales,17628.14,0.0
+TXN50298,2024-05-30,May 2024,Cash - Operating,Bank,Australia Pty Ltd,Sales,0.0,17628.14
+TXN50299,2024-05-09,May 2024,Accounts Receivable,AcctRec,UK Operations,,47839.41,0.0
+TXN50299,2024-05-09,May 2024,Interest Income,OthIncome,UK Operations,,0.0,47839.41
+TXN50300,2024-05-18,May 2024,Marketing and Advertising,Expense,US Headquarters,Operations,32228.88,0.0
+TXN50300,2024-05-18,May 2024,Accounts Receivable,AcctRec,US Headquarters,Operations,0.0,32228.88
+TXN50301,2024-05-06,May 2024,Interest Expense,OthExpense,Australia Pty Ltd,Operations,36171.32,0.0
+TXN50301,2024-05-06,May 2024,Cash - Operating,Bank,Australia Pty Ltd,Operations,0.0,36171.32
+TXN50302,2024-05-27,May 2024,Marketing and Advertising,Expense,US Headquarters,Engineering,2750.36,0.0
+TXN50302,2024-05-27,May 2024,Prepaid Insurance,OthCurrAsset,US Headquarters,Engineering,0.0,2750.36
+TXN50303,2024-05-21,May 2024,Utilities,Expense,UK Operations,Operations,21121.05,0.0
+TXN50303,2024-05-21,May 2024,Prepaid Insurance,OthCurrAsset,UK Operations,Operations,0.0,21121.05
+TXN50304,2024-05-21,May 2024,Payroll Liabilities,OthCurrLiab,Germany GmbH,Finance,12621.46,0.0
+TXN50304,2024-05-21,May 2024,Accounts Receivable,AcctRec,Germany GmbH,Finance,0.0,12621.46
+TXN50305,2024-05-15,May 2024,Utilities,Expense,US Headquarters,,3465.7,0.0
+TXN50305,2024-05-15,May 2024,Sales Tax Payable,OthCurrLiab,US Headquarters,,0.0,3465.7
+TXN50306,2024-05-07,May 2024,Payroll Liabilities,OthCurrLiab,Germany GmbH,Operations,7611.6,0.0
+TXN50306,2024-05-07,May 2024,Accounts Receivable,AcctRec,Germany GmbH,Operations,0.0,7611.6
+TXN50307,2024-05-13,May 2024,Cash - Payroll,Bank,UK Operations,Marketing,25991.52,0.0
+TXN50307,2024-05-13,May 2024,Service Revenue,Income,UK Operations,Marketing,0.0,25991.52
+TXN50308,2024-05-04,May 2024,Accounts Receivable,AcctRec,Germany GmbH,Finance,12771.98,0.0
+TXN50308,2024-05-04,May 2024,Service Revenue,Income,Germany GmbH,Finance,0.0,12771.98
+TXN50309,2024-05-28,May 2024,Accounts Payable,AcctPay,Canada Inc,Finance,12789.38,0.0
+TXN50309,2024-05-28,May 2024,Accounts Receivable,AcctRec,Canada Inc,Finance,0.0,12789.38
+TXN50310,2024-05-30,May 2024,Utilities,Expense,Canada Inc,,15979.39,0.0
+TXN50310,2024-05-30,May 2024,Sales Tax Payable,OthCurrLiab,Canada Inc,,0.0,15979.39
+TXN50311,2024-05-16,May 2024,Sales Tax Payable,OthCurrLiab,Germany GmbH,Finance,1647.23,0.0
+TXN50311,2024-05-16,May 2024,Inventory - Finished Goods,OthCurrAsset,Germany GmbH,Finance,0.0,1647.23
+TXN50312,2024-05-31,May 2024,Accounts Receivable,AcctRec,UK Operations,Sales,29375.53,0.0
+TXN50312,2024-05-31,May 2024,Service Revenue,Income,UK Operations,Sales,0.0,29375.53
+TXN50313,2024-05-20,May 2024,Interest Expense,OthExpense,Australia Pty Ltd,,23794.05,0.0
+TXN50313,2024-05-20,May 2024,Cash - Payroll,Bank,Australia Pty Ltd,,0.0,23794.05
+TXN50314,2024-05-14,May 2024,Rent Expense,Expense,UK Operations,Marketing,36511.65,0.0
+TXN50314,2024-05-14,May 2024,Cash - Operating,Bank,UK Operations,Marketing,0.0,36511.65
+TXN50315,2024-05-13,May 2024,Accounts Receivable,AcctRec,US Headquarters,Operations,28309.93,0.0
+TXN50315,2024-05-13,May 2024,Product Sales,Income,US Headquarters,Operations,0.0,28309.93
+TXN50316,2024-05-13,May 2024,Prepaid Insurance,OthCurrAsset,Canada Inc,Finance,38338.0,0.0
+TXN50316,2024-05-13,May 2024,Interest Income,OthIncome,Canada Inc,Finance,0.0,38338.0
+TXN50317,2024-05-20,May 2024,Accounts Receivable,AcctRec,US Headquarters,Sales,48766.6,0.0
+TXN50317,2024-05-20,May 2024,Interest Income,OthIncome,US Headquarters,Sales,0.0,48766.6
+TXN50318,2024-05-31,May 2024,Marketing and Advertising,Expense,Germany GmbH,Sales,10353.37,0.0
+TXN50318,2024-05-31,May 2024,Cash - Operating,Bank,Germany GmbH,Sales,0.0,10353.37
+TXN50319,2024-05-02,May 2024,Sales Tax Payable,OthCurrLiab,US Headquarters,Sales,35822.8,0.0
+TXN50319,2024-05-02,May 2024,Inventory - Finished Goods,OthCurrAsset,US Headquarters,Sales,0.0,35822.8
+TXN50320,2024-05-05,May 2024,Payroll Liabilities,OthCurrLiab,Canada Inc,Operations,7419.16,0.0
+TXN50320,2024-05-05,May 2024,Cash - Payroll,Bank,Canada Inc,Operations,0.0,7419.16
+TXN50321,2024-05-13,May 2024,Marketing and Advertising,Expense,Canada Inc,,42208.8,0.0
+TXN50321,2024-05-13,May 2024,Sales Tax Payable,OthCurrLiab,Canada Inc,,0.0,42208.8
+TXN50322,2024-05-23,May 2024,Accounts Receivable,AcctRec,Canada Inc,Marketing,24007.18,0.0
+TXN50322,2024-05-23,May 2024,Interest Income,OthIncome,Canada Inc,Marketing,0.0,24007.18
+TXN50323,2024-05-04,May 2024,Sales Tax Payable,OthCurrLiab,France SAS,Operations,15730.05,0.0
+TXN50323,2024-05-04,May 2024,Cash - Operating,Bank,France SAS,Operations,0.0,15730.05
+TXN50324,2024-05-20,May 2024,Interest Expense,OthExpense,France SAS,Marketing,48370.0,0.0
+TXN50324,2024-05-20,May 2024,Inventory - Finished Goods,OthCurrAsset,France SAS,Marketing,0.0,48370.0
+TXN50325,2024-05-24,May 2024,Professional Fees,Expense,US Headquarters,Operations,24282.21,0.0
+TXN50325,2024-05-24,May 2024,Payroll Liabilities,OthCurrLiab,US Headquarters,Operations,0.0,24282.21
+TXN50326,2024-05-05,May 2024,Accounts Payable,AcctPay,Australia Pty Ltd,Sales,2062.74,0.0
+TXN50326,2024-05-05,May 2024,Cash - Payroll,Bank,Australia Pty Ltd,Sales,0.0,2062.74
+TXN50327,2024-05-01,May 2024,Salaries and Wages,Expense,France SAS,Marketing,21229.62,0.0
+TXN50327,2024-05-01,May 2024,Payroll Liabilities,OthCurrLiab,France SAS,Marketing,0.0,21229.62
+TXN50328,2024-05-17,May 2024,Cost of Goods Sold,COGS,Canada Inc,Finance,43704.48,0.0
+TXN50328,2024-05-17,May 2024,Accounts Receivable,AcctRec,Canada Inc,Finance,0.0,43704.48
+TXN50329,2024-05-17,May 2024,Marketing and Advertising,Expense,UK Operations,Operations,16589.95,0.0
+TXN50329,2024-05-17,May 2024,Payroll Liabilities,OthCurrLiab,UK Operations,Operations,0.0,16589.95
+TXN50330,2024-05-11,May 2024,Accounts Receivable,AcctRec,UK Operations,Finance,45650.15,0.0
+TXN50330,2024-05-11,May 2024,Interest Income,OthIncome,UK Operations,Finance,0.0,45650.15
+TXN50331,2024-05-25,May 2024,Marketing and Advertising,Expense,Australia Pty Ltd,,32343.8,0.0
+TXN50331,2024-05-25,May 2024,Sales Tax Payable,OthCurrLiab,Australia Pty Ltd,,0.0,32343.8
+TXN50332,2024-05-07,May 2024,Accounts Receivable,AcctRec,UK Operations,Marketing,28125.29,0.0
+TXN50332,2024-05-07,May 2024,Service Revenue,Income,UK Operations,Marketing,0.0,28125.29
+TXN50333,2024-05-23,May 2024,Accounts Receivable,AcctRec,UK Operations,,35396.92,0.0
+TXN50333,2024-05-23,May 2024,Interest Income,OthIncome,UK Operations,,0.0,35396.92
+TXN50334,2024-05-30,May 2024,Marketing and Advertising,Expense,Australia Pty Ltd,Marketing,14745.57,0.0
+TXN50334,2024-05-30,May 2024,Payroll Liabilities,OthCurrLiab,Australia Pty Ltd,Marketing,0.0,14745.57
+TXN50335,2024-05-29,May 2024,Payroll Liabilities,OthCurrLiab,France SAS,Marketing,47753.14,0.0
+TXN50335,2024-05-29,May 2024,Cash - Operating,Bank,France SAS,Marketing,0.0,47753.14
+TXN50336,2024-05-10,May 2024,Rent Expense,Expense,Australia Pty Ltd,Engineering,17644.99,0.0
+TXN50336,2024-05-10,May 2024,Sales Tax Payable,OthCurrLiab,Australia Pty Ltd,Engineering,0.0,17644.99
+TXN50337,2024-05-07,May 2024,Rent Expense,Expense,UK Operations,Operations,13921.07,0.0
+TXN50337,2024-05-07,May 2024,Accounts Receivable,AcctRec,UK Operations,Operations,0.0,13921.07
+TXN50338,2024-05-04,May 2024,Prepaid Insurance,OthCurrAsset,Canada Inc,,29548.11,0.0
+TXN50338,2024-05-04,May 2024,Product Sales,Income,Canada Inc,,0.0,29548.11
+TXN50339,2024-05-21,May 2024,Inventory - Finished Goods,OthCurrAsset,UK Operations,Engineering,5459.8,0.0
+TXN50339,2024-05-21,May 2024,Product Sales,Income,UK Operations,Engineering,0.0,5459.8
+TXN50340,2024-05-22,May 2024,Accounts Payable,AcctPay,UK Operations,Engineering,48243.68,0.0
+TXN50340,2024-05-22,May 2024,Inventory - Finished Goods,OthCurrAsset,UK Operations,Engineering,0.0,48243.68
+TXN50341,2024-05-21,May 2024,Rent Expense,Expense,France SAS,Finance,32701.67,0.0
+TXN50341,2024-05-21,May 2024,Accounts Payable,AcctPay,France SAS,Finance,0.0,32701.67
+TXN50342,2024-05-10,May 2024,Prepaid Insurance,OthCurrAsset,Australia Pty Ltd,Engineering,45442.88,0.0
+TXN50342,2024-05-10,May 2024,Product Sales,Income,Australia Pty Ltd,Engineering,0.0,45442.88
+TXN50343,2024-05-18,May 2024,Cash - Payroll,Bank,Australia Pty Ltd,,42591.49,0.0
+TXN50343,2024-05-18,May 2024,Service Revenue,Income,Australia Pty Ltd,,0.0,42591.49
+TXN50344,2024-05-29,May 2024,Inventory - Finished Goods,OthCurrAsset,UK Operations,Engineering,49860.0,0.0
+TXN50344,2024-05-29,May 2024,Product Sales,Income,UK Operations,Engineering,0.0,49860.0
+TXN50345,2024-05-30,May 2024,Prepaid Insurance,OthCurrAsset,Australia Pty Ltd,Marketing,43898.79,0.0
+TXN50345,2024-05-30,May 2024,Interest Income,OthIncome,Australia Pty Ltd,Marketing,0.0,43898.79
+TXN50346,2024-05-04,May 2024,Marketing and Advertising,Expense,Germany GmbH,Marketing,22990.28,0.0
+TXN50346,2024-05-04,May 2024,Sales Tax Payable,OthCurrLiab,Germany GmbH,Marketing,0.0,22990.28
+TXN50347,2024-05-29,May 2024,Cash - Operating,Bank,UK Operations,Operations,23667.03,0.0
+TXN50347,2024-05-29,May 2024,Service Revenue,Income,UK Operations,Operations,0.0,23667.03
+TXN50348,2024-05-06,May 2024,Cost of Goods Sold,COGS,Australia Pty Ltd,Finance,32590.12,0.0
+TXN50348,2024-05-06,May 2024,Accounts Payable,AcctPay,Australia Pty Ltd,Finance,0.0,32590.12
+TXN50349,2024-05-26,May 2024,Prepaid Insurance,OthCurrAsset,Germany GmbH,Operations,33882.86,0.0
+TXN50349,2024-05-26,May 2024,Interest Income,OthIncome,Germany GmbH,Operations,0.0,33882.86
+TXN50350,2024-06-29,Jun 2024,Cash - Operating,Bank,France SAS,Finance,26006.39,0.0
+TXN50350,2024-06-29,Jun 2024,Product Sales,Income,France SAS,Finance,0.0,26006.39
+TXN50351,2024-06-05,Jun 2024,Inventory - Finished Goods,OthCurrAsset,France SAS,Marketing,46823.36,0.0
+TXN50351,2024-06-05,Jun 2024,Product Sales,Income,France SAS,Marketing,0.0,46823.36
+TXN50352,2024-06-15,Jun 2024,Cost of Goods Sold,COGS,Germany GmbH,Marketing,15446.32,0.0
+TXN50352,2024-06-15,Jun 2024,Prepaid Insurance,OthCurrAsset,Germany GmbH,Marketing,0.0,15446.32
+TXN50353,2024-06-21,Jun 2024,Utilities,Expense,Germany GmbH,,12196.98,0.0
+TXN50353,2024-06-21,Jun 2024,Prepaid Insurance,OthCurrAsset,Germany GmbH,,0.0,12196.98
+TXN50354,2024-06-06,Jun 2024,Sales Tax Payable,OthCurrLiab,France SAS,,25374.76,0.0
+TXN50354,2024-06-06,Jun 2024,Accounts Receivable,AcctRec,France SAS,,0.0,25374.76
+TXN50355,2024-06-23,Jun 2024,Prepaid Insurance,OthCurrAsset,US Headquarters,,45848.45,0.0
+TXN50355,2024-06-23,Jun 2024,Product Sales,Income,US Headquarters,,0.0,45848.45
+TXN50356,2024-06-08,Jun 2024,Marketing and Advertising,Expense,UK Operations,Finance,8082.69,0.0
+TXN50356,2024-06-08,Jun 2024,Accounts Payable,AcctPay,UK Operations,Finance,0.0,8082.69
+TXN50357,2024-06-14,Jun 2024,Interest Expense,OthExpense,Australia Pty Ltd,Operations,45683.45,0.0
+TXN50357,2024-06-14,Jun 2024,Inventory - Finished Goods,OthCurrAsset,Australia Pty Ltd,Operations,0.0,45683.45
+TXN50358,2024-06-25,Jun 2024,Accounts Payable,AcctPay,UK Operations,,37859.61,0.0
+TXN50358,2024-06-25,Jun 2024,Prepaid Insurance,OthCurrAsset,UK Operations,,0.0,37859.61
+TXN50359,2024-06-15,Jun 2024,Accounts Payable,AcctPay,Canada Inc,,18408.35,0.0
+TXN50359,2024-06-15,Jun 2024,Cash - Operating,Bank,Canada Inc,,0.0,18408.35
+TXN50360,2024-06-27,Jun 2024,Salaries and Wages,Expense,Canada Inc,Operations,10506.76,0.0
+TXN50360,2024-06-27,Jun 2024,Accounts Payable,AcctPay,Canada Inc,Operations,0.0,10506.76
+TXN50361,2024-06-28,Jun 2024,Prepaid Insurance,OthCurrAsset,Canada Inc,Finance,6253.88,0.0
+TXN50361,2024-06-28,Jun 2024,Service Revenue,Income,Canada Inc,Finance,0.0,6253.88
+TXN50362,2024-06-03,Jun 2024,Marketing and Advertising,Expense,Canada Inc,Finance,40530.26,0.0
+TXN50362,2024-06-03,Jun 2024,Payroll Liabilities,OthCurrLiab,Canada Inc,Finance,0.0,40530.26
+TXN50363,2024-06-15,Jun 2024,Rent Expense,Expense,Canada Inc,Engineering,28160.46,0.0
+TXN50363,2024-06-15,Jun 2024,Cash - Operating,Bank,Canada Inc,Engineering,0.0,28160.46
+TXN50364,2024-06-13,Jun 2024,Cost of Goods Sold,COGS,Germany GmbH,Engineering,37417.32,0.0
+TXN50364,2024-06-13,Jun 2024,Payroll Liabilities,OthCurrLiab,Germany GmbH,Engineering,0.0,37417.32
+TXN50365,2024-06-12,Jun 2024,Cash - Operating,Bank,Australia Pty Ltd,Engineering,27287.59,0.0
+TXN50365,2024-06-12,Jun 2024,Service Revenue,Income,Australia Pty Ltd,Engineering,0.0,27287.59
+TXN50366,2024-06-02,Jun 2024,Inventory - Finished Goods,OthCurrAsset,Germany GmbH,Finance,9409.08,0.0
+TXN50366,2024-06-02,Jun 2024,Service Revenue,Income,Germany GmbH,Finance,0.0,9409.08
+TXN50367,2024-06-29,Jun 2024,Payroll Liabilities,OthCurrLiab,France SAS,Finance,43546.2,0.0
+TXN50367,2024-06-29,Jun 2024,Cash - Operating,Bank,France SAS,Finance,0.0,43546.2
+TXN50368,2024-06-22,Jun 2024,Accounts Payable,AcctPay,Australia Pty Ltd,Operations,7083.0,0.0
+TXN50368,2024-06-22,Jun 2024,Cash - Payroll,Bank,Australia Pty Ltd,Operations,0.0,7083.0
+TXN50369,2024-06-18,Jun 2024,Accounts Payable,AcctPay,France SAS,Operations,6803.68,0.0
+TXN50369,2024-06-18,Jun 2024,Cash - Operating,Bank,France SAS,Operations,0.0,6803.68
+TXN50370,2024-06-10,Jun 2024,Utilities,Expense,France SAS,,36095.15,0.0
+TXN50370,2024-06-10,Jun 2024,Inventory - Finished Goods,OthCurrAsset,France SAS,,0.0,36095.15
+TXN50371,2024-06-08,Jun 2024,Cash - Operating,Bank,France SAS,Marketing,8178.51,0.0
+TXN50371,2024-06-08,Jun 2024,Product Sales,Income,France SAS,Marketing,0.0,8178.51
+TXN50372,2024-06-26,Jun 2024,Accounts Payable,AcctPay,Australia Pty Ltd,Finance,30938.7,0.0
+TXN50372,2024-06-26,Jun 2024,Cash - Payroll,Bank,Australia Pty Ltd,Finance,0.0,30938.7
+TXN50373,2024-06-07,Jun 2024,Professional Fees,Expense,US Headquarters,Engineering,29900.24,0.0
+TXN50373,2024-06-07,Jun 2024,Cash - Operating,Bank,US Headquarters,Engineering,0.0,29900.24
+TXN50374,2024-06-08,Jun 2024,Cash - Payroll,Bank,Australia Pty Ltd,Engineering,20412.13,0.0
+TXN50374,2024-06-08,Jun 2024,Product Sales,Income,Australia Pty Ltd,Engineering,0.0,20412.13
+TXN50375,2024-06-05,Jun 2024,Sales Tax Payable,OthCurrLiab,Canada Inc,Marketing,12091.0,0.0
+TXN50375,2024-06-05,Jun 2024,Accounts Receivable,AcctRec,Canada Inc,Marketing,0.0,12091.0
+TXN50376,2024-06-19,Jun 2024,Cash - Payroll,Bank,Canada Inc,,41009.93,0.0
+TXN50376,2024-06-19,Jun 2024,Interest Income,OthIncome,Canada Inc,,0.0,41009.93
+TXN50377,2024-06-17,Jun 2024,Prepaid Insurance,OthCurrAsset,UK Operations,Finance,15374.8,0.0
+TXN50377,2024-06-17,Jun 2024,Interest Income,OthIncome,UK Operations,Finance,0.0,15374.8
+TXN50378,2024-06-30,Jun 2024,Cost of Goods Sold,COGS,UK Operations,,34098.13,0.0
+TXN50378,2024-06-30,Jun 2024,Accounts Payable,AcctPay,UK Operations,,0.0,34098.13
+TXN50379,2024-06-21,Jun 2024,Inventory - Finished Goods,OthCurrAsset,Australia Pty Ltd,Finance,39397.33,0.0
+TXN50379,2024-06-21,Jun 2024,Service Revenue,Income,Australia Pty Ltd,Finance,0.0,39397.33
+TXN50380,2024-06-05,Jun 2024,Salaries and Wages,Expense,Germany GmbH,Finance,9602.01,0.0
+TXN50380,2024-06-05,Jun 2024,Inventory - Finished Goods,OthCurrAsset,Germany GmbH,Finance,0.0,9602.01
+TXN50381,2024-06-10,Jun 2024,Sales Tax Payable,OthCurrLiab,Australia Pty Ltd,Sales,40385.92,0.0
+TXN50381,2024-06-10,Jun 2024,Inventory - Finished Goods,OthCurrAsset,Australia Pty Ltd,Sales,0.0,40385.92
+TXN50382,2024-06-14,Jun 2024,Cash - Payroll,Bank,Canada Inc,Operations,7137.59,0.0
+TXN50382,2024-06-14,Jun 2024,Service Revenue,Income,Canada Inc,Operations,0.0,7137.59
+TXN50383,2024-06-21,Jun 2024,Cash - Payroll,Bank,US Headquarters,Finance,42433.1,0.0
+TXN50383,2024-06-21,Jun 2024,Product Sales,Income,US Headquarters,Finance,0.0,42433.1
+TXN50384,2024-06-09,Jun 2024,Cash - Operating,Bank,France SAS,,30445.99,0.0
+TXN50384,2024-06-09,Jun 2024,Product Sales,Income,France SAS,,0.0,30445.99
+TXN50385,2024-06-26,Jun 2024,Cash - Payroll,Bank,Canada Inc,,33736.8,0.0
+TXN50385,2024-06-26,Jun 2024,Service Revenue,Income,Canada Inc,,0.0,33736.8
+TXN50386,2024-06-10,Jun 2024,Accounts Payable,AcctPay,US Headquarters,Sales,46889.41,0.0
+TXN50386,2024-06-10,Jun 2024,Inventory - Finished Goods,OthCurrAsset,US Headquarters,Sales,0.0,46889.41
+TXN50387,2024-06-30,Jun 2024,Cash - Payroll,Bank,UK Operations,,30417.88,0.0
+TXN50387,2024-06-30,Jun 2024,Interest Income,OthIncome,UK Operations,,0.0,30417.88
+TXN50388,2024-06-11,Jun 2024,Rent Expense,Expense,Germany GmbH,Finance,23579.4,0.0
+TXN50388,2024-06-11,Jun 2024,Prepaid Insurance,OthCurrAsset,Germany GmbH,Finance,0.0,23579.4
+TXN50389,2024-06-12,Jun 2024,Sales Tax Payable,OthCurrLiab,Canada Inc,Finance,23567.2,0.0
+TXN50389,2024-06-12,Jun 2024,Inventory - Finished Goods,OthCurrAsset,Canada Inc,Finance,0.0,23567.2
+TXN50390,2024-06-25,Jun 2024,Marketing and Advertising,Expense,Germany GmbH,Sales,18849.89,0.0
+TXN50390,2024-06-25,Jun 2024,Inventory - Finished Goods,OthCurrAsset,Germany GmbH,Sales,0.0,18849.89
+TXN50391,2024-06-24,Jun 2024,Sales Tax Payable,OthCurrLiab,UK Operations,Engineering,13408.32,0.0
+TXN50391,2024-06-24,Jun 2024,Inventory - Finished Goods,OthCurrAsset,UK Operations,Engineering,0.0,13408.32
+TXN50392,2024-06-10,Jun 2024,Cash - Payroll,Bank,UK Operations,Sales,16828.33,0.0
+TXN50392,2024-06-10,Jun 2024,Service Revenue,Income,UK Operations,Sales,0.0,16828.33
+TXN50393,2024-06-18,Jun 2024,Utilities,Expense,Australia Pty Ltd,,17209.43,0.0
+TXN50393,2024-06-18,Jun 2024,Sales Tax Payable,OthCurrLiab,Australia Pty Ltd,,0.0,17209.43
+TXN50394,2024-06-15,Jun 2024,Prepaid Insurance,OthCurrAsset,UK Operations,,39851.29,0.0
+TXN50394,2024-06-15,Jun 2024,Service Revenue,Income,UK Operations,,0.0,39851.29
+TXN50395,2024-06-06,Jun 2024,Interest Expense,OthExpense,Canada Inc,,47883.23,0.0
+TXN50395,2024-06-06,Jun 2024,Cash - Payroll,Bank,Canada Inc,,0.0,47883.23
+TXN50396,2024-06-27,Jun 2024,Interest Expense,OthExpense,Australia Pty Ltd,Engineering,38334.77,0.0
+TXN50396,2024-06-27,Jun 2024,Inventory - Finished Goods,OthCurrAsset,Australia Pty Ltd,Engineering,0.0,38334.77
+TXN50397,2024-06-03,Jun 2024,Rent Expense,Expense,Australia Pty Ltd,Sales,952.5,0.0
+TXN50397,2024-06-03,Jun 2024,Cash - Operating,Bank,Australia Pty Ltd,Sales,0.0,952.5
+TXN50398,2024-06-20,Jun 2024,Sales Tax Payable,OthCurrLiab,Australia Pty Ltd,,46728.23,0.0
+TXN50398,2024-06-20,Jun 2024,Inventory - Finished Goods,OthCurrAsset,Australia Pty Ltd,,0.0,46728.23
+TXN50399,2024-06-01,Jun 2024,Prepaid Insurance,OthCurrAsset,US Headquarters,Operations,27806.36,0.0
+TXN50399,2024-06-01,Jun 2024,Interest Income,OthIncome,US Headquarters,Operations,0.0,27806.36
+TXN50400,2024-06-09,Jun 2024,Sales Tax Payable,OthCurrLiab,Canada Inc,Marketing,1348.56,0.0
+TXN50400,2024-06-09,Jun 2024,Inventory - Finished Goods,OthCurrAsset,Canada Inc,Marketing,0.0,1348.56
+TXN50401,2024-06-26,Jun 2024,Salaries and Wages,Expense,UK Operations,Engineering,45943.42,0.0
+TXN50401,2024-06-26,Jun 2024,Inventory - Finished Goods,OthCurrAsset,UK Operations,Engineering,0.0,45943.42
+TXN50402,2024-06-20,Jun 2024,Inventory - Finished Goods,OthCurrAsset,Canada Inc,Marketing,40853.11,0.0
+TXN50402,2024-06-20,Jun 2024,Product Sales,Income,Canada Inc,Marketing,0.0,40853.11
+TXN50403,2024-06-12,Jun 2024,Accounts Payable,AcctPay,France SAS,Finance,28467.61,0.0
+TXN50403,2024-06-12,Jun 2024,Accounts Receivable,AcctRec,France SAS,Finance,0.0,28467.61
+TXN50404,2024-06-22,Jun 2024,Cost of Goods Sold,COGS,US Headquarters,,49587.9,0.0
+TXN50404,2024-06-22,Jun 2024,Cash - Payroll,Bank,US Headquarters,,0.0,49587.9
+TXN50405,2024-06-13,Jun 2024,Cash - Operating,Bank,France SAS,Finance,27858.72,0.0
+TXN50405,2024-06-13,Jun 2024,Interest Income,OthIncome,France SAS,Finance,0.0,27858.72
+TXN50406,2024-06-06,Jun 2024,Rent Expense,Expense,US Headquarters,Finance,42343.82,0.0
+TXN50406,2024-06-06,Jun 2024,Cash - Payroll,Bank,US Headquarters,Finance,0.0,42343.82
+TXN50407,2024-06-29,Jun 2024,Sales Tax Payable,OthCurrLiab,Canada Inc,Engineering,11873.44,0.0
+TXN50407,2024-06-29,Jun 2024,Prepaid Insurance,OthCurrAsset,Canada Inc,Engineering,0.0,11873.44
+TXN50408,2024-06-16,Jun 2024,Rent Expense,Expense,Germany GmbH,Engineering,46245.88,0.0
+TXN50408,2024-06-16,Jun 2024,Cash - Operating,Bank,Germany GmbH,Engineering,0.0,46245.88
+TXN50409,2024-06-06,Jun 2024,Interest Expense,OthExpense,Germany GmbH,Engineering,48092.72,0.0
+TXN50409,2024-06-06,Jun 2024,Payroll Liabilities,OthCurrLiab,Germany GmbH,Engineering,0.0,48092.72
+TXN50410,2024-06-30,Jun 2024,Inventory - Finished Goods,OthCurrAsset,US Headquarters,Marketing,8541.29,0.0
+TXN50410,2024-06-30,Jun 2024,Interest Income,OthIncome,US Headquarters,Marketing,0.0,8541.29
+TXN50411,2024-06-29,Jun 2024,Interest Expense,OthExpense,Canada Inc,Marketing,19500.39,0.0
+TXN50411,2024-06-29,Jun 2024,Cash - Payroll,Bank,Canada Inc,Marketing,0.0,19500.39
+TXN50412,2024-06-17,Jun 2024,Interest Expense,OthExpense,Australia Pty Ltd,Marketing,3157.97,0.0
+TXN50412,2024-06-17,Jun 2024,Cash - Payroll,Bank,Australia Pty Ltd,Marketing,0.0,3157.97
+TXN50413,2024-06-11,Jun 2024,Accounts Receivable,AcctRec,Canada Inc,Operations,47765.49,0.0
+TXN50413,2024-06-11,Jun 2024,Product Sales,Income,Canada Inc,Operations,0.0,47765.49
+TXN50414,2024-06-21,Jun 2024,Inventory - Finished Goods,OthCurrAsset,Germany GmbH,Finance,24784.87,0.0
+TXN50414,2024-06-21,Jun 2024,Service Revenue,Income,Germany GmbH,Finance,0.0,24784.87
+TXN50415,2024-06-06,Jun 2024,Prepaid Insurance,OthCurrAsset,Australia Pty Ltd,Operations,33203.26,0.0
+TXN50415,2024-06-06,Jun 2024,Service Revenue,Income,Australia Pty Ltd,Operations,0.0,33203.26
+TXN50416,2024-06-26,Jun 2024,Inventory - Finished Goods,OthCurrAsset,UK Operations,,4138.58,0.0
+TXN50416,2024-06-26,Jun 2024,Interest Income,OthIncome,UK Operations,,0.0,4138.58
+TXN50417,2024-06-26,Jun 2024,Cash - Operating,Bank,Australia Pty Ltd,Sales,37112.94,0.0
+TXN50417,2024-06-26,Jun 2024,Product Sales,Income,Australia Pty Ltd,Sales,0.0,37112.94
+TXN50418,2024-06-01,Jun 2024,Cash - Payroll,Bank,Germany GmbH,Finance,18315.92,0.0
+TXN50418,2024-06-01,Jun 2024,Product Sales,Income,Germany GmbH,Finance,0.0,18315.92
+TXN50419,2024-06-06,Jun 2024,Cost of Goods Sold,COGS,France SAS,Finance,28070.76,0.0
+TXN50419,2024-06-06,Jun 2024,Cash - Operating,Bank,France SAS,Finance,0.0,28070.76
+TXN50420,2024-07-03,Jul 2024,Rent Expense,Expense,Germany GmbH,Operations,5106.68,0.0
+TXN50420,2024-07-03,Jul 2024,Payroll Liabilities,OthCurrLiab,Germany GmbH,Operations,0.0,5106.68
+TXN50421,2024-07-01,Jul 2024,Prepaid Insurance,OthCurrAsset,Germany GmbH,Finance,19696.08,0.0
+TXN50421,2024-07-01,Jul 2024,Product Sales,Income,Germany GmbH,Finance,0.0,19696.08
+TXN50422,2024-07-19,Jul 2024,Accounts Receivable,AcctRec,Canada Inc,Sales,34423.14,0.0
+TXN50422,2024-07-19,Jul 2024,Service Revenue,Income,Canada Inc,Sales,0.0,34423.14
+TXN50423,2024-07-09,Jul 2024,Utilities,Expense,France SAS,Sales,3631.72,0.0
+TXN50423,2024-07-09,Jul 2024,Prepaid Insurance,OthCurrAsset,France SAS,Sales,0.0,3631.72
+TXN50424,2024-07-16,Jul 2024,Inventory - Finished Goods,OthCurrAsset,US Headquarters,Marketing,12959.14,0.0
+TXN50424,2024-07-16,Jul 2024,Interest Income,OthIncome,US Headquarters,Marketing,0.0,12959.14
+TXN50425,2024-07-20,Jul 2024,Inventory - Finished Goods,OthCurrAsset,UK Operations,Finance,5795.13,0.0
+TXN50425,2024-07-20,Jul 2024,Service Revenue,Income,UK Operations,Finance,0.0,5795.13
+TXN50426,2024-07-27,Jul 2024,Accounts Receivable,AcctRec,Canada Inc,Finance,40301.78,0.0
+TXN50426,2024-07-27,Jul 2024,Service Revenue,Income,Canada Inc,Finance,0.0,40301.78
+TXN50427,2024-07-27,Jul 2024,Cash - Payroll,Bank,Australia Pty Ltd,Operations,7238.16,0.0
+TXN50427,2024-07-27,Jul 2024,Service Revenue,Income,Australia Pty Ltd,Operations,0.0,7238.16
+TXN50428,2024-07-11,Jul 2024,Inventory - Finished Goods,OthCurrAsset,UK Operations,Finance,48451.9,0.0
+TXN50428,2024-07-11,Jul 2024,Interest Income,OthIncome,UK Operations,Finance,0.0,48451.9
+TXN50429,2024-07-26,Jul 2024,Payroll Liabilities,OthCurrLiab,UK Operations,Marketing,19114.74,0.0
+TXN50429,2024-07-26,Jul 2024,Accounts Receivable,AcctRec,UK Operations,Marketing,0.0,19114.74
+TXN50430,2024-07-04,Jul 2024,Professional Fees,Expense,Canada Inc,Sales,29815.24,0.0
+TXN50430,2024-07-04,Jul 2024,Cash - Operating,Bank,Canada Inc,Sales,0.0,29815.24
+TXN50431,2024-07-31,Jul 2024,Accounts Receivable,AcctRec,Australia Pty Ltd,Finance,47177.26,0.0
+TXN50431,2024-07-31,Jul 2024,Interest Income,OthIncome,Australia Pty Ltd,Finance,0.0,47177.26
+TXN50432,2024-07-03,Jul 2024,Salaries and Wages,Expense,France SAS,,25215.51,0.0
+TXN50432,2024-07-03,Jul 2024,Prepaid Insurance,OthCurrAsset,France SAS,,0.0,25215.51
+TXN50433,2024-07-22,Jul 2024,Inventory - Finished Goods,OthCurrAsset,UK Operations,,21444.83,0.0
+TXN50433,2024-07-22,Jul 2024,Interest Income,OthIncome,UK Operations,,0.0,21444.83
+TXN50434,2024-07-16,Jul 2024,Sales Tax Payable,OthCurrLiab,Canada Inc,Finance,26951.19,0.0
+TXN50434,2024-07-16,Jul 2024,Inventory - Finished Goods,OthCurrAsset,Canada Inc,Finance,0.0,26951.19
+TXN50435,2024-07-18,Jul 2024,Sales Tax Payable,OthCurrLiab,US Headquarters,Marketing,35230.9,0.0
+TXN50435,2024-07-18,Jul 2024,Cash - Operating,Bank,US Headquarters,Marketing,0.0,35230.9
+TXN50436,2024-07-04,Jul 2024,Prepaid Insurance,OthCurrAsset,UK Operations,,33402.35,0.0
+TXN50436,2024-07-04,Jul 2024,Product Sales,Income,UK Operations,,0.0,33402.35
+TXN50437,2024-07-19,Jul 2024,Payroll Liabilities,OthCurrLiab,Australia Pty Ltd,,32513.81,0.0
+TXN50437,2024-07-19,Jul 2024,Inventory - Finished Goods,OthCurrAsset,Australia Pty Ltd,,0.0,32513.81
+TXN50438,2024-07-04,Jul 2024,Marketing and Advertising,Expense,US Headquarters,Engineering,13307.55,0.0
+TXN50438,2024-07-04,Jul 2024,Inventory - Finished Goods,OthCurrAsset,US Headquarters,Engineering,0.0,13307.55
+TXN50439,2024-07-15,Jul 2024,Professional Fees,Expense,Germany GmbH,Finance,23421.63,0.0
+TXN50439,2024-07-15,Jul 2024,Accounts Receivable,AcctRec,Germany GmbH,Finance,0.0,23421.63
+TXN50440,2024-07-12,Jul 2024,Cost of Goods Sold,COGS,US Headquarters,Finance,5675.19,0.0
+TXN50440,2024-07-12,Jul 2024,Cash - Payroll,Bank,US Headquarters,Finance,0.0,5675.19
+TXN50441,2024-07-27,Jul 2024,Cash - Payroll,Bank,Australia Pty Ltd,Sales,17742.27,0.0
+TXN50441,2024-07-27,Jul 2024,Interest Income,OthIncome,Australia Pty Ltd,Sales,0.0,17742.27
+TXN50442,2024-07-16,Jul 2024,Utilities,Expense,Germany GmbH,Finance,5332.34,0.0
+TXN50442,2024-07-16,Jul 2024,Accounts Payable,AcctPay,Germany GmbH,Finance,0.0,5332.34
+TXN50443,2024-07-03,Jul 2024,Accounts Receivable,AcctRec,Germany GmbH,Engineering,40604.2,0.0
+TXN50443,2024-07-03,Jul 2024,Interest Income,OthIncome,Germany GmbH,Engineering,0.0,40604.2
+TXN50444,2024-07-04,Jul 2024,Marketing and Advertising,Expense,Australia Pty Ltd,Sales,46531.16,0.0
+TXN50444,2024-07-04,Jul 2024,Accounts Receivable,AcctRec,Australia Pty Ltd,Sales,0.0,46531.16
+TXN50445,2024-07-18,Jul 2024,Accounts Payable,AcctPay,UK Operations,Marketing,28212.52,0.0
+TXN50445,2024-07-18,Jul 2024,Inventory - Finished Goods,OthCurrAsset,UK Operations,Marketing,0.0,28212.52
+TXN50446,2024-07-21,Jul 2024,Cost of Goods Sold,COGS,UK Operations,Sales,32203.7,0.0
+TXN50446,2024-07-21,Jul 2024,Inventory - Finished Goods,OthCurrAsset,UK Operations,Sales,0.0,32203.7
+TXN50447,2024-07-15,Jul 2024,Salaries and Wages,Expense,Canada Inc,Finance,19747.37,0.0
+TXN50447,2024-07-15,Jul 2024,Prepaid Insurance,OthCurrAsset,Canada Inc,Finance,0.0,19747.37
+TXN50448,2024-07-25,Jul 2024,Marketing and Advertising,Expense,Australia Pty Ltd,Engineering,29078.72,0.0
+TXN50448,2024-07-25,Jul 2024,Accounts Receivable,AcctRec,Australia Pty Ltd,Engineering,0.0,29078.72
+TXN50449,2024-07-12,Jul 2024,Inventory - Finished Goods,OthCurrAsset,Germany GmbH,Sales,23148.75,0.0
+TXN50449,2024-07-12,Jul 2024,Interest Income,OthIncome,Germany GmbH,Sales,0.0,23148.75
+TXN50450,2024-07-31,Jul 2024,Marketing and Advertising,Expense,Australia Pty Ltd,Marketing,30050.06,0.0
+TXN50450,2024-07-31,Jul 2024,Cash - Payroll,Bank,Australia Pty Ltd,Marketing,0.0,30050.06
+TXN50451,2024-07-12,Jul 2024,Sales Tax Payable,OthCurrLiab,Germany GmbH,Finance,31059.45,0.0
+TXN50451,2024-07-12,Jul 2024,Accounts Receivable,AcctRec,Germany GmbH,Finance,0.0,31059.45
+TXN50452,2024-07-30,Jul 2024,Cash - Operating,Bank,Canada Inc,Operations,4695.22,0.0
+TXN50452,2024-07-30,Jul 2024,Product Sales,Income,Canada Inc,Operations,0.0,4695.22
+TXN50453,2024-07-10,Jul 2024,Inventory - Finished Goods,OthCurrAsset,US Headquarters,Sales,18978.65,0.0
+TXN50453,2024-07-10,Jul 2024,Service Revenue,Income,US Headquarters,Sales,0.0,18978.65
+TXN50454,2024-07-20,Jul 2024,Prepaid Insurance,OthCurrAsset,UK Operations,Operations,19493.64,0.0
+TXN50454,2024-07-20,Jul 2024,Interest Income,OthIncome,UK Operations,Operations,0.0,19493.64
+TXN50455,2024-07-30,Jul 2024,Salaries and Wages,Expense,Australia Pty Ltd,Sales,27968.17,0.0
+TXN50455,2024-07-30,Jul 2024,Accounts Receivable,AcctRec,Australia Pty Ltd,Sales,0.0,27968.17
+TXN50456,2024-07-11,Jul 2024,Cash - Operating,Bank,France SAS,Operations,3153.76,0.0
+TXN50456,2024-07-11,Jul 2024,Service Revenue,Income,France SAS,Operations,0.0,3153.76
+TXN50457,2024-07-05,Jul 2024,Utilities,Expense,UK Operations,Finance,48209.54,0.0
+TXN50457,2024-07-05,Jul 2024,Payroll Liabilities,OthCurrLiab,UK Operations,Finance,0.0,48209.54
+TXN50458,2024-07-22,Jul 2024,Salaries and Wages,Expense,France SAS,Finance,35652.05,0.0
+TXN50458,2024-07-22,Jul 2024,Cash - Payroll,Bank,France SAS,Finance,0.0,35652.05
+TXN50459,2024-07-19,Jul 2024,Prepaid Insurance,OthCurrAsset,US Headquarters,Sales,14958.45,0.0
+TXN50459,2024-07-19,Jul 2024,Service Revenue,Income,US Headquarters,Sales,0.0,14958.45
+TXN50460,2024-07-06,Jul 2024,Marketing and Advertising,Expense,France SAS,Operations,37254.65,0.0
+TXN50460,2024-07-06,Jul 2024,Cash - Payroll,Bank,France SAS,Operations,0.0,37254.65
+TXN50461,2024-07-19,Jul 2024,Payroll Liabilities,OthCurrLiab,US Headquarters,Marketing,38868.09,0.0
+TXN50461,2024-07-19,Jul 2024,Prepaid Insurance,OthCurrAsset,US Headquarters,Marketing,0.0,38868.09
+TXN50462,2024-07-27,Jul 2024,Inventory - Finished Goods,OthCurrAsset,US Headquarters,,22347.65,0.0
+TXN50462,2024-07-27,Jul 2024,Product Sales,Income,US Headquarters,,0.0,22347.65
+TXN50463,2024-07-24,Jul 2024,Payroll Liabilities,OthCurrLiab,Australia Pty Ltd,Sales,15236.59,0.0
+TXN50463,2024-07-24,Jul 2024,Accounts Receivable,AcctRec,Australia Pty Ltd,Sales,0.0,15236.59
+TXN50464,2024-07-12,Jul 2024,Cash - Payroll,Bank,US Headquarters,Finance,43331.88,0.0
+TXN50464,2024-07-12,Jul 2024,Product Sales,Income,US Headquarters,Finance,0.0,43331.88
+TXN50465,2024-07-26,Jul 2024,Sales Tax Payable,OthCurrLiab,Australia Pty Ltd,Operations,34612.11,0.0
+TXN50465,2024-07-26,Jul 2024,Inventory - Finished Goods,OthCurrAsset,Australia Pty Ltd,Operations,0.0,34612.11
+TXN50466,2024-07-06,Jul 2024,Accounts Payable,AcctPay,Canada Inc,Sales,39350.04,0.0
+TXN50466,2024-07-06,Jul 2024,Prepaid Insurance,OthCurrAsset,Canada Inc,Sales,0.0,39350.04
+TXN50467,2024-07-12,Jul 2024,Accounts Receivable,AcctRec,Canada Inc,Marketing,30044.46,0.0
+TXN50467,2024-07-12,Jul 2024,Service Revenue,Income,Canada Inc,Marketing,0.0,30044.46
+TXN50468,2024-07-19,Jul 2024,Cost of Goods Sold,COGS,Germany GmbH,Operations,49281.67,0.0
+TXN50468,2024-07-19,Jul 2024,Accounts Receivable,AcctRec,Germany GmbH,Operations,0.0,49281.67
+TXN50469,2024-07-31,Jul 2024,Accounts Payable,AcctPay,France SAS,Engineering,49628.07,0.0
+TXN50469,2024-07-31,Jul 2024,Cash - Payroll,Bank,France SAS,Engineering,0.0,49628.07
+TXN50470,2024-07-08,Jul 2024,Inventory - Finished Goods,OthCurrAsset,UK Operations,,16443.79,0.0
+TXN50470,2024-07-08,Jul 2024,Service Revenue,Income,UK Operations,,0.0,16443.79
+TXN50471,2024-07-05,Jul 2024,Utilities,Expense,Canada Inc,,13801.5,0.0
+TXN50471,2024-07-05,Jul 2024,Cash - Payroll,Bank,Canada Inc,,0.0,13801.5
+TXN50472,2024-07-21,Jul 2024,Accounts Receivable,AcctRec,US Headquarters,Finance,26022.87,0.0
+TXN50472,2024-07-21,Jul 2024,Service Revenue,Income,US Headquarters,Finance,0.0,26022.87
+TXN50473,2024-07-31,Jul 2024,Sales Tax Payable,OthCurrLiab,France SAS,Marketing,29306.8,0.0
+TXN50473,2024-07-31,Jul 2024,Cash - Operating,Bank,France SAS,Marketing,0.0,29306.8
+TXN50474,2024-07-24,Jul 2024,Cash - Operating,Bank,France SAS,,33375.12,0.0
+TXN50474,2024-07-24,Jul 2024,Interest Income,OthIncome,France SAS,,0.0,33375.12
+TXN50475,2024-07-13,Jul 2024,Rent Expense,Expense,UK Operations,Finance,41329.96,0.0
+TXN50475,2024-07-13,Jul 2024,Prepaid Insurance,OthCurrAsset,UK Operations,Finance,0.0,41329.96
+TXN50476,2024-07-11,Jul 2024,Payroll Liabilities,OthCurrLiab,Canada Inc,Operations,6964.42,0.0
+TXN50476,2024-07-11,Jul 2024,Cash - Operating,Bank,Canada Inc,Operations,0.0,6964.42
+TXN50477,2024-07-02,Jul 2024,Cost of Goods Sold,COGS,US Headquarters,,39302.54,0.0
+TXN50477,2024-07-02,Jul 2024,Accounts Receivable,AcctRec,US Headquarters,,0.0,39302.54
+TXN50478,2024-07-15,Jul 2024,Professional Fees,Expense,France SAS,Engineering,49595.99,0.0
+TXN50478,2024-07-15,Jul 2024,Accounts Receivable,AcctRec,France SAS,Engineering,0.0,49595.99
+TXN50479,2024-07-29,Jul 2024,Payroll Liabilities,OthCurrLiab,Australia Pty Ltd,Marketing,8369.38,0.0
+TXN50479,2024-07-29,Jul 2024,Cash - Operating,Bank,Australia Pty Ltd,Marketing,0.0,8369.38
+TXN50480,2024-07-21,Jul 2024,Professional Fees,Expense,Germany GmbH,Marketing,4579.82,0.0
+TXN50480,2024-07-21,Jul 2024,Accounts Receivable,AcctRec,Germany GmbH,Marketing,0.0,4579.82
+TXN50481,2024-07-02,Jul 2024,Salaries and Wages,Expense,France SAS,,15622.71,0.0
+TXN50481,2024-07-02,Jul 2024,Payroll Liabilities,OthCurrLiab,France SAS,,0.0,15622.71
+TXN50482,2024-07-21,Jul 2024,Cash - Operating,Bank,US Headquarters,,5211.59,0.0
+TXN50482,2024-07-21,Jul 2024,Product Sales,Income,US Headquarters,,0.0,5211.59
+TXN50483,2024-07-19,Jul 2024,Accounts Receivable,AcctRec,UK Operations,Operations,34159.14,0.0
+TXN50483,2024-07-19,Jul 2024,Product Sales,Income,UK Operations,Operations,0.0,34159.14
+TXN50484,2024-07-28,Jul 2024,Inventory - Finished Goods,OthCurrAsset,France SAS,,7042.67,0.0
+TXN50484,2024-07-28,Jul 2024,Product Sales,Income,France SAS,,0.0,7042.67
+TXN50485,2024-07-24,Jul 2024,Accounts Payable,AcctPay,US Headquarters,Engineering,16010.9,0.0
+TXN50485,2024-07-24,Jul 2024,Inventory - Finished Goods,OthCurrAsset,US Headquarters,Engineering,0.0,16010.9
+TXN50486,2024-07-25,Jul 2024,Prepaid Insurance,OthCurrAsset,UK Operations,,49650.54,0.0
+TXN50486,2024-07-25,Jul 2024,Interest Income,OthIncome,UK Operations,,0.0,49650.54
+TXN50487,2024-07-01,Jul 2024,Cash - Payroll,Bank,Canada Inc,,8623.77,0.0
+TXN50487,2024-07-01,Jul 2024,Interest Income,OthIncome,Canada Inc,,0.0,8623.77
+TXN50488,2024-07-24,Jul 2024,Salaries and Wages,Expense,UK Operations,Finance,30995.76,0.0
+TXN50488,2024-07-24,Jul 2024,Cash - Payroll,Bank,UK Operations,Finance,0.0,30995.76
+TXN50489,2024-07-29,Jul 2024,Utilities,Expense,US Headquarters,Sales,37746.06,0.0
+TXN50489,2024-07-29,Jul 2024,Accounts Payable,AcctPay,US Headquarters,Sales,0.0,37746.06
+TXN50490,2024-08-31,Aug 2024,Cash - Operating,Bank,France SAS,Marketing,39658.29,0.0
+TXN50490,2024-08-31,Aug 2024,Product Sales,Income,France SAS,Marketing,0.0,39658.29
+TXN50491,2024-08-18,Aug 2024,Cash - Operating,Bank,Canada Inc,Operations,36198.39,0.0
+TXN50491,2024-08-18,Aug 2024,Interest Income,OthIncome,Canada Inc,Operations,0.0,36198.39
+TXN50492,2024-08-29,Aug 2024,Professional Fees,Expense,Germany GmbH,Sales,26128.58,0.0
+TXN50492,2024-08-29,Aug 2024,Payroll Liabilities,OthCurrLiab,Germany GmbH,Sales,0.0,26128.58
+TXN50493,2024-08-10,Aug 2024,Salaries and Wages,Expense,Australia Pty Ltd,Engineering,39298.18,0.0
+TXN50493,2024-08-10,Aug 2024,Sales Tax Payable,OthCurrLiab,Australia Pty Ltd,Engineering,0.0,39298.18
+TXN50494,2024-08-13,Aug 2024,Marketing and Advertising,Expense,US Headquarters,Sales,25229.34,0.0
+TXN50494,2024-08-13,Aug 2024,Cash - Operating,Bank,US Headquarters,Sales,0.0,25229.34
+TXN50495,2024-08-12,Aug 2024,Payroll Liabilities,OthCurrLiab,Germany GmbH,Sales,19648.49,0.0
+TXN50495,2024-08-12,Aug 2024,Accounts Receivable,AcctRec,Germany GmbH,Sales,0.0,19648.49
+TXN50496,2024-08-18,Aug 2024,Accounts Payable,AcctPay,Australia Pty Ltd,Sales,38254.93,0.0
+TXN50496,2024-08-18,Aug 2024,Cash - Operating,Bank,Australia Pty Ltd,Sales,0.0,38254.93
+TXN50497,2024-08-19,Aug 2024,Cash - Operating,Bank,US Headquarters,Engineering,13478.17,0.0
+TXN50497,2024-08-19,Aug 2024,Service Revenue,Income,US Headquarters,Engineering,0.0,13478.17
+TXN50498,2024-08-17,Aug 2024,Utilities,Expense,Germany GmbH,,35775.14,0.0
+TXN50498,2024-08-17,Aug 2024,Payroll Liabilities,OthCurrLiab,Germany GmbH,,0.0,35775.14
+TXN50499,2024-08-03,Aug 2024,Cash - Operating,Bank,Australia Pty Ltd,Operations,27113.94,0.0
+TXN50499,2024-08-03,Aug 2024,Service Revenue,Income,Australia Pty Ltd,Operations,0.0,27113.94
+TXN50500,2024-08-03,Aug 2024,Accounts Receivable,AcctRec,Canada Inc,Sales,48728.51,0.0
+TXN50500,2024-08-03,Aug 2024,Service Revenue,Income,Canada Inc,Sales,0.0,48728.51
+TXN50501,2024-08-19,Aug 2024,Inventory - Finished Goods,OthCurrAsset,Australia Pty Ltd,,34212.26,0.0
+TXN50501,2024-08-19,Aug 2024,Interest Income,OthIncome,Australia Pty Ltd,,0.0,34212.26
+TXN50502,2024-08-31,Aug 2024,Accounts Payable,AcctPay,UK Operations,Engineering,12601.75,0.0
+TXN50502,2024-08-31,Aug 2024,Inventory - Finished Goods,OthCurrAsset,UK Operations,Engineering,0.0,12601.75
+TXN50503,2024-08-20,Aug 2024,Professional Fees,Expense,Canada Inc,Engineering,15809.86,0.0
+TXN50503,2024-08-20,Aug 2024,Accounts Receivable,AcctRec,Canada Inc,Engineering,0.0,15809.86
+TXN50504,2024-08-04,Aug 2024,Inventory - Finished Goods,OthCurrAsset,US Headquarters,,7291.98,0.0
+TXN50504,2024-08-04,Aug 2024,Service Revenue,Income,US Headquarters,,0.0,7291.98
+TXN50505,2024-08-17,Aug 2024,Accounts Receivable,AcctRec,Canada Inc,,13332.72,0.0
+TXN50505,2024-08-17,Aug 2024,Interest Income,OthIncome,Canada Inc,,0.0,13332.72
+TXN50506,2024-08-29,Aug 2024,Marketing and Advertising,Expense,US Headquarters,Engineering,17083.05,0.0
+TXN50506,2024-08-29,Aug 2024,Cash - Payroll,Bank,US Headquarters,Engineering,0.0,17083.05
+TXN50507,2024-08-09,Aug 2024,Marketing and Advertising,Expense,Australia Pty Ltd,Operations,31562.88,0.0
+TXN50507,2024-08-09,Aug 2024,Accounts Payable,AcctPay,Australia Pty Ltd,Operations,0.0,31562.88
+TXN50508,2024-08-02,Aug 2024,Cash - Operating,Bank,France SAS,Operations,8760.63,0.0
+TXN50508,2024-08-02,Aug 2024,Interest Income,OthIncome,France SAS,Operations,0.0,8760.63
+TXN50509,2024-08-22,Aug 2024,Cost of Goods Sold,COGS,Australia Pty Ltd,Engineering,11806.02,0.0
+TXN50509,2024-08-22,Aug 2024,Cash - Operating,Bank,Australia Pty Ltd,Engineering,0.0,11806.02
+TXN50510,2024-08-08,Aug 2024,Accounts Payable,AcctPay,US Headquarters,Finance,18516.84,0.0
+TXN50510,2024-08-08,Aug 2024,Cash - Operating,Bank,US Headquarters,Finance,0.0,18516.84
+TXN50511,2024-08-18,Aug 2024,Cash - Payroll,Bank,Australia Pty Ltd,,32957.31,0.0
+TXN50511,2024-08-18,Aug 2024,Service Revenue,Income,Australia Pty Ltd,,0.0,32957.31
+TXN50512,2024-08-30,Aug 2024,Accounts Receivable,AcctRec,Australia Pty Ltd,Marketing,13927.27,0.0
+TXN50512,2024-08-30,Aug 2024,Product Sales,Income,Australia Pty Ltd,Marketing,0.0,13927.27
+TXN50513,2024-08-17,Aug 2024,Accounts Payable,AcctPay,Australia Pty Ltd,Engineering,9377.55,0.0
+TXN50513,2024-08-17,Aug 2024,Inventory - Finished Goods,OthCurrAsset,Australia Pty Ltd,Engineering,0.0,9377.55
+TXN50514,2024-08-03,Aug 2024,Cash - Operating,Bank,France SAS,Marketing,38789.61,0.0
+TXN50514,2024-08-03,Aug 2024,Interest Income,OthIncome,France SAS,Marketing,0.0,38789.61
+TXN50515,2024-08-15,Aug 2024,Rent Expense,Expense,US Headquarters,Marketing,10433.22,0.0
+TXN50515,2024-08-15,Aug 2024,Inventory - Finished Goods,OthCurrAsset,US Headquarters,Marketing,0.0,10433.22
+TXN50516,2024-08-15,Aug 2024,Accounts Payable,AcctPay,Germany GmbH,Operations,48606.96,0.0
+TXN50516,2024-08-15,Aug 2024,Prepaid Insurance,OthCurrAsset,Germany GmbH,Operations,0.0,48606.96
+TXN50517,2024-08-25,Aug 2024,Salaries and Wages,Expense,UK Operations,Sales,815.71,0.0
+TXN50517,2024-08-25,Aug 2024,Accounts Payable,AcctPay,UK Operations,Sales,0.0,815.71
+TXN50518,2024-08-21,Aug 2024,Inventory - Finished Goods,OthCurrAsset,Australia Pty Ltd,Engineering,47574.02,0.0
+TXN50518,2024-08-21,Aug 2024,Interest Income,OthIncome,Australia Pty Ltd,Engineering,0.0,47574.02
+TXN50519,2024-08-24,Aug 2024,Payroll Liabilities,OthCurrLiab,Germany GmbH,Engineering,10657.12,0.0
+TXN50519,2024-08-24,Aug 2024,Inventory - Finished Goods,OthCurrAsset,Germany GmbH,Engineering,0.0,10657.12
+TXN50520,2024-08-31,Aug 2024,Cash - Payroll,Bank,US Headquarters,Sales,35726.8,0.0
+TXN50520,2024-08-31,Aug 2024,Interest Income,OthIncome,US Headquarters,Sales,0.0,35726.8
+TXN50521,2024-08-14,Aug 2024,Marketing and Advertising,Expense,Australia Pty Ltd,Marketing,23193.67,0.0
+TXN50521,2024-08-14,Aug 2024,Cash - Payroll,Bank,Australia Pty Ltd,Marketing,0.0,23193.67
+TXN50522,2024-08-17,Aug 2024,Prepaid Insurance,OthCurrAsset,UK Operations,,41088.16,0.0
+TXN50522,2024-08-17,Aug 2024,Product Sales,Income,UK Operations,,0.0,41088.16
+TXN50523,2024-08-14,Aug 2024,Accounts Receivable,AcctRec,Australia Pty Ltd,Sales,12220.2,0.0
+TXN50523,2024-08-14,Aug 2024,Service Revenue,Income,Australia Pty Ltd,Sales,0.0,12220.2
+TXN50524,2024-08-23,Aug 2024,Cash - Operating,Bank,Australia Pty Ltd,Marketing,16243.86,0.0
+TXN50524,2024-08-23,Aug 2024,Product Sales,Income,Australia Pty Ltd,Marketing,0.0,16243.86
+TXN50525,2024-08-05,Aug 2024,Inventory - Finished Goods,OthCurrAsset,Canada Inc,Engineering,8192.82,0.0
+TXN50525,2024-08-05,Aug 2024,Service Revenue,Income,Canada Inc,Engineering,0.0,8192.82
+TXN50526,2024-08-14,Aug 2024,Utilities,Expense,US Headquarters,Operations,18235.23,0.0
+TXN50526,2024-08-14,Aug 2024,Prepaid Insurance,OthCurrAsset,US Headquarters,Operations,0.0,18235.23
+TXN50527,2024-08-15,Aug 2024,Payroll Liabilities,OthCurrLiab,Germany GmbH,Engineering,4975.83,0.0
+TXN50527,2024-08-15,Aug 2024,Prepaid Insurance,OthCurrAsset,Germany GmbH,Engineering,0.0,4975.83
+TXN50528,2024-08-02,Aug 2024,Rent Expense,Expense,UK Operations,Marketing,7842.03,0.0
+TXN50528,2024-08-02,Aug 2024,Payroll Liabilities,OthCurrLiab,UK Operations,Marketing,0.0,7842.03
+TXN50529,2024-08-17,Aug 2024,Accounts Payable,AcctPay,US Headquarters,,15292.62,0.0
+TXN50529,2024-08-17,Aug 2024,Cash - Operating,Bank,US Headquarters,,0.0,15292.62
+TXN50530,2024-08-31,Aug 2024,Cost of Goods Sold,COGS,France SAS,Finance,28019.71,0.0
+TXN50530,2024-08-31,Aug 2024,Sales Tax Payable,OthCurrLiab,France SAS,Finance,0.0,28019.71
+TXN50531,2024-08-04,Aug 2024,Accounts Payable,AcctPay,UK Operations,Engineering,1091.87,0.0
+TXN50531,2024-08-04,Aug 2024,Cash - Payroll,Bank,UK Operations,Engineering,0.0,1091.87
+TXN50532,2024-08-07,Aug 2024,Accounts Payable,AcctPay,France SAS,Marketing,34471.12,0.0
+TXN50532,2024-08-07,Aug 2024,Prepaid Insurance,OthCurrAsset,France SAS,Marketing,0.0,34471.12
+TXN50533,2024-08-19,Aug 2024,Inventory - Finished Goods,OthCurrAsset,Germany GmbH,Engineering,1579.11,0.0
+TXN50533,2024-08-19,Aug 2024,Product Sales,Income,Germany GmbH,Engineering,0.0,1579.11
+TXN50534,2024-08-03,Aug 2024,Salaries and Wages,Expense,Germany GmbH,Engineering,2613.47,0.0
+TXN50534,2024-08-03,Aug 2024,Payroll Liabilities,OthCurrLiab,Germany GmbH,Engineering,0.0,2613.47
+TXN50535,2024-08-27,Aug 2024,Inventory - Finished Goods,OthCurrAsset,Australia Pty Ltd,Finance,25058.26,0.0
+TXN50535,2024-08-27,Aug 2024,Product Sales,Income,Australia Pty Ltd,Finance,0.0,25058.26
+TXN50536,2024-08-12,Aug 2024,Salaries and Wages,Expense,UK Operations,Sales,14111.6,0.0
+TXN50536,2024-08-12,Aug 2024,Cash - Operating,Bank,UK Operations,Sales,0.0,14111.6
+TXN50537,2024-08-20,Aug 2024,Inventory - Finished Goods,OthCurrAsset,Canada Inc,Operations,12666.35,0.0
+TXN50537,2024-08-20,Aug 2024,Interest Income,OthIncome,Canada Inc,Operations,0.0,12666.35
+TXN50538,2024-08-16,Aug 2024,Cash - Payroll,Bank,US Headquarters,Engineering,14348.91,0.0
+TXN50538,2024-08-16,Aug 2024,Interest Income,OthIncome,US Headquarters,Engineering,0.0,14348.91
+TXN50539,2024-08-29,Aug 2024,Accounts Payable,AcctPay,Canada Inc,Sales,31722.34,0.0
+TXN50539,2024-08-29,Aug 2024,Inventory - Finished Goods,OthCurrAsset,Canada Inc,Sales,0.0,31722.34
+TXN50540,2024-08-26,Aug 2024,Rent Expense,Expense,Australia Pty Ltd,Marketing,24244.38,0.0
+TXN50540,2024-08-26,Aug 2024,Accounts Payable,AcctPay,Australia Pty Ltd,Marketing,0.0,24244.38
+TXN50541,2024-08-13,Aug 2024,Cost of Goods Sold,COGS,Germany GmbH,Sales,1790.12,0.0
+TXN50541,2024-08-13,Aug 2024,Prepaid Insurance,OthCurrAsset,Germany GmbH,Sales,0.0,1790.12
+TXN50542,2024-08-02,Aug 2024,Salaries and Wages,Expense,France SAS,Operations,18192.93,0.0
+TXN50542,2024-08-02,Aug 2024,Accounts Receivable,AcctRec,France SAS,Operations,0.0,18192.93
+TXN50543,2024-08-04,Aug 2024,Interest Expense,OthExpense,UK Operations,,12437.06,0.0
+TXN50543,2024-08-04,Aug 2024,Cash - Operating,Bank,UK Operations,,0.0,12437.06
+TXN50544,2024-08-25,Aug 2024,Rent Expense,Expense,UK Operations,Operations,42402.0,0.0
+TXN50544,2024-08-25,Aug 2024,Accounts Receivable,AcctRec,UK Operations,Operations,0.0,42402.0
+TXN50545,2024-08-06,Aug 2024,Rent Expense,Expense,UK Operations,Operations,16241.22,0.0
+TXN50545,2024-08-06,Aug 2024,Cash - Operating,Bank,UK Operations,Operations,0.0,16241.22
+TXN50546,2024-08-23,Aug 2024,Marketing and Advertising,Expense,Australia Pty Ltd,Marketing,47404.16,0.0
+TXN50546,2024-08-23,Aug 2024,Inventory - Finished Goods,OthCurrAsset,Australia Pty Ltd,Marketing,0.0,47404.16
+TXN50547,2024-08-27,Aug 2024,Cost of Goods Sold,COGS,France SAS,Operations,15798.13,0.0
+TXN50547,2024-08-27,Aug 2024,Cash - Operating,Bank,France SAS,Operations,0.0,15798.13
+TXN50548,2024-08-08,Aug 2024,Rent Expense,Expense,Canada Inc,Sales,1486.44,0.0
+TXN50548,2024-08-08,Aug 2024,Inventory - Finished Goods,OthCurrAsset,Canada Inc,Sales,0.0,1486.44
+TXN50549,2024-08-26,Aug 2024,Payroll Liabilities,OthCurrLiab,UK Operations,Marketing,35988.41,0.0
+TXN50549,2024-08-26,Aug 2024,Cash - Operating,Bank,UK Operations,Marketing,0.0,35988.41
+TXN50550,2024-08-01,Aug 2024,Cash - Operating,Bank,UK Operations,Operations,35382.47,0.0
+TXN50550,2024-08-01,Aug 2024,Interest Income,OthIncome,UK Operations,Operations,0.0,35382.47
+TXN50551,2024-08-28,Aug 2024,Payroll Liabilities,OthCurrLiab,Germany GmbH,Engineering,18992.74,0.0
+TXN50551,2024-08-28,Aug 2024,Prepaid Insurance,OthCurrAsset,Germany GmbH,Engineering,0.0,18992.74
+TXN50552,2024-08-04,Aug 2024,Sales Tax Payable,OthCurrLiab,Germany GmbH,Marketing,16468.86,0.0
+TXN50552,2024-08-04,Aug 2024,Inventory - Finished Goods,OthCurrAsset,Germany GmbH,Marketing,0.0,16468.86
+TXN50553,2024-08-26,Aug 2024,Prepaid Insurance,OthCurrAsset,Australia Pty Ltd,Finance,32634.42,0.0
+TXN50553,2024-08-26,Aug 2024,Interest Income,OthIncome,Australia Pty Ltd,Finance,0.0,32634.42
+TXN50554,2024-08-29,Aug 2024,Salaries and Wages,Expense,Canada Inc,Marketing,11550.24,0.0
+TXN50554,2024-08-29,Aug 2024,Payroll Liabilities,OthCurrLiab,Canada Inc,Marketing,0.0,11550.24
+TXN50555,2024-08-10,Aug 2024,Cash - Operating,Bank,Australia Pty Ltd,,15078.6,0.0
+TXN50555,2024-08-10,Aug 2024,Interest Income,OthIncome,Australia Pty Ltd,,0.0,15078.6
+TXN50556,2024-08-31,Aug 2024,Marketing and Advertising,Expense,Canada Inc,Finance,42612.47,0.0
+TXN50556,2024-08-31,Aug 2024,Cash - Operating,Bank,Canada Inc,Finance,0.0,42612.47
+TXN50557,2024-08-06,Aug 2024,Accounts Payable,AcctPay,Canada Inc,Marketing,46091.39,0.0
+TXN50557,2024-08-06,Aug 2024,Prepaid Insurance,OthCurrAsset,Canada Inc,Marketing,0.0,46091.39
+TXN50558,2024-08-04,Aug 2024,Accounts Receivable,AcctRec,France SAS,Sales,16892.84,0.0
+TXN50558,2024-08-04,Aug 2024,Service Revenue,Income,France SAS,Sales,0.0,16892.84
+TXN50559,2024-08-06,Aug 2024,Professional Fees,Expense,Australia Pty Ltd,Engineering,41172.26,0.0
+TXN50559,2024-08-06,Aug 2024,Accounts Payable,AcctPay,Australia Pty Ltd,Engineering,0.0,41172.26
+TXN50560,2024-09-15,Sep 2024,Rent Expense,Expense,US Headquarters,Marketing,10879.37,0.0
+TXN50560,2024-09-15,Sep 2024,Prepaid Insurance,OthCurrAsset,US Headquarters,Marketing,0.0,10879.37
+TXN50561,2024-09-26,Sep 2024,Inventory - Finished Goods,OthCurrAsset,US Headquarters,,563.42,0.0
+TXN50561,2024-09-26,Sep 2024,Product Sales,Income,US Headquarters,,0.0,563.42
+TXN50562,2024-09-29,Sep 2024,Inventory - Finished Goods,OthCurrAsset,France SAS,Finance,44147.65,0.0
+TXN50562,2024-09-29,Sep 2024,Product Sales,Income,France SAS,Finance,0.0,44147.65
+TXN50563,2024-09-27,Sep 2024,Salaries and Wages,Expense,France SAS,Operations,32722.99,0.0
+TXN50563,2024-09-27,Sep 2024,Sales Tax Payable,OthCurrLiab,France SAS,Operations,0.0,32722.99
+TXN50564,2024-09-03,Sep 2024,Cash - Operating,Bank,US Headquarters,Marketing,1493.86,0.0
+TXN50564,2024-09-03,Sep 2024,Product Sales,Income,US Headquarters,Marketing,0.0,1493.86
+TXN50565,2024-09-11,Sep 2024,Cash - Operating,Bank,UK Operations,Finance,8464.77,0.0
+TXN50565,2024-09-11,Sep 2024,Service Revenue,Income,UK Operations,Finance,0.0,8464.77
+TXN50566,2024-09-20,Sep 2024,Professional Fees,Expense,Canada Inc,Finance,35372.98,0.0
+TXN50566,2024-09-20,Sep 2024,Accounts Receivable,AcctRec,Canada Inc,Finance,0.0,35372.98
+TXN50567,2024-09-20,Sep 2024,Cash - Payroll,Bank,France SAS,Sales,3151.01,0.0
+TXN50567,2024-09-20,Sep 2024,Service Revenue,Income,France SAS,Sales,0.0,3151.01
+TXN50568,2024-09-23,Sep 2024,Professional Fees,Expense,Canada Inc,,46315.89,0.0
+TXN50568,2024-09-23,Sep 2024,Prepaid Insurance,OthCurrAsset,Canada Inc,,0.0,46315.89
+TXN50569,2024-09-10,Sep 2024,Interest Expense,OthExpense,UK Operations,Engineering,2956.95,0.0
+TXN50569,2024-09-10,Sep 2024,Sales Tax Payable,OthCurrLiab,UK Operations,Engineering,0.0,2956.95
+TXN50570,2024-09-05,Sep 2024,Prepaid Insurance,OthCurrAsset,US Headquarters,Marketing,688.87,0.0
+TXN50570,2024-09-05,Sep 2024,Service Revenue,Income,US Headquarters,Marketing,0.0,688.87
+TXN50571,2024-09-07,Sep 2024,Cost of Goods Sold,COGS,US Headquarters,Engineering,10744.17,0.0
+TXN50571,2024-09-07,Sep 2024,Sales Tax Payable,OthCurrLiab,US Headquarters,Engineering,0.0,10744.17
+TXN50572,2024-09-28,Sep 2024,Professional Fees,Expense,US Headquarters,Marketing,39351.39,0.0
+TXN50572,2024-09-28,Sep 2024,Prepaid Insurance,OthCurrAsset,US Headquarters,Marketing,0.0,39351.39
+TXN50573,2024-09-03,Sep 2024,Inventory - Finished Goods,OthCurrAsset,Australia Pty Ltd,Operations,19682.59,0.0
+TXN50573,2024-09-03,Sep 2024,Service Revenue,Income,Australia Pty Ltd,Operations,0.0,19682.59
+TXN50574,2024-09-06,Sep 2024,Salaries and Wages,Expense,France SAS,Engineering,13533.15,0.0
+TXN50574,2024-09-06,Sep 2024,Prepaid Insurance,OthCurrAsset,France SAS,Engineering,0.0,13533.15
+TXN50575,2024-09-19,Sep 2024,Cost of Goods Sold,COGS,US Headquarters,Sales,37735.64,0.0
+TXN50575,2024-09-19,Sep 2024,Accounts Payable,AcctPay,US Headquarters,Sales,0.0,37735.64
+TXN50576,2024-09-26,Sep 2024,Marketing and Advertising,Expense,Canada Inc,Finance,48549.92,0.0
+TXN50576,2024-09-26,Sep 2024,Cash - Operating,Bank,Canada Inc,Finance,0.0,48549.92
+TXN50577,2024-09-27,Sep 2024,Interest Expense,OthExpense,France SAS,Operations,21222.29,0.0
+TXN50577,2024-09-27,Sep 2024,Sales Tax Payable,OthCurrLiab,France SAS,Operations,0.0,21222.29
+TXN50578,2024-09-19,Sep 2024,Cash - Operating,Bank,UK Operations,Finance,15293.18,0.0
+TXN50578,2024-09-19,Sep 2024,Interest Income,OthIncome,UK Operations,Finance,0.0,15293.18
+TXN50579,2024-09-19,Sep 2024,Cost of Goods Sold,COGS,Canada Inc,Operations,34037.98,0.0
+TXN50579,2024-09-19,Sep 2024,Sales Tax Payable,OthCurrLiab,Canada Inc,Operations,0.0,34037.98
+TXN50580,2024-09-06,Sep 2024,Inventory - Finished Goods,OthCurrAsset,UK Operations,Sales,40518.81,0.0
+TXN50580,2024-09-06,Sep 2024,Product Sales,Income,UK Operations,Sales,0.0,40518.81
+TXN50581,2024-09-22,Sep 2024,Interest Expense,OthExpense,France SAS,Sales,49864.83,0.0
+TXN50581,2024-09-22,Sep 2024,Prepaid Insurance,OthCurrAsset,France SAS,Sales,0.0,49864.83
+TXN50582,2024-09-11,Sep 2024,Marketing and Advertising,Expense,Australia Pty Ltd,Engineering,4807.86,0.0
+TXN50582,2024-09-11,Sep 2024,Accounts Payable,AcctPay,Australia Pty Ltd,Engineering,0.0,4807.86
+TXN50583,2024-09-28,Sep 2024,Sales Tax Payable,OthCurrLiab,Germany GmbH,Operations,23178.78,0.0
+TXN50583,2024-09-28,Sep 2024,Prepaid Insurance,OthCurrAsset,Germany GmbH,Operations,0.0,23178.78
+TXN50584,2024-09-19,Sep 2024,Prepaid Insurance,OthCurrAsset,Canada Inc,Finance,6069.68,0.0
+TXN50584,2024-09-19,Sep 2024,Interest Income,OthIncome,Canada Inc,Finance,0.0,6069.68
+TXN50585,2024-09-19,Sep 2024,Accounts Receivable,AcctRec,US Headquarters,Engineering,28352.85,0.0
+TXN50585,2024-09-19,Sep 2024,Interest Income,OthIncome,US Headquarters,Engineering,0.0,28352.85
+TXN50586,2024-09-29,Sep 2024,Marketing and Advertising,Expense,Germany GmbH,Finance,13574.76,0.0
+TXN50586,2024-09-29,Sep 2024,Sales Tax Payable,OthCurrLiab,Germany GmbH,Finance,0.0,13574.76
+TXN50587,2024-09-02,Sep 2024,Professional Fees,Expense,UK Operations,Marketing,20447.21,0.0
+TXN50587,2024-09-02,Sep 2024,Payroll Liabilities,OthCurrLiab,UK Operations,Marketing,0.0,20447.21
+TXN50588,2024-09-02,Sep 2024,Inventory - Finished Goods,OthCurrAsset,France SAS,Marketing,34680.43,0.0
+TXN50588,2024-09-02,Sep 2024,Service Revenue,Income,France SAS,Marketing,0.0,34680.43
+TXN50589,2024-09-29,Sep 2024,Rent Expense,Expense,Germany GmbH,Engineering,17224.37,0.0
+TXN50589,2024-09-29,Sep 2024,Prepaid Insurance,OthCurrAsset,Germany GmbH,Engineering,0.0,17224.37
+TXN50590,2024-09-27,Sep 2024,Accounts Payable,AcctPay,France SAS,,34400.18,0.0
+TXN50590,2024-09-27,Sep 2024,Cash - Payroll,Bank,France SAS,,0.0,34400.18
+TXN50591,2024-09-10,Sep 2024,Inventory - Finished Goods,OthCurrAsset,Australia Pty Ltd,Finance,38814.53,0.0
+TXN50591,2024-09-10,Sep 2024,Interest Income,OthIncome,Australia Pty Ltd,Finance,0.0,38814.53
+TXN50592,2024-09-21,Sep 2024,Payroll Liabilities,OthCurrLiab,US Headquarters,Sales,22364.97,0.0
+TXN50592,2024-09-21,Sep 2024,Inventory - Finished Goods,OthCurrAsset,US Headquarters,Sales,0.0,22364.97
+TXN50593,2024-09-25,Sep 2024,Salaries and Wages,Expense,Canada Inc,Marketing,41140.36,0.0
+TXN50593,2024-09-25,Sep 2024,Cash - Payroll,Bank,Canada Inc,Marketing,0.0,41140.36
+TXN50594,2024-09-10,Sep 2024,Marketing and Advertising,Expense,Australia Pty Ltd,Operations,20467.56,0.0
+TXN50594,2024-09-10,Sep 2024,Cash - Operating,Bank,Australia Pty Ltd,Operations,0.0,20467.56
+TXN50595,2024-09-06,Sep 2024,Inventory - Finished Goods,OthCurrAsset,UK Operations,Sales,41930.35,0.0
+TXN50595,2024-09-06,Sep 2024,Product Sales,Income,UK Operations,Sales,0.0,41930.35
+TXN50596,2024-09-30,Sep 2024,Inventory - Finished Goods,OthCurrAsset,Germany GmbH,,10355.93,0.0
+TXN50596,2024-09-30,Sep 2024,Interest Income,OthIncome,Germany GmbH,,0.0,10355.93
+TXN50597,2024-09-13,Sep 2024,Inventory - Finished Goods,OthCurrAsset,Australia Pty Ltd,Engineering,34218.13,0.0
+TXN50597,2024-09-13,Sep 2024,Interest Income,OthIncome,Australia Pty Ltd,Engineering,0.0,34218.13
+TXN50598,2024-09-15,Sep 2024,Cash - Payroll,Bank,UK Operations,Finance,29550.57,0.0
+TXN50598,2024-09-15,Sep 2024,Service Revenue,Income,UK Operations,Finance,0.0,29550.57
+TXN50599,2024-09-24,Sep 2024,Cash - Payroll,Bank,Australia Pty Ltd,Engineering,14610.93,0.0
+TXN50599,2024-09-24,Sep 2024,Interest Income,OthIncome,Australia Pty Ltd,Engineering,0.0,14610.93
+TXN50600,2024-09-25,Sep 2024,Rent Expense,Expense,UK Operations,Sales,32545.3,0.0
+TXN50600,2024-09-25,Sep 2024,Payroll Liabilities,OthCurrLiab,UK Operations,Sales,0.0,32545.3
+TXN50601,2024-09-17,Sep 2024,Sales Tax Payable,OthCurrLiab,US Headquarters,,940.45,0.0
+TXN50601,2024-09-17,Sep 2024,Cash - Payroll,Bank,US Headquarters,,0.0,940.45
+TXN50602,2024-09-20,Sep 2024,Payroll Liabilities,OthCurrLiab,US Headquarters,Sales,12993.33,0.0
+TXN50602,2024-09-20,Sep 2024,Accounts Receivable,AcctRec,US Headquarters,Sales,0.0,12993.33
+TXN50603,2024-09-14,Sep 2024,Accounts Receivable,AcctRec,France SAS,Marketing,23220.4,0.0
+TXN50603,2024-09-14,Sep 2024,Interest Income,OthIncome,France SAS,Marketing,0.0,23220.4
+TXN50604,2024-09-17,Sep 2024,Accounts Receivable,AcctRec,Canada Inc,Finance,29432.11,0.0
+TXN50604,2024-09-17,Sep 2024,Interest Income,OthIncome,Canada Inc,Finance,0.0,29432.11
+TXN50605,2024-09-21,Sep 2024,Utilities,Expense,Canada Inc,Operations,14492.51,0.0
+TXN50605,2024-09-21,Sep 2024,Cash - Payroll,Bank,Canada Inc,Operations,0.0,14492.51
+TXN50606,2024-09-11,Sep 2024,Accounts Receivable,AcctRec,Germany GmbH,,16594.28,0.0
+TXN50606,2024-09-11,Sep 2024,Product Sales,Income,Germany GmbH,,0.0,16594.28
+TXN50607,2024-09-05,Sep 2024,Sales Tax Payable,OthCurrLiab,Canada Inc,Sales,45034.51,0.0
+TXN50607,2024-09-05,Sep 2024,Inventory - Finished Goods,OthCurrAsset,Canada Inc,Sales,0.0,45034.51
+TXN50608,2024-09-22,Sep 2024,Inventory - Finished Goods,OthCurrAsset,Germany GmbH,,7426.51,0.0
+TXN50608,2024-09-22,Sep 2024,Service Revenue,Income,Germany GmbH,,0.0,7426.51
+TXN50609,2024-09-09,Sep 2024,Prepaid Insurance,OthCurrAsset,France SAS,Finance,19719.61,0.0
+TXN50609,2024-09-09,Sep 2024,Product Sales,Income,France SAS,Finance,0.0,19719.61
+TXN50610,2024-09-11,Sep 2024,Interest Expense,OthExpense,Australia Pty Ltd,,11506.98,0.0
+TXN50610,2024-09-11,Sep 2024,Sales Tax Payable,OthCurrLiab,Australia Pty Ltd,,0.0,11506.98
+TXN50611,2024-09-30,Sep 2024,Sales Tax Payable,OthCurrLiab,Australia Pty Ltd,Marketing,25612.09,0.0
+TXN50611,2024-09-30,Sep 2024,Prepaid Insurance,OthCurrAsset,Australia Pty Ltd,Marketing,0.0,25612.09
+TXN50612,2024-09-06,Sep 2024,Professional Fees,Expense,Germany GmbH,Engineering,23803.65,0.0
+TXN50612,2024-09-06,Sep 2024,Accounts Receivable,AcctRec,Germany GmbH,Engineering,0.0,23803.65
+TXN50613,2024-09-22,Sep 2024,Accounts Receivable,AcctRec,Germany GmbH,,4920.34,0.0
+TXN50613,2024-09-22,Sep 2024,Service Revenue,Income,Germany GmbH,,0.0,4920.34
+TXN50614,2024-09-26,Sep 2024,Cash - Operating,Bank,Germany GmbH,Marketing,13397.68,0.0
+TXN50614,2024-09-26,Sep 2024,Service Revenue,Income,Germany GmbH,Marketing,0.0,13397.68
+TXN50615,2024-09-02,Sep 2024,Utilities,Expense,Australia Pty Ltd,Operations,29225.5,0.0
+TXN50615,2024-09-02,Sep 2024,Inventory - Finished Goods,OthCurrAsset,Australia Pty Ltd,Operations,0.0,29225.5
+TXN50616,2024-09-17,Sep 2024,Cash - Operating,Bank,US Headquarters,,19392.63,0.0
+TXN50616,2024-09-17,Sep 2024,Product Sales,Income,US Headquarters,,0.0,19392.63
+TXN50617,2024-09-05,Sep 2024,Utilities,Expense,UK Operations,Marketing,20755.0,0.0
+TXN50617,2024-09-05,Sep 2024,Accounts Receivable,AcctRec,UK Operations,Marketing,0.0,20755.0
+TXN50618,2024-09-11,Sep 2024,Professional Fees,Expense,Australia Pty Ltd,Sales,39057.59,0.0
+TXN50618,2024-09-11,Sep 2024,Accounts Receivable,AcctRec,Australia Pty Ltd,Sales,0.0,39057.59
+TXN50619,2024-09-11,Sep 2024,Cash - Payroll,Bank,Australia Pty Ltd,Engineering,733.32,0.0
+TXN50619,2024-09-11,Sep 2024,Interest Income,OthIncome,Australia Pty Ltd,Engineering,0.0,733.32
+TXN50620,2024-09-25,Sep 2024,Salaries and Wages,Expense,UK Operations,Finance,39367.94,0.0
+TXN50620,2024-09-25,Sep 2024,Payroll Liabilities,OthCurrLiab,UK Operations,Finance,0.0,39367.94
+TXN50621,2024-09-21,Sep 2024,Cost of Goods Sold,COGS,France SAS,Finance,21736.76,0.0
+TXN50621,2024-09-21,Sep 2024,Cash - Operating,Bank,France SAS,Finance,0.0,21736.76
+TXN50622,2024-09-18,Sep 2024,Accounts Receivable,AcctRec,UK Operations,,18968.52,0.0
+TXN50622,2024-09-18,Sep 2024,Interest Income,OthIncome,UK Operations,,0.0,18968.52
+TXN50623,2024-09-07,Sep 2024,Salaries and Wages,Expense,US Headquarters,,704.13,0.0
+TXN50623,2024-09-07,Sep 2024,Accounts Payable,AcctPay,US Headquarters,,0.0,704.13
+TXN50624,2024-09-10,Sep 2024,Salaries and Wages,Expense,UK Operations,Engineering,19485.75,0.0
+TXN50624,2024-09-10,Sep 2024,Cash - Payroll,Bank,UK Operations,Engineering,0.0,19485.75
+TXN50625,2024-09-27,Sep 2024,Marketing and Advertising,Expense,US Headquarters,Marketing,47448.94,0.0
+TXN50625,2024-09-27,Sep 2024,Accounts Payable,AcctPay,US Headquarters,Marketing,0.0,47448.94
+TXN50626,2024-09-14,Sep 2024,Payroll Liabilities,OthCurrLiab,Australia Pty Ltd,Sales,17465.28,0.0
+TXN50626,2024-09-14,Sep 2024,Cash - Payroll,Bank,Australia Pty Ltd,Sales,0.0,17465.28
+TXN50627,2024-09-06,Sep 2024,Salaries and Wages,Expense,France SAS,Engineering,11806.71,0.0
+TXN50627,2024-09-06,Sep 2024,Inventory - Finished Goods,OthCurrAsset,France SAS,Engineering,0.0,11806.71
+TXN50628,2024-09-24,Sep 2024,Cash - Operating,Bank,US Headquarters,Operations,25479.36,0.0
+TXN50628,2024-09-24,Sep 2024,Service Revenue,Income,US Headquarters,Operations,0.0,25479.36
+TXN50629,2024-09-29,Sep 2024,Marketing and Advertising,Expense,Australia Pty Ltd,Marketing,38676.86,0.0
+TXN50629,2024-09-29,Sep 2024,Cash - Operating,Bank,Australia Pty Ltd,Marketing,0.0,38676.86
+TXN50630,2024-10-22,Oct 2024,Cash - Operating,Bank,US Headquarters,,41887.94,0.0
+TXN50630,2024-10-22,Oct 2024,Service Revenue,Income,US Headquarters,,0.0,41887.94
+TXN50631,2024-10-15,Oct 2024,Salaries and Wages,Expense,France SAS,Engineering,27590.48,0.0
+TXN50631,2024-10-15,Oct 2024,Inventory - Finished Goods,OthCurrAsset,France SAS,Engineering,0.0,27590.48
+TXN50632,2024-10-23,Oct 2024,Cost of Goods Sold,COGS,Australia Pty Ltd,,960.58,0.0
+TXN50632,2024-10-23,Oct 2024,Prepaid Insurance,OthCurrAsset,Australia Pty Ltd,,0.0,960.58
+TXN50633,2024-10-20,Oct 2024,Accounts Payable,AcctPay,Canada Inc,,7289.59,0.0
+TXN50633,2024-10-20,Oct 2024,Prepaid Insurance,OthCurrAsset,Canada Inc,,0.0,7289.59
+TXN50634,2024-10-24,Oct 2024,Utilities,Expense,Canada Inc,Engineering,14493.99,0.0
+TXN50634,2024-10-24,Oct 2024,Inventory - Finished Goods,OthCurrAsset,Canada Inc,Engineering,0.0,14493.99
+TXN50635,2024-10-20,Oct 2024,Payroll Liabilities,OthCurrLiab,UK Operations,Marketing,41659.19,0.0
+TXN50635,2024-10-20,Oct 2024,Inventory - Finished Goods,OthCurrAsset,UK Operations,Marketing,0.0,41659.19
+TXN50636,2024-10-10,Oct 2024,Sales Tax Payable,OthCurrLiab,UK Operations,Engineering,27632.87,0.0
+TXN50636,2024-10-10,Oct 2024,Inventory - Finished Goods,OthCurrAsset,UK Operations,Engineering,0.0,27632.87
+TXN50637,2024-10-11,Oct 2024,Cash - Operating,Bank,UK Operations,Engineering,1131.1,0.0
+TXN50637,2024-10-11,Oct 2024,Interest Income,OthIncome,UK Operations,Engineering,0.0,1131.1
+TXN50638,2024-10-22,Oct 2024,Cost of Goods Sold,COGS,France SAS,Sales,47497.58,0.0
+TXN50638,2024-10-22,Oct 2024,Cash - Payroll,Bank,France SAS,Sales,0.0,47497.58
+TXN50639,2024-10-29,Oct 2024,Payroll Liabilities,OthCurrLiab,Germany GmbH,,11942.43,0.0
+TXN50639,2024-10-29,Oct 2024,Accounts Receivable,AcctRec,Germany GmbH,,0.0,11942.43
+TXN50640,2024-10-15,Oct 2024,Payroll Liabilities,OthCurrLiab,US Headquarters,Engineering,40752.33,0.0
+TXN50640,2024-10-15,Oct 2024,Accounts Receivable,AcctRec,US Headquarters,Engineering,0.0,40752.33
+TXN50641,2024-10-26,Oct 2024,Cash - Operating,Bank,Australia Pty Ltd,Marketing,21586.76,0.0
+TXN50641,2024-10-26,Oct 2024,Product Sales,Income,Australia Pty Ltd,Marketing,0.0,21586.76
+TXN50642,2024-10-28,Oct 2024,Inventory - Finished Goods,OthCurrAsset,UK Operations,,32536.33,0.0
+TXN50642,2024-10-28,Oct 2024,Interest Income,OthIncome,UK Operations,,0.0,32536.33
+TXN50643,2024-10-09,Oct 2024,Cash - Operating,Bank,Australia Pty Ltd,Engineering,18944.8,0.0
+TXN50643,2024-10-09,Oct 2024,Service Revenue,Income,Australia Pty Ltd,Engineering,0.0,18944.8
+TXN50644,2024-10-13,Oct 2024,Utilities,Expense,France SAS,Marketing,41867.56,0.0
+TXN50644,2024-10-13,Oct 2024,Payroll Liabilities,OthCurrLiab,France SAS,Marketing,0.0,41867.56
+TXN50645,2024-10-21,Oct 2024,Interest Expense,OthExpense,UK Operations,Engineering,7059.32,0.0
+TXN50645,2024-10-21,Oct 2024,Accounts Receivable,AcctRec,UK Operations,Engineering,0.0,7059.32
+TXN50646,2024-10-04,Oct 2024,Utilities,Expense,France SAS,Operations,24392.41,0.0
+TXN50646,2024-10-04,Oct 2024,Accounts Receivable,AcctRec,France SAS,Operations,0.0,24392.41
+TXN50647,2024-10-20,Oct 2024,Sales Tax Payable,OthCurrLiab,France SAS,Marketing,30762.24,0.0
+TXN50647,2024-10-20,Oct 2024,Cash - Payroll,Bank,France SAS,Marketing,0.0,30762.24
+TXN50648,2024-10-16,Oct 2024,Cost of Goods Sold,COGS,France SAS,Engineering,44435.9,0.0
+TXN50648,2024-10-16,Oct 2024,Prepaid Insurance,OthCurrAsset,France SAS,Engineering,0.0,44435.9
+TXN50649,2024-10-21,Oct 2024,Interest Expense,OthExpense,Germany GmbH,Engineering,35376.12,0.0
+TXN50649,2024-10-21,Oct 2024,Inventory - Finished Goods,OthCurrAsset,Germany GmbH,Engineering,0.0,35376.12
+TXN50650,2024-10-31,Oct 2024,Marketing and Advertising,Expense,Australia Pty Ltd,Marketing,26195.43,0.0
+TXN50650,2024-10-31,Oct 2024,Cash - Payroll,Bank,Australia Pty Ltd,Marketing,0.0,26195.43
+TXN50651,2024-10-14,Oct 2024,Inventory - Finished Goods,OthCurrAsset,Australia Pty Ltd,,12804.56,0.0
+TXN50651,2024-10-14,Oct 2024,Product Sales,Income,Australia Pty Ltd,,0.0,12804.56
+TXN50652,2024-10-27,Oct 2024,Salaries and Wages,Expense,Canada Inc,Operations,3201.02,0.0
+TXN50652,2024-10-27,Oct 2024,Sales Tax Payable,OthCurrLiab,Canada Inc,Operations,0.0,3201.02
+TXN50653,2024-10-28,Oct 2024,Salaries and Wages,Expense,France SAS,Sales,4205.83,0.0
+TXN50653,2024-10-28,Oct 2024,Accounts Payable,AcctPay,France SAS,Sales,0.0,4205.83
+TXN50654,2024-10-09,Oct 2024,Utilities,Expense,US Headquarters,Operations,11523.97,0.0
+TXN50654,2024-10-09,Oct 2024,Inventory - Finished Goods,OthCurrAsset,US Headquarters,Operations,0.0,11523.97
+TXN50655,2024-10-03,Oct 2024,Interest Expense,OthExpense,France SAS,Finance,40162.43,0.0
+TXN50655,2024-10-03,Oct 2024,Sales Tax Payable,OthCurrLiab,France SAS,Finance,0.0,40162.43
+TXN50656,2024-10-15,Oct 2024,Cost of Goods Sold,COGS,Germany GmbH,Engineering,49043.2,0.0
+TXN50656,2024-10-15,Oct 2024,Cash - Payroll,Bank,Germany GmbH,Engineering,0.0,49043.2
+TXN50657,2024-10-13,Oct 2024,Cash - Operating,Bank,France SAS,Engineering,28077.99,0.0
+TXN50657,2024-10-13,Oct 2024,Interest Income,OthIncome,France SAS,Engineering,0.0,28077.99
+TXN50658,2024-10-31,Oct 2024,Salaries and Wages,Expense,Canada Inc,,15577.6,0.0
+TXN50658,2024-10-31,Oct 2024,Sales Tax Payable,OthCurrLiab,Canada Inc,,0.0,15577.6
+TXN50659,2024-10-31,Oct 2024,Payroll Liabilities,OthCurrLiab,Germany GmbH,Marketing,41352.89,0.0
+TXN50659,2024-10-31,Oct 2024,Accounts Receivable,AcctRec,Germany GmbH,Marketing,0.0,41352.89
+TXN50660,2024-10-18,Oct 2024,Professional Fees,Expense,Canada Inc,Operations,23920.12,0.0
+TXN50660,2024-10-18,Oct 2024,Sales Tax Payable,OthCurrLiab,Canada Inc,Operations,0.0,23920.12
+TXN50661,2024-10-04,Oct 2024,Accounts Receivable,AcctRec,US Headquarters,,11476.48,0.0
+TXN50661,2024-10-04,Oct 2024,Interest Income,OthIncome,US Headquarters,,0.0,11476.48
+TXN50662,2024-10-17,Oct 2024,Payroll Liabilities,OthCurrLiab,Germany GmbH,,5762.95,0.0
+TXN50662,2024-10-17,Oct 2024,Cash - Payroll,Bank,Germany GmbH,,0.0,5762.95
+TXN50663,2024-10-27,Oct 2024,Prepaid Insurance,OthCurrAsset,Australia Pty Ltd,,36217.18,0.0
+TXN50663,2024-10-27,Oct 2024,Product Sales,Income,Australia Pty Ltd,,0.0,36217.18
+TXN50664,2024-10-07,Oct 2024,Accounts Payable,AcctPay,US Headquarters,Finance,11171.68,0.0
+TXN50664,2024-10-07,Oct 2024,Accounts Receivable,AcctRec,US Headquarters,Finance,0.0,11171.68
+TXN50665,2024-10-04,Oct 2024,Sales Tax Payable,OthCurrLiab,France SAS,Engineering,46368.01,0.0
+TXN50665,2024-10-04,Oct 2024,Cash - Operating,Bank,France SAS,Engineering,0.0,46368.01
+TXN50666,2024-10-25,Oct 2024,Accounts Payable,AcctPay,France SAS,Finance,33093.61,0.0
+TXN50666,2024-10-25,Oct 2024,Inventory - Finished Goods,OthCurrAsset,France SAS,Finance,0.0,33093.61
+TXN50667,2024-10-01,Oct 2024,Sales Tax Payable,OthCurrLiab,Canada Inc,,2904.29,0.0
+TXN50667,2024-10-01,Oct 2024,Inventory - Finished Goods,OthCurrAsset,Canada Inc,,0.0,2904.29
+TXN50668,2024-10-30,Oct 2024,Cash - Payroll,Bank,Canada Inc,Sales,34744.98,0.0
+TXN50668,2024-10-30,Oct 2024,Product Sales,Income,Canada Inc,Sales,0.0,34744.98
+TXN50669,2024-10-13,Oct 2024,Inventory - Finished Goods,OthCurrAsset,Australia Pty Ltd,Operations,30504.96,0.0
+TXN50669,2024-10-13,Oct 2024,Service Revenue,Income,Australia Pty Ltd,Operations,0.0,30504.96
+TXN50670,2024-10-20,Oct 2024,Payroll Liabilities,OthCurrLiab,Australia Pty Ltd,Sales,14043.0,0.0
+TXN50670,2024-10-20,Oct 2024,Inventory - Finished Goods,OthCurrAsset,Australia Pty Ltd,Sales,0.0,14043.0
+TXN50671,2024-10-26,Oct 2024,Professional Fees,Expense,UK Operations,Sales,20930.9,0.0
+TXN50671,2024-10-26,Oct 2024,Prepaid Insurance,OthCurrAsset,UK Operations,Sales,0.0,20930.9
+TXN50672,2024-10-27,Oct 2024,Marketing and Advertising,Expense,Australia Pty Ltd,Operations,43105.02,0.0
+TXN50672,2024-10-27,Oct 2024,Inventory - Finished Goods,OthCurrAsset,Australia Pty Ltd,Operations,0.0,43105.02
+TXN50673,2024-10-07,Oct 2024,Professional Fees,Expense,UK Operations,Operations,35862.03,0.0
+TXN50673,2024-10-07,Oct 2024,Accounts Receivable,AcctRec,UK Operations,Operations,0.0,35862.03
+TXN50674,2024-10-23,Oct 2024,Rent Expense,Expense,Australia Pty Ltd,Sales,25442.73,0.0
+TXN50674,2024-10-23,Oct 2024,Cash - Payroll,Bank,Australia Pty Ltd,Sales,0.0,25442.73
+TXN50675,2024-10-25,Oct 2024,Professional Fees,Expense,Germany GmbH,Operations,24278.31,0.0
+TXN50675,2024-10-25,Oct 2024,Payroll Liabilities,OthCurrLiab,Germany GmbH,Operations,0.0,24278.31
+TXN50676,2024-10-22,Oct 2024,Accounts Payable,AcctPay,Australia Pty Ltd,Operations,14653.44,0.0
+TXN50676,2024-10-22,Oct 2024,Prepaid Insurance,OthCurrAsset,Australia Pty Ltd,Operations,0.0,14653.44
+TXN50677,2024-10-04,Oct 2024,Salaries and Wages,Expense,US Headquarters,Finance,7693.67,0.0
+TXN50677,2024-10-04,Oct 2024,Prepaid Insurance,OthCurrAsset,US Headquarters,Finance,0.0,7693.67
+TXN50678,2024-10-25,Oct 2024,Cash - Operating,Bank,UK Operations,Marketing,34327.82,0.0
+TXN50678,2024-10-25,Oct 2024,Interest Income,OthIncome,UK Operations,Marketing,0.0,34327.82
+TXN50679,2024-10-26,Oct 2024,Inventory - Finished Goods,OthCurrAsset,Germany GmbH,Sales,37802.9,0.0
+TXN50679,2024-10-26,Oct 2024,Product Sales,Income,Germany GmbH,Sales,0.0,37802.9
+TXN50680,2024-10-20,Oct 2024,Prepaid Insurance,OthCurrAsset,Australia Pty Ltd,,28313.31,0.0
+TXN50680,2024-10-20,Oct 2024,Service Revenue,Income,Australia Pty Ltd,,0.0,28313.31
+TXN50681,2024-10-08,Oct 2024,Utilities,Expense,Canada Inc,,14738.11,0.0
+TXN50681,2024-10-08,Oct 2024,Payroll Liabilities,OthCurrLiab,Canada Inc,,0.0,14738.11
+TXN50682,2024-10-14,Oct 2024,Accounts Receivable,AcctRec,Australia Pty Ltd,Marketing,48308.74,0.0
+TXN50682,2024-10-14,Oct 2024,Product Sales,Income,Australia Pty Ltd,Marketing,0.0,48308.74
+TXN50683,2024-10-20,Oct 2024,Professional Fees,Expense,France SAS,Sales,45618.58,0.0
+TXN50683,2024-10-20,Oct 2024,Accounts Payable,AcctPay,France SAS,Sales,0.0,45618.58
+TXN50684,2024-10-25,Oct 2024,Cash - Payroll,Bank,Canada Inc,Operations,37053.28,0.0
+TXN50684,2024-10-25,Oct 2024,Service Revenue,Income,Canada Inc,Operations,0.0,37053.28
+TXN50685,2024-10-15,Oct 2024,Sales Tax Payable,OthCurrLiab,UK Operations,,4186.22,0.0
+TXN50685,2024-10-15,Oct 2024,Prepaid Insurance,OthCurrAsset,UK Operations,,0.0,4186.22
+TXN50686,2024-10-04,Oct 2024,Salaries and Wages,Expense,France SAS,Engineering,21711.14,0.0
+TXN50686,2024-10-04,Oct 2024,Accounts Receivable,AcctRec,France SAS,Engineering,0.0,21711.14
+TXN50687,2024-10-19,Oct 2024,Salaries and Wages,Expense,Germany GmbH,Engineering,16862.86,0.0
+TXN50687,2024-10-19,Oct 2024,Cash - Operating,Bank,Germany GmbH,Engineering,0.0,16862.86
+TXN50688,2024-10-05,Oct 2024,Sales Tax Payable,OthCurrLiab,Germany GmbH,Operations,3017.34,0.0
+TXN50688,2024-10-05,Oct 2024,Accounts Receivable,AcctRec,Germany GmbH,Operations,0.0,3017.34
+TXN50689,2024-10-16,Oct 2024,Rent Expense,Expense,Canada Inc,Operations,18225.24,0.0
+TXN50689,2024-10-16,Oct 2024,Inventory - Finished Goods,OthCurrAsset,Canada Inc,Operations,0.0,18225.24
+TXN50690,2024-10-31,Oct 2024,Utilities,Expense,UK Operations,Operations,3874.74,0.0
+TXN50690,2024-10-31,Oct 2024,Payroll Liabilities,OthCurrLiab,UK Operations,Operations,0.0,3874.74
+TXN50691,2024-10-03,Oct 2024,Rent Expense,Expense,Germany GmbH,Sales,44228.14,0.0
+TXN50691,2024-10-03,Oct 2024,Accounts Payable,AcctPay,Germany GmbH,Sales,0.0,44228.14
+TXN50692,2024-10-10,Oct 2024,Sales Tax Payable,OthCurrLiab,UK Operations,Operations,26759.7,0.0
+TXN50692,2024-10-10,Oct 2024,Cash - Operating,Bank,UK Operations,Operations,0.0,26759.7
+TXN50693,2024-10-04,Oct 2024,Sales Tax Payable,OthCurrLiab,Australia Pty Ltd,Marketing,22560.53,0.0
+TXN50693,2024-10-04,Oct 2024,Prepaid Insurance,OthCurrAsset,Australia Pty Ltd,Marketing,0.0,22560.53
+TXN50694,2024-10-08,Oct 2024,Cash - Operating,Bank,US Headquarters,,44340.18,0.0
+TXN50694,2024-10-08,Oct 2024,Service Revenue,Income,US Headquarters,,0.0,44340.18
+TXN50695,2024-10-09,Oct 2024,Payroll Liabilities,OthCurrLiab,Canada Inc,,14500.04,0.0
+TXN50695,2024-10-09,Oct 2024,Prepaid Insurance,OthCurrAsset,Canada Inc,,0.0,14500.04
+TXN50696,2024-10-26,Oct 2024,Cash - Payroll,Bank,Canada Inc,Finance,24596.83,0.0
+TXN50696,2024-10-26,Oct 2024,Service Revenue,Income,Canada Inc,Finance,0.0,24596.83
+TXN50697,2024-10-17,Oct 2024,Sales Tax Payable,OthCurrLiab,US Headquarters,Engineering,8786.04,0.0
+TXN50697,2024-10-17,Oct 2024,Prepaid Insurance,OthCurrAsset,US Headquarters,Engineering,0.0,8786.04
+TXN50698,2024-10-01,Oct 2024,Salaries and Wages,Expense,Australia Pty Ltd,Engineering,10933.68,0.0
+TXN50698,2024-10-01,Oct 2024,Payroll Liabilities,OthCurrLiab,Australia Pty Ltd,Engineering,0.0,10933.68
+TXN50699,2024-10-27,Oct 2024,Professional Fees,Expense,US Headquarters,Sales,27118.83,0.0
+TXN50699,2024-10-27,Oct 2024,Payroll Liabilities,OthCurrLiab,US Headquarters,Sales,0.0,27118.83
+TXN50700,2024-11-21,Nov 2024,Accounts Receivable,AcctRec,US Headquarters,,34459.16,0.0
+TXN50700,2024-11-21,Nov 2024,Product Sales,Income,US Headquarters,,0.0,34459.16
+TXN50701,2024-11-03,Nov 2024,Cash - Operating,Bank,US Headquarters,Engineering,9310.61,0.0
+TXN50701,2024-11-03,Nov 2024,Interest Income,OthIncome,US Headquarters,Engineering,0.0,9310.61
+TXN50702,2024-11-27,Nov 2024,Utilities,Expense,UK Operations,Marketing,20677.82,0.0
+TXN50702,2024-11-27,Nov 2024,Payroll Liabilities,OthCurrLiab,UK Operations,Marketing,0.0,20677.82
+TXN50703,2024-11-11,Nov 2024,Professional Fees,Expense,US Headquarters,Finance,33828.29,0.0
+TXN50703,2024-11-11,Nov 2024,Cash - Payroll,Bank,US Headquarters,Finance,0.0,33828.29
+TXN50704,2024-11-25,Nov 2024,Payroll Liabilities,OthCurrLiab,Australia Pty Ltd,Operations,2753.08,0.0
+TXN50704,2024-11-25,Nov 2024,Prepaid Insurance,OthCurrAsset,Australia Pty Ltd,Operations,0.0,2753.08
+TXN50705,2024-11-04,Nov 2024,Inventory - Finished Goods,OthCurrAsset,Germany GmbH,,15416.86,0.0
+TXN50705,2024-11-04,Nov 2024,Service Revenue,Income,Germany GmbH,,0.0,15416.86
+TXN50706,2024-11-13,Nov 2024,Salaries and Wages,Expense,Australia Pty Ltd,Engineering,23962.39,0.0
+TXN50706,2024-11-13,Nov 2024,Payroll Liabilities,OthCurrLiab,Australia Pty Ltd,Engineering,0.0,23962.39
+TXN50707,2024-11-26,Nov 2024,Accounts Receivable,AcctRec,Canada Inc,Marketing,48026.65,0.0
+TXN50707,2024-11-26,Nov 2024,Product Sales,Income,Canada Inc,Marketing,0.0,48026.65
+TXN50708,2024-11-18,Nov 2024,Prepaid Insurance,OthCurrAsset,Canada Inc,Sales,6600.14,0.0
+TXN50708,2024-11-18,Nov 2024,Service Revenue,Income,Canada Inc,Sales,0.0,6600.14
+TXN50709,2024-11-18,Nov 2024,Professional Fees,Expense,Canada Inc,Engineering,15582.21,0.0
+TXN50709,2024-11-18,Nov 2024,Accounts Payable,AcctPay,Canada Inc,Engineering,0.0,15582.21
+TXN50710,2024-11-07,Nov 2024,Cash - Payroll,Bank,France SAS,,42647.21,0.0
+TXN50710,2024-11-07,Nov 2024,Product Sales,Income,France SAS,,0.0,42647.21
+TXN50711,2024-11-20,Nov 2024,Marketing and Advertising,Expense,Germany GmbH,Sales,6173.82,0.0
+TXN50711,2024-11-20,Nov 2024,Cash - Operating,Bank,Germany GmbH,Sales,0.0,6173.82
+TXN50712,2024-11-28,Nov 2024,Cash - Operating,Bank,Canada Inc,Finance,32411.39,0.0
+TXN50712,2024-11-28,Nov 2024,Service Revenue,Income,Canada Inc,Finance,0.0,32411.39
+TXN50713,2024-11-04,Nov 2024,Payroll Liabilities,OthCurrLiab,UK Operations,,29239.48,0.0
+TXN50713,2024-11-04,Nov 2024,Cash - Payroll,Bank,UK Operations,,0.0,29239.48
+TXN50714,2024-11-22,Nov 2024,Salaries and Wages,Expense,Australia Pty Ltd,Sales,5452.23,0.0
+TXN50714,2024-11-22,Nov 2024,Accounts Payable,AcctPay,Australia Pty Ltd,Sales,0.0,5452.23
+TXN50715,2024-11-16,Nov 2024,Prepaid Insurance,OthCurrAsset,France SAS,Marketing,31008.95,0.0
+TXN50715,2024-11-16,Nov 2024,Product Sales,Income,France SAS,Marketing,0.0,31008.95
+TXN50716,2024-11-19,Nov 2024,Accounts Payable,AcctPay,Canada Inc,Marketing,40481.14,0.0
+TXN50716,2024-11-19,Nov 2024,Cash - Operating,Bank,Canada Inc,Marketing,0.0,40481.14
+TXN50717,2024-11-11,Nov 2024,Rent Expense,Expense,UK Operations,Sales,35753.86,0.0
+TXN50717,2024-11-11,Nov 2024,Accounts Payable,AcctPay,UK Operations,Sales,0.0,35753.86
+TXN50718,2024-11-05,Nov 2024,Utilities,Expense,Australia Pty Ltd,,16912.37,0.0
+TXN50718,2024-11-05,Nov 2024,Accounts Payable,AcctPay,Australia Pty Ltd,,0.0,16912.37
+TXN50719,2024-11-25,Nov 2024,Prepaid Insurance,OthCurrAsset,Germany GmbH,Finance,27807.76,0.0
+TXN50719,2024-11-25,Nov 2024,Product Sales,Income,Germany GmbH,Finance,0.0,27807.76
+TXN50720,2024-11-27,Nov 2024,Cash - Operating,Bank,Germany GmbH,Sales,44619.2,0.0
+TXN50720,2024-11-27,Nov 2024,Interest Income,OthIncome,Germany GmbH,Sales,0.0,44619.2
+TXN50721,2024-11-03,Nov 2024,Sales Tax Payable,OthCurrLiab,US Headquarters,Operations,31765.51,0.0
+TXN50721,2024-11-03,Nov 2024,Inventory - Finished Goods,OthCurrAsset,US Headquarters,Operations,0.0,31765.51
+TXN50722,2024-11-25,Nov 2024,Marketing and Advertising,Expense,Canada Inc,Sales,45362.03,0.0
+TXN50722,2024-11-25,Nov 2024,Sales Tax Payable,OthCurrLiab,Canada Inc,Sales,0.0,45362.03
+TXN50723,2024-11-21,Nov 2024,Sales Tax Payable,OthCurrLiab,UK Operations,Marketing,19928.67,0.0
+TXN50723,2024-11-21,Nov 2024,Accounts Receivable,AcctRec,UK Operations,Marketing,0.0,19928.67
+TXN50724,2024-11-05,Nov 2024,Prepaid Insurance,OthCurrAsset,France SAS,Operations,25765.39,0.0
+TXN50724,2024-11-05,Nov 2024,Product Sales,Income,France SAS,Operations,0.0,25765.39
+TXN50725,2024-11-22,Nov 2024,Salaries and Wages,Expense,UK Operations,Operations,34366.0,0.0
+TXN50725,2024-11-22,Nov 2024,Sales Tax Payable,OthCurrLiab,UK Operations,Operations,0.0,34366.0
+TXN50726,2024-11-06,Nov 2024,Salaries and Wages,Expense,UK Operations,Operations,47461.24,0.0
+TXN50726,2024-11-06,Nov 2024,Sales Tax Payable,OthCurrLiab,UK Operations,Operations,0.0,47461.24
+TXN50727,2024-11-12,Nov 2024,Accounts Receivable,AcctRec,US Headquarters,Sales,38192.88,0.0
+TXN50727,2024-11-12,Nov 2024,Service Revenue,Income,US Headquarters,Sales,0.0,38192.88
+TXN50728,2024-11-08,Nov 2024,Payroll Liabilities,OthCurrLiab,US Headquarters,,10735.32,0.0
+TXN50728,2024-11-08,Nov 2024,Inventory - Finished Goods,OthCurrAsset,US Headquarters,,0.0,10735.32
+TXN50729,2024-11-16,Nov 2024,Cost of Goods Sold,COGS,France SAS,Engineering,2475.28,0.0
+TXN50729,2024-11-16,Nov 2024,Prepaid Insurance,OthCurrAsset,France SAS,Engineering,0.0,2475.28
+TXN50730,2024-11-27,Nov 2024,Utilities,Expense,Australia Pty Ltd,Marketing,29142.26,0.0
+TXN50730,2024-11-27,Nov 2024,Payroll Liabilities,OthCurrLiab,Australia Pty Ltd,Marketing,0.0,29142.26
+TXN50731,2024-11-12,Nov 2024,Accounts Receivable,AcctRec,Canada Inc,,44962.22,0.0
+TXN50731,2024-11-12,Nov 2024,Service Revenue,Income,Canada Inc,,0.0,44962.22
+TXN50732,2024-11-30,Nov 2024,Payroll Liabilities,OthCurrLiab,UK Operations,Operations,20589.19,0.0
+TXN50732,2024-11-30,Nov 2024,Inventory - Finished Goods,OthCurrAsset,UK Operations,Operations,0.0,20589.19
+TXN50733,2024-11-26,Nov 2024,Payroll Liabilities,OthCurrLiab,France SAS,Operations,826.59,0.0
+TXN50733,2024-11-26,Nov 2024,Cash - Payroll,Bank,France SAS,Operations,0.0,826.59
+TXN50734,2024-11-08,Nov 2024,Cash - Payroll,Bank,US Headquarters,Operations,32352.11,0.0
+TXN50734,2024-11-08,Nov 2024,Product Sales,Income,US Headquarters,Operations,0.0,32352.11
+TXN50735,2024-11-12,Nov 2024,Utilities,Expense,Canada Inc,,40939.28,0.0
+TXN50735,2024-11-12,Nov 2024,Accounts Payable,AcctPay,Canada Inc,,0.0,40939.28
+TXN50736,2024-11-24,Nov 2024,Marketing and Advertising,Expense,US Headquarters,Finance,33923.86,0.0
+TXN50736,2024-11-24,Nov 2024,Accounts Receivable,AcctRec,US Headquarters,Finance,0.0,33923.86
+TXN50737,2024-11-21,Nov 2024,Prepaid Insurance,OthCurrAsset,France SAS,Engineering,12561.68,0.0
+TXN50737,2024-11-21,Nov 2024,Product Sales,Income,France SAS,Engineering,0.0,12561.68
+TXN50738,2024-11-05,Nov 2024,Cost of Goods Sold,COGS,Australia Pty Ltd,Operations,2439.95,0.0
+TXN50738,2024-11-05,Nov 2024,Accounts Receivable,AcctRec,Australia Pty Ltd,Operations,0.0,2439.95
+TXN50739,2024-11-09,Nov 2024,Marketing and Advertising,Expense,UK Operations,Operations,47932.8,0.0
+TXN50739,2024-11-09,Nov 2024,Cash - Operating,Bank,UK Operations,Operations,0.0,47932.8
+TXN50740,2024-11-29,Nov 2024,Cash - Operating,Bank,Australia Pty Ltd,,33256.38,0.0
+TXN50740,2024-11-29,Nov 2024,Product Sales,Income,Australia Pty Ltd,,0.0,33256.38
+TXN50741,2024-11-15,Nov 2024,Inventory - Finished Goods,OthCurrAsset,Canada Inc,Finance,43431.47,0.0
+TXN50741,2024-11-15,Nov 2024,Interest Income,OthIncome,Canada Inc,Finance,0.0,43431.47
+TXN50742,2024-11-05,Nov 2024,Salaries and Wages,Expense,Canada Inc,Sales,31348.98,0.0
+TXN50742,2024-11-05,Nov 2024,Accounts Payable,AcctPay,Canada Inc,Sales,0.0,31348.98
+TXN50743,2024-11-30,Nov 2024,Inventory - Finished Goods,OthCurrAsset,France SAS,Operations,29734.5,0.0
+TXN50743,2024-11-30,Nov 2024,Product Sales,Income,France SAS,Operations,0.0,29734.5
+TXN50744,2024-11-04,Nov 2024,Sales Tax Payable,OthCurrLiab,US Headquarters,Sales,26374.21,0.0
+TXN50744,2024-11-04,Nov 2024,Inventory - Finished Goods,OthCurrAsset,US Headquarters,Sales,0.0,26374.21
+TXN50745,2024-11-27,Nov 2024,Marketing and Advertising,Expense,UK Operations,Operations,5266.78,0.0
+TXN50745,2024-11-27,Nov 2024,Cash - Operating,Bank,UK Operations,Operations,0.0,5266.78
+TXN50746,2024-11-29,Nov 2024,Cash - Payroll,Bank,Canada Inc,Operations,37742.97,0.0
+TXN50746,2024-11-29,Nov 2024,Interest Income,OthIncome,Canada Inc,Operations,0.0,37742.97
+TXN50747,2024-11-18,Nov 2024,Rent Expense,Expense,US Headquarters,,32636.97,0.0
+TXN50747,2024-11-18,Nov 2024,Cash - Operating,Bank,US Headquarters,,0.0,32636.97
+TXN50748,2024-11-23,Nov 2024,Payroll Liabilities,OthCurrLiab,Canada Inc,Finance,11859.57,0.0
+TXN50748,2024-11-23,Nov 2024,Accounts Receivable,AcctRec,Canada Inc,Finance,0.0,11859.57
+TXN50749,2024-11-19,Nov 2024,Rent Expense,Expense,Australia Pty Ltd,,29017.98,0.0
+TXN50749,2024-11-19,Nov 2024,Sales Tax Payable,OthCurrLiab,Australia Pty Ltd,,0.0,29017.98
+TXN50750,2024-11-25,Nov 2024,Payroll Liabilities,OthCurrLiab,UK Operations,Engineering,14521.7,0.0
+TXN50750,2024-11-25,Nov 2024,Accounts Receivable,AcctRec,UK Operations,Engineering,0.0,14521.7
+TXN50751,2024-11-07,Nov 2024,Prepaid Insurance,OthCurrAsset,US Headquarters,,37310.46,0.0
+TXN50751,2024-11-07,Nov 2024,Product Sales,Income,US Headquarters,,0.0,37310.46
+TXN50752,2024-11-17,Nov 2024,Rent Expense,Expense,US Headquarters,Finance,32900.03,0.0
+TXN50752,2024-11-17,Nov 2024,Payroll Liabilities,OthCurrLiab,US Headquarters,Finance,0.0,32900.03
+TXN50753,2024-11-12,Nov 2024,Rent Expense,Expense,US Headquarters,Sales,21590.54,0.0
+TXN50753,2024-11-12,Nov 2024,Payroll Liabilities,OthCurrLiab,US Headquarters,Sales,0.0,21590.54
+TXN50754,2024-11-19,Nov 2024,Interest Expense,OthExpense,Germany GmbH,Operations,14140.25,0.0
+TXN50754,2024-11-19,Nov 2024,Inventory - Finished Goods,OthCurrAsset,Germany GmbH,Operations,0.0,14140.25
+TXN50755,2024-11-14,Nov 2024,Prepaid Insurance,OthCurrAsset,Canada Inc,Operations,24382.15,0.0
+TXN50755,2024-11-14,Nov 2024,Service Revenue,Income,Canada Inc,Operations,0.0,24382.15
+TXN50756,2024-11-09,Nov 2024,Professional Fees,Expense,Germany GmbH,Operations,17545.64,0.0
+TXN50756,2024-11-09,Nov 2024,Accounts Receivable,AcctRec,Germany GmbH,Operations,0.0,17545.64
+TXN50757,2024-11-28,Nov 2024,Professional Fees,Expense,Australia Pty Ltd,Engineering,37516.8,0.0
+TXN50757,2024-11-28,Nov 2024,Accounts Receivable,AcctRec,Australia Pty Ltd,Engineering,0.0,37516.8
+TXN50758,2024-11-04,Nov 2024,Prepaid Insurance,OthCurrAsset,UK Operations,Operations,20327.76,0.0
+TXN50758,2024-11-04,Nov 2024,Interest Income,OthIncome,UK Operations,Operations,0.0,20327.76
+TXN50759,2024-11-23,Nov 2024,Cash - Operating,Bank,Australia Pty Ltd,,3076.61,0.0
+TXN50759,2024-11-23,Nov 2024,Product Sales,Income,Australia Pty Ltd,,0.0,3076.61
+TXN50760,2024-11-27,Nov 2024,Cost of Goods Sold,COGS,UK Operations,Finance,46330.16,0.0
+TXN50760,2024-11-27,Nov 2024,Prepaid Insurance,OthCurrAsset,UK Operations,Finance,0.0,46330.16
+TXN50761,2024-11-08,Nov 2024,Utilities,Expense,Germany GmbH,Engineering,30646.93,0.0
+TXN50761,2024-11-08,Nov 2024,Prepaid Insurance,OthCurrAsset,Germany GmbH,Engineering,0.0,30646.93
+TXN50762,2024-11-23,Nov 2024,Sales Tax Payable,OthCurrLiab,Canada Inc,Engineering,47312.93,0.0
+TXN50762,2024-11-23,Nov 2024,Inventory - Finished Goods,OthCurrAsset,Canada Inc,Engineering,0.0,47312.93
+TXN50763,2024-11-15,Nov 2024,Sales Tax Payable,OthCurrLiab,US Headquarters,Sales,42603.1,0.0
+TXN50763,2024-11-15,Nov 2024,Accounts Receivable,AcctRec,US Headquarters,Sales,0.0,42603.1
+TXN50764,2024-11-07,Nov 2024,Marketing and Advertising,Expense,US Headquarters,Operations,25772.12,0.0
+TXN50764,2024-11-07,Nov 2024,Accounts Receivable,AcctRec,US Headquarters,Operations,0.0,25772.12
+TXN50765,2024-11-22,Nov 2024,Cash - Payroll,Bank,US Headquarters,Marketing,12343.2,0.0
+TXN50765,2024-11-22,Nov 2024,Product Sales,Income,US Headquarters,Marketing,0.0,12343.2
+TXN50766,2024-11-09,Nov 2024,Salaries and Wages,Expense,France SAS,Marketing,33648.27,0.0
+TXN50766,2024-11-09,Nov 2024,Cash - Operating,Bank,France SAS,Marketing,0.0,33648.27
+TXN50767,2024-11-24,Nov 2024,Professional Fees,Expense,Australia Pty Ltd,Engineering,45999.28,0.0
+TXN50767,2024-11-24,Nov 2024,Accounts Payable,AcctPay,Australia Pty Ltd,Engineering,0.0,45999.28
+TXN50768,2024-11-12,Nov 2024,Inventory - Finished Goods,OthCurrAsset,Germany GmbH,Sales,30514.99,0.0
+TXN50768,2024-11-12,Nov 2024,Interest Income,OthIncome,Germany GmbH,Sales,0.0,30514.99
+TXN50769,2024-11-01,Nov 2024,Cash - Operating,Bank,Germany GmbH,Sales,20653.16,0.0
+TXN50769,2024-11-01,Nov 2024,Interest Income,OthIncome,Germany GmbH,Sales,0.0,20653.16
+TXN50770,2024-12-10,Dec 2024,Sales Tax Payable,OthCurrLiab,Germany GmbH,Engineering,40245.64,0.0
+TXN50770,2024-12-10,Dec 2024,Prepaid Insurance,OthCurrAsset,Germany GmbH,Engineering,0.0,40245.64
+TXN50771,2024-12-09,Dec 2024,Interest Expense,OthExpense,Australia Pty Ltd,Finance,48319.75,0.0
+TXN50771,2024-12-09,Dec 2024,Inventory - Finished Goods,OthCurrAsset,Australia Pty Ltd,Finance,0.0,48319.75
+TXN50772,2024-12-25,Dec 2024,Accounts Payable,AcctPay,Germany GmbH,Finance,34238.94,0.0
+TXN50772,2024-12-25,Dec 2024,Inventory - Finished Goods,OthCurrAsset,Germany GmbH,Finance,0.0,34238.94
+TXN50773,2024-12-04,Dec 2024,Salaries and Wages,Expense,Germany GmbH,Engineering,19442.33,0.0
+TXN50773,2024-12-04,Dec 2024,Inventory - Finished Goods,OthCurrAsset,Germany GmbH,Engineering,0.0,19442.33
+TXN50774,2024-12-26,Dec 2024,Cost of Goods Sold,COGS,Germany GmbH,Finance,47794.56,0.0
+TXN50774,2024-12-26,Dec 2024,Prepaid Insurance,OthCurrAsset,Germany GmbH,Finance,0.0,47794.56
+TXN50775,2024-12-08,Dec 2024,Rent Expense,Expense,Germany GmbH,Engineering,20247.07,0.0
+TXN50775,2024-12-08,Dec 2024,Cash - Payroll,Bank,Germany GmbH,Engineering,0.0,20247.07
+TXN50776,2024-12-18,Dec 2024,Prepaid Insurance,OthCurrAsset,UK Operations,Finance,16036.7,0.0
+TXN50776,2024-12-18,Dec 2024,Service Revenue,Income,UK Operations,Finance,0.0,16036.7
+TXN50777,2024-12-06,Dec 2024,Cash - Payroll,Bank,Australia Pty Ltd,,46547.64,0.0
+TXN50777,2024-12-06,Dec 2024,Product Sales,Income,Australia Pty Ltd,,0.0,46547.64
+TXN50778,2024-12-24,Dec 2024,Cash - Payroll,Bank,UK Operations,Marketing,10735.54,0.0
+TXN50778,2024-12-24,Dec 2024,Interest Income,OthIncome,UK Operations,Marketing,0.0,10735.54
+TXN50779,2024-12-12,Dec 2024,Inventory - Finished Goods,OthCurrAsset,UK Operations,Engineering,6433.99,0.0
+TXN50779,2024-12-12,Dec 2024,Interest Income,OthIncome,UK Operations,Engineering,0.0,6433.99
+TXN50780,2024-12-01,Dec 2024,Accounts Receivable,AcctRec,Canada Inc,Engineering,42476.52,0.0
+TXN50780,2024-12-01,Dec 2024,Service Revenue,Income,Canada Inc,Engineering,0.0,42476.52
+TXN50781,2024-12-29,Dec 2024,Sales Tax Payable,OthCurrLiab,Canada Inc,Marketing,24794.86,0.0
+TXN50781,2024-12-29,Dec 2024,Accounts Receivable,AcctRec,Canada Inc,Marketing,0.0,24794.86
+TXN50782,2024-12-13,Dec 2024,Utilities,Expense,UK Operations,Operations,6848.17,0.0
+TXN50782,2024-12-13,Dec 2024,Sales Tax Payable,OthCurrLiab,UK Operations,Operations,0.0,6848.17
+TXN50783,2024-12-31,Dec 2024,Cash - Payroll,Bank,Canada Inc,Engineering,25372.52,0.0
+TXN50783,2024-12-31,Dec 2024,Service Revenue,Income,Canada Inc,Engineering,0.0,25372.52
+TXN50784,2024-12-04,Dec 2024,Cost of Goods Sold,COGS,Australia Pty Ltd,Operations,23273.49,0.0
+TXN50784,2024-12-04,Dec 2024,Inventory - Finished Goods,OthCurrAsset,Australia Pty Ltd,Operations,0.0,23273.49
+TXN50785,2024-12-13,Dec 2024,Rent Expense,Expense,Canada Inc,Engineering,16609.09,0.0
+TXN50785,2024-12-13,Dec 2024,Accounts Receivable,AcctRec,Canada Inc,Engineering,0.0,16609.09
+TXN50786,2024-12-18,Dec 2024,Payroll Liabilities,OthCurrLiab,Germany GmbH,Sales,13835.71,0.0
+TXN50786,2024-12-18,Dec 2024,Accounts Receivable,AcctRec,Germany GmbH,Sales,0.0,13835.71
+TXN50787,2024-12-06,Dec 2024,Rent Expense,Expense,France SAS,Finance,10921.36,0.0
+TXN50787,2024-12-06,Dec 2024,Accounts Payable,AcctPay,France SAS,Finance,0.0,10921.36
+TXN50788,2024-12-28,Dec 2024,Marketing and Advertising,Expense,France SAS,Marketing,22811.09,0.0
+TXN50788,2024-12-28,Dec 2024,Inventory - Finished Goods,OthCurrAsset,France SAS,Marketing,0.0,22811.09
+TXN50789,2024-12-27,Dec 2024,Inventory - Finished Goods,OthCurrAsset,US Headquarters,,13862.48,0.0
+TXN50789,2024-12-27,Dec 2024,Service Revenue,Income,US Headquarters,,0.0,13862.48
+TXN50790,2024-12-07,Dec 2024,Accounts Payable,AcctPay,UK Operations,,7902.63,0.0
+TXN50790,2024-12-07,Dec 2024,Inventory - Finished Goods,OthCurrAsset,UK Operations,,0.0,7902.63
+TXN50791,2024-12-16,Dec 2024,Interest Expense,OthExpense,UK Operations,,26091.85,0.0
+TXN50791,2024-12-16,Dec 2024,Sales Tax Payable,OthCurrLiab,UK Operations,,0.0,26091.85
+TXN50792,2024-12-10,Dec 2024,Cash - Operating,Bank,Germany GmbH,Operations,42995.85,0.0
+TXN50792,2024-12-10,Dec 2024,Interest Income,OthIncome,Germany GmbH,Operations,0.0,42995.85
+TXN50793,2024-12-06,Dec 2024,Professional Fees,Expense,US Headquarters,Sales,40783.99,0.0
+TXN50793,2024-12-06,Dec 2024,Cash - Payroll,Bank,US Headquarters,Sales,0.0,40783.99
+TXN50794,2024-12-15,Dec 2024,Prepaid Insurance,OthCurrAsset,Australia Pty Ltd,Marketing,13358.57,0.0
+TXN50794,2024-12-15,Dec 2024,Service Revenue,Income,Australia Pty Ltd,Marketing,0.0,13358.57
+TXN50795,2024-12-12,Dec 2024,Sales Tax Payable,OthCurrLiab,US Headquarters,Finance,6501.26,0.0
+TXN50795,2024-12-12,Dec 2024,Cash - Payroll,Bank,US Headquarters,Finance,0.0,6501.26
+TXN50796,2024-12-19,Dec 2024,Accounts Receivable,AcctRec,Canada Inc,,32631.98,0.0
+TXN50796,2024-12-19,Dec 2024,Service Revenue,Income,Canada Inc,,0.0,32631.98
+TXN50797,2024-12-11,Dec 2024,Cost of Goods Sold,COGS,Australia Pty Ltd,Operations,24630.94,0.0
+TXN50797,2024-12-11,Dec 2024,Payroll Liabilities,OthCurrLiab,Australia Pty Ltd,Operations,0.0,24630.94
+TXN50798,2024-12-20,Dec 2024,Cash - Payroll,Bank,Germany GmbH,Finance,31769.75,0.0
+TXN50798,2024-12-20,Dec 2024,Interest Income,OthIncome,Germany GmbH,Finance,0.0,31769.75
+TXN50799,2024-12-26,Dec 2024,Interest Expense,OthExpense,Germany GmbH,Finance,31748.03,0.0
+TXN50799,2024-12-26,Dec 2024,Cash - Payroll,Bank,Germany GmbH,Finance,0.0,31748.03
+TXN50800,2024-12-03,Dec 2024,Accounts Receivable,AcctRec,UK Operations,Marketing,11796.79,0.0
+TXN50800,2024-12-03,Dec 2024,Interest Income,OthIncome,UK Operations,Marketing,0.0,11796.79
+TXN50801,2024-12-09,Dec 2024,Payroll Liabilities,OthCurrLiab,Canada Inc,,20075.04,0.0
+TXN50801,2024-12-09,Dec 2024,Prepaid Insurance,OthCurrAsset,Canada Inc,,0.0,20075.04
+TXN50802,2024-12-17,Dec 2024,Accounts Payable,AcctPay,France SAS,Finance,8782.25,0.0
+TXN50802,2024-12-17,Dec 2024,Cash - Payroll,Bank,France SAS,Finance,0.0,8782.25
+TXN50803,2024-12-22,Dec 2024,Cash - Payroll,Bank,Germany GmbH,,35184.5,0.0
+TXN50803,2024-12-22,Dec 2024,Service Revenue,Income,Germany GmbH,,0.0,35184.5
+TXN50804,2024-12-04,Dec 2024,Cost of Goods Sold,COGS,US Headquarters,Engineering,46871.29,0.0
+TXN50804,2024-12-04,Dec 2024,Cash - Operating,Bank,US Headquarters,Engineering,0.0,46871.29
+TXN50805,2024-12-25,Dec 2024,Accounts Receivable,AcctRec,France SAS,Operations,38367.32,0.0
+TXN50805,2024-12-25,Dec 2024,Interest Income,OthIncome,France SAS,Operations,0.0,38367.32
+TXN50806,2024-12-05,Dec 2024,Cash - Payroll,Bank,US Headquarters,,46613.68,0.0
+TXN50806,2024-12-05,Dec 2024,Product Sales,Income,US Headquarters,,0.0,46613.68
+TXN50807,2024-12-24,Dec 2024,Cash - Payroll,Bank,Germany GmbH,Finance,31510.79,0.0
+TXN50807,2024-12-24,Dec 2024,Product Sales,Income,Germany GmbH,Finance,0.0,31510.79
+TXN50808,2024-12-02,Dec 2024,Inventory - Finished Goods,OthCurrAsset,Australia Pty Ltd,Marketing,43088.26,0.0
+TXN50808,2024-12-02,Dec 2024,Service Revenue,Income,Australia Pty Ltd,Marketing,0.0,43088.26
+TXN50809,2024-12-28,Dec 2024,Prepaid Insurance,OthCurrAsset,Canada Inc,Marketing,27652.99,0.0
+TXN50809,2024-12-28,Dec 2024,Product Sales,Income,Canada Inc,Marketing,0.0,27652.99
+TXN50810,2024-12-19,Dec 2024,Marketing and Advertising,Expense,Canada Inc,Finance,31736.85,0.0
+TXN50810,2024-12-19,Dec 2024,Payroll Liabilities,OthCurrLiab,Canada Inc,Finance,0.0,31736.85
+TXN50811,2024-12-17,Dec 2024,Payroll Liabilities,OthCurrLiab,Australia Pty Ltd,,26922.31,0.0
+TXN50811,2024-12-17,Dec 2024,Prepaid Insurance,OthCurrAsset,Australia Pty Ltd,,0.0,26922.31
+TXN50812,2024-12-08,Dec 2024,Salaries and Wages,Expense,US Headquarters,Finance,15739.48,0.0
+TXN50812,2024-12-08,Dec 2024,Prepaid Insurance,OthCurrAsset,US Headquarters,Finance,0.0,15739.48
+TXN50813,2024-12-01,Dec 2024,Payroll Liabilities,OthCurrLiab,US Headquarters,Operations,40861.3,0.0
+TXN50813,2024-12-01,Dec 2024,Accounts Receivable,AcctRec,US Headquarters,Operations,0.0,40861.3
+TXN50814,2024-12-16,Dec 2024,Interest Expense,OthExpense,Canada Inc,Engineering,34544.61,0.0
+TXN50814,2024-12-16,Dec 2024,Sales Tax Payable,OthCurrLiab,Canada Inc,Engineering,0.0,34544.61
+TXN50815,2024-12-10,Dec 2024,Interest Expense,OthExpense,US Headquarters,Finance,39999.26,0.0
+TXN50815,2024-12-10,Dec 2024,Cash - Operating,Bank,US Headquarters,Finance,0.0,39999.26
+TXN50816,2024-12-18,Dec 2024,Utilities,Expense,Germany GmbH,Sales,20880.93,0.0
+TXN50816,2024-12-18,Dec 2024,Inventory - Finished Goods,OthCurrAsset,Germany GmbH,Sales,0.0,20880.93
+TXN50817,2024-12-06,Dec 2024,Accounts Payable,AcctPay,Australia Pty Ltd,,32476.54,0.0
+TXN50817,2024-12-06,Dec 2024,Accounts Receivable,AcctRec,Australia Pty Ltd,,0.0,32476.54
+TXN50818,2024-12-03,Dec 2024,Marketing and Advertising,Expense,France SAS,,12358.31,0.0
+TXN50818,2024-12-03,Dec 2024,Prepaid Insurance,OthCurrAsset,France SAS,,0.0,12358.31
+TXN50819,2024-12-10,Dec 2024,Cash - Payroll,Bank,Australia Pty Ltd,,26831.24,0.0
+TXN50819,2024-12-10,Dec 2024,Product Sales,Income,Australia Pty Ltd,,0.0,26831.24
+TXN50820,2024-12-06,Dec 2024,Utilities,Expense,UK Operations,Marketing,5962.64,0.0
+TXN50820,2024-12-06,Dec 2024,Prepaid Insurance,OthCurrAsset,UK Operations,Marketing,0.0,5962.64
+TXN50821,2024-12-23,Dec 2024,Cash - Operating,Bank,Canada Inc,Finance,9795.58,0.0
+TXN50821,2024-12-23,Dec 2024,Interest Income,OthIncome,Canada Inc,Finance,0.0,9795.58
+TXN50822,2024-12-01,Dec 2024,Inventory - Finished Goods,OthCurrAsset,UK Operations,Engineering,14464.67,0.0
+TXN50822,2024-12-01,Dec 2024,Interest Income,OthIncome,UK Operations,Engineering,0.0,14464.67
+TXN50823,2024-12-01,Dec 2024,Rent Expense,Expense,UK Operations,Engineering,7958.84,0.0
+TXN50823,2024-12-01,Dec 2024,Payroll Liabilities,OthCurrLiab,UK Operations,Engineering,0.0,7958.84
+TXN50824,2024-12-10,Dec 2024,Rent Expense,Expense,France SAS,Marketing,23452.38,0.0
+TXN50824,2024-12-10,Dec 2024,Cash - Payroll,Bank,France SAS,Marketing,0.0,23452.38
+TXN50825,2024-12-27,Dec 2024,Prepaid Insurance,OthCurrAsset,UK Operations,Engineering,13691.93,0.0
+TXN50825,2024-12-27,Dec 2024,Service Revenue,Income,UK Operations,Engineering,0.0,13691.93
+TXN50826,2024-12-06,Dec 2024,Accounts Payable,AcctPay,UK Operations,Marketing,40953.91,0.0
+TXN50826,2024-12-06,Dec 2024,Cash - Payroll,Bank,UK Operations,Marketing,0.0,40953.91
+TXN50827,2024-12-13,Dec 2024,Inventory - Finished Goods,OthCurrAsset,France SAS,Sales,37012.14,0.0
+TXN50827,2024-12-13,Dec 2024,Interest Income,OthIncome,France SAS,Sales,0.0,37012.14
+TXN50828,2024-12-25,Dec 2024,Inventory - Finished Goods,OthCurrAsset,US Headquarters,Operations,33467.39,0.0
+TXN50828,2024-12-25,Dec 2024,Interest Income,OthIncome,US Headquarters,Operations,0.0,33467.39
+TXN50829,2024-12-31,Dec 2024,Professional Fees,Expense,Germany GmbH,Marketing,8351.27,0.0
+TXN50829,2024-12-31,Dec 2024,Cash - Payroll,Bank,Germany GmbH,Marketing,0.0,8351.27
+TXN50830,2024-12-09,Dec 2024,Cash - Operating,Bank,France SAS,,15291.25,0.0
+TXN50830,2024-12-09,Dec 2024,Interest Income,OthIncome,France SAS,,0.0,15291.25
+TXN50831,2024-12-07,Dec 2024,Cash - Payroll,Bank,US Headquarters,Sales,31828.99,0.0
+TXN50831,2024-12-07,Dec 2024,Service Revenue,Income,US Headquarters,Sales,0.0,31828.99
+TXN50832,2024-12-19,Dec 2024,Cash - Operating,Bank,US Headquarters,Finance,39562.62,0.0
+TXN50832,2024-12-19,Dec 2024,Interest Income,OthIncome,US Headquarters,Finance,0.0,39562.62
+TXN50833,2024-12-26,Dec 2024,Cash - Operating,Bank,Australia Pty Ltd,Finance,34576.12,0.0
+TXN50833,2024-12-26,Dec 2024,Product Sales,Income,Australia Pty Ltd,Finance,0.0,34576.12
+TXN50834,2024-12-06,Dec 2024,Cash - Operating,Bank,France SAS,Engineering,34454.26,0.0
+TXN50834,2024-12-06,Dec 2024,Product Sales,Income,France SAS,Engineering,0.0,34454.26
+TXN50835,2024-12-12,Dec 2024,Salaries and Wages,Expense,Australia Pty Ltd,Sales,35215.74,0.0
+TXN50835,2024-12-12,Dec 2024,Sales Tax Payable,OthCurrLiab,Australia Pty Ltd,Sales,0.0,35215.74
+TXN50836,2024-12-08,Dec 2024,Interest Expense,OthExpense,Germany GmbH,Operations,39533.81,0.0
+TXN50836,2024-12-08,Dec 2024,Sales Tax Payable,OthCurrLiab,Germany GmbH,Operations,0.0,39533.81
+TXN50837,2024-12-24,Dec 2024,Cash - Payroll,Bank,UK Operations,Engineering,34617.87,0.0
+TXN50837,2024-12-24,Dec 2024,Service Revenue,Income,UK Operations,Engineering,0.0,34617.87
+TXN50838,2024-12-29,Dec 2024,Marketing and Advertising,Expense,US Headquarters,Finance,35477.99,0.0
+TXN50838,2024-12-29,Dec 2024,Sales Tax Payable,OthCurrLiab,US Headquarters,Finance,0.0,35477.99
+TXN50839,2024-12-07,Dec 2024,Inventory - Finished Goods,OthCurrAsset,Canada Inc,Sales,27409.22,0.0
+TXN50839,2024-12-07,Dec 2024,Service Revenue,Income,Canada Inc,Sales,0.0,27409.22
+ERR_BAL_001,2024-03-31,Mar 2024,Salaries and Wages,Expense,US Headquarters,Finance,12500.0,0.0
+TXN50840,2024-06-28,Jun 2024,Marketing and Advertising,Expense,Canada Inc,Operations,8437.0,0.0
+TXN50840,2024-06-28,Jun 2024,Accounts Receivable,AcctRec,Canada Inc,Operations,0.0,8437.0
+TXN50841,2024-06-15,Jun 2024,Utilities,Expense,Germany GmbH,Marketing,27309.49,0.0
+TXN50841,2024-06-15,Jun 2024,Cash - Operating,Bank,Germany GmbH,Marketing,0.0,27309.49
+TXN50842,2024-06-25,Jun 2024,Salaries and Wages,Expense,Australia Pty Ltd,Operations,19262.66,0.0
+TXN50842,2024-06-25,Jun 2024,Cash - Operating,Bank,Australia Pty Ltd,Operations,0.0,19262.66
+TXN50843,2024-06-20,Jun 2024,Professional Fees,Expense,Germany GmbH,Operations,12319.93,0.0
+TXN50843,2024-06-20,Jun 2024,Cash - Payroll,Bank,Germany GmbH,Operations,0.0,12319.93
+TXN50844,2024-06-22,Jun 2024,Professional Fees,Expense,Canada Inc,Finance,9898.54,0.0
+TXN50844,2024-06-22,Jun 2024,Sales Tax Payable,OthCurrLiab,Canada Inc,Finance,0.0,9898.54
+TXN50845,2024-06-25,Jun 2024,Rent Expense,Expense,Canada Inc,Sales,30845.44,0.0
+TXN50845,2024-06-25,Jun 2024,Payroll Liabilities,OthCurrLiab,Canada Inc,Sales,0.0,30845.44
+TXN50846,2024-06-21,Jun 2024,Professional Fees,Expense,Germany GmbH,Engineering,5264.69,0.0
+TXN50846,2024-06-21,Jun 2024,Cash - Payroll,Bank,Germany GmbH,Engineering,0.0,5264.69
+TXN50847,2024-06-02,Jun 2024,Salaries and Wages,Expense,UK Operations,Sales,43737.89,0.0
+TXN50847,2024-06-02,Jun 2024,Cash - Payroll,Bank,UK Operations,Sales,0.0,43737.89
+TXN50848,2024-06-16,Jun 2024,Professional Fees,Expense,UK Operations,Engineering,2074.95,0.0
+TXN50848,2024-06-16,Jun 2024,Payroll Liabilities,OthCurrLiab,UK Operations,Engineering,0.0,2074.95
+TXN50849,2024-06-22,Jun 2024,Marketing and Advertising,Expense,France SAS,Operations,31386.54,0.0
+TXN50849,2024-06-22,Jun 2024,Prepaid Insurance,OthCurrAsset,France SAS,Operations,0.0,31386.54
+TXN50850,2024-06-02,Jun 2024,Cost of Goods Sold,COGS,Germany GmbH,Sales,30494.7,0.0
+TXN50850,2024-06-02,Jun 2024,Cash - Operating,Bank,Germany GmbH,Sales,0.0,30494.7
+TXN50851,2024-06-30,Jun 2024,Interest Expense,OthExpense,UK Operations,,24824.57,0.0
+TXN50851,2024-06-30,Jun 2024,Cash - Payroll,Bank,UK Operations,,0.0,24824.57
+TXN50852,2024-06-15,Jun 2024,Professional Fees,Expense,Australia Pty Ltd,Engineering,18365.84,0.0
+TXN50852,2024-06-15,Jun 2024,Payroll Liabilities,OthCurrLiab,Australia Pty Ltd,Engineering,0.0,18365.84
+TXN50853,2024-06-27,Jun 2024,Marketing and Advertising,Expense,Germany GmbH,,3385.85,0.0
+TXN50853,2024-06-27,Jun 2024,Prepaid Insurance,OthCurrAsset,Germany GmbH,,0.0,3385.85
+TXN50854,2024-06-17,Jun 2024,Rent Expense,Expense,US Headquarters,,3984.21,0.0
+TXN50854,2024-06-17,Jun 2024,Cash - Payroll,Bank,US Headquarters,,0.0,3984.21
+TXN50855,2024-06-07,Jun 2024,Salaries and Wages,Expense,Canada Inc,Engineering,5510.64,0.0
+TXN50855,2024-06-07,Jun 2024,Payroll Liabilities,OthCurrLiab,Canada Inc,Engineering,0.0,5510.64
+TXN50856,2024-06-07,Jun 2024,Marketing and Advertising,Expense,UK Operations,Operations,33015.39,0.0
+TXN50856,2024-06-07,Jun 2024,Accounts Receivable,AcctRec,UK Operations,Operations,0.0,33015.39
+TXN50857,2024-06-18,Jun 2024,Cost of Goods Sold,COGS,Australia Pty Ltd,Operations,21051.64,0.0
+TXN50857,2024-06-18,Jun 2024,Accounts Payable,AcctPay,Australia Pty Ltd,Operations,0.0,21051.64
+TXN50858,2024-06-22,Jun 2024,Cost of Goods Sold,COGS,France SAS,,33429.5,0.0
+TXN50858,2024-06-22,Jun 2024,Accounts Receivable,AcctRec,France SAS,,0.0,33429.5
+TXN50859,2024-06-26,Jun 2024,Rent Expense,Expense,UK Operations,Operations,20377.08,0.0
+TXN50859,2024-06-26,Jun 2024,Accounts Receivable,AcctRec,UK Operations,Operations,0.0,20377.08
+TXN50860,2024-06-18,Jun 2024,Rent Expense,Expense,Canada Inc,Finance,46709.24,0.0
+TXN50860,2024-06-18,Jun 2024,Accounts Payable,AcctPay,Canada Inc,Finance,0.0,46709.24
+TXN50861,2024-06-28,Jun 2024,Utilities,Expense,Germany GmbH,Finance,38327.13,0.0
+TXN50861,2024-06-28,Jun 2024,Accounts Payable,AcctPay,Germany GmbH,Finance,0.0,38327.13
+TXN50862,2024-06-20,Jun 2024,Utilities,Expense,UK Operations,Operations,27508.5,0.0
+TXN50862,2024-06-20,Jun 2024,Prepaid Insurance,OthCurrAsset,UK Operations,Operations,0.0,27508.5
+TXN50863,2024-06-12,Jun 2024,Cost of Goods Sold,COGS,France SAS,Finance,48011.31,0.0
+TXN50863,2024-06-12,Jun 2024,Cash - Operating,Bank,France SAS,Finance,0.0,48011.31
+TXN50864,2024-06-10,Jun 2024,Rent Expense,Expense,Canada Inc,Engineering,26121.66,0.0
+TXN50864,2024-06-10,Jun 2024,Cash - Operating,Bank,Canada Inc,Engineering,0.0,26121.66
+TXN50865,2024-06-10,Jun 2024,Cost of Goods Sold,COGS,UK Operations,Sales,42858.16,0.0
+TXN50865,2024-06-10,Jun 2024,Prepaid Insurance,OthCurrAsset,UK Operations,Sales,0.0,42858.16
+TXN50866,2024-06-30,Jun 2024,Marketing and Advertising,Expense,Canada Inc,Operations,28037.99,0.0
+TXN50866,2024-06-30,Jun 2024,Accounts Receivable,AcctRec,Canada Inc,Operations,0.0,28037.99
+TXN50867,2024-06-04,Jun 2024,Salaries and Wages,Expense,US Headquarters,Finance,18104.96,0.0
+TXN50867,2024-06-04,Jun 2024,Prepaid Insurance,OthCurrAsset,US Headquarters,Finance,0.0,18104.96
+TXN50868,2024-06-12,Jun 2024,Interest Expense,OthExpense,Canada Inc,Sales,12033.21,0.0
+TXN50868,2024-06-12,Jun 2024,Prepaid Insurance,OthCurrAsset,Canada Inc,Sales,0.0,12033.21
+TXN50869,2024-06-03,Jun 2024,Salaries and Wages,Expense,Canada Inc,Finance,28668.71,0.0
+TXN50869,2024-06-03,Jun 2024,Cash - Payroll,Bank,Canada Inc,Finance,0.0,28668.71
+TXN50870,2024-06-24,Jun 2024,Interest Expense,OthExpense,Germany GmbH,Finance,9058.67,0.0
+TXN50870,2024-06-24,Jun 2024,Cash - Payroll,Bank,Germany GmbH,Finance,0.0,9058.67
+TXN50871,2024-06-20,Jun 2024,Interest Expense,OthExpense,Australia Pty Ltd,Marketing,2349.89,0.0
+TXN50871,2024-06-20,Jun 2024,Payroll Liabilities,OthCurrLiab,Australia Pty Ltd,Marketing,0.0,2349.89
+TXN50872,2024-06-03,Jun 2024,Interest Expense,OthExpense,US Headquarters,Marketing,17722.55,0.0
+TXN50872,2024-06-03,Jun 2024,Payroll Liabilities,OthCurrLiab,US Headquarters,Marketing,0.0,17722.55
+TXN50873,2024-06-14,Jun 2024,Interest Expense,OthExpense,US Headquarters,Sales,37510.09,0.0
+TXN50873,2024-06-14,Jun 2024,Cash - Operating,Bank,US Headquarters,Sales,0.0,37510.09
+TXN50874,2024-06-21,Jun 2024,Marketing and Advertising,Expense,Australia Pty Ltd,Finance,3179.33,0.0
+TXN50874,2024-06-21,Jun 2024,Cash - Operating,Bank,Australia Pty Ltd,Finance,0.0,3179.33
+TXN50875,2024-06-11,Jun 2024,Marketing and Advertising,Expense,Canada Inc,Operations,7904.21,0.0
+TXN50875,2024-06-11,Jun 2024,Inventory - Finished Goods,OthCurrAsset,Canada Inc,Operations,0.0,7904.21
+TXN50876,2024-06-05,Jun 2024,Utilities,Expense,US Headquarters,,36713.14,0.0
+TXN50876,2024-06-05,Jun 2024,Sales Tax Payable,OthCurrLiab,US Headquarters,,0.0,36713.14
+TXN50877,2024-06-25,Jun 2024,Salaries and Wages,Expense,Canada Inc,Operations,25484.1,0.0
+TXN50877,2024-06-25,Jun 2024,Payroll Liabilities,OthCurrLiab,Canada Inc,Operations,0.0,25484.1
+TXN50878,2024-06-10,Jun 2024,Cost of Goods Sold,COGS,France SAS,Sales,7043.36,0.0
+TXN50878,2024-06-10,Jun 2024,Sales Tax Payable,OthCurrLiab,France SAS,Sales,0.0,7043.36
+TXN50879,2024-06-19,Jun 2024,Rent Expense,Expense,Australia Pty Ltd,Engineering,27633.54,0.0
+TXN50879,2024-06-19,Jun 2024,Cash - Payroll,Bank,Australia Pty Ltd,Engineering,0.0,27633.54
+TXN50880,2024-06-13,Jun 2024,Salaries and Wages,Expense,Canada Inc,Finance,38804.34,0.0
+TXN50880,2024-06-13,Jun 2024,Accounts Receivable,AcctRec,Canada Inc,Finance,0.0,38804.34
+TXN50881,2024-06-16,Jun 2024,Professional Fees,Expense,Canada Inc,Sales,24649.12,0.0
+TXN50881,2024-06-16,Jun 2024,Inventory - Finished Goods,OthCurrAsset,Canada Inc,Sales,0.0,24649.12
+TXN50882,2024-06-18,Jun 2024,Salaries and Wages,Expense,Canada Inc,,26450.27,0.0
+TXN50882,2024-06-18,Jun 2024,Cash - Payroll,Bank,Canada Inc,,0.0,26450.27
+TXN50883,2024-06-09,Jun 2024,Marketing and Advertising,Expense,France SAS,Marketing,34394.53,0.0
+TXN50883,2024-06-09,Jun 2024,Cash - Payroll,Bank,France SAS,Marketing,0.0,34394.53
+TXN50884,2024-06-04,Jun 2024,Rent Expense,Expense,Australia Pty Ltd,Finance,21465.26,0.0
+TXN50884,2024-06-04,Jun 2024,Inventory - Finished Goods,OthCurrAsset,Australia Pty Ltd,Finance,0.0,21465.26
+TXN50885,2024-06-11,Jun 2024,Interest Expense,OthExpense,Germany GmbH,Operations,32942.79,0.0
+TXN50885,2024-06-11,Jun 2024,Prepaid Insurance,OthCurrAsset,Germany GmbH,Operations,0.0,32942.79
+TXN50886,2024-06-06,Jun 2024,Interest Expense,OthExpense,Germany GmbH,Operations,41168.41,0.0
+TXN50886,2024-06-06,Jun 2024,Sales Tax Payable,OthCurrLiab,Germany GmbH,Operations,0.0,41168.41
+TXN50887,2024-06-20,Jun 2024,Interest Expense,OthExpense,UK Operations,Finance,2721.44,0.0
+TXN50887,2024-06-20,Jun 2024,Inventory - Finished Goods,OthCurrAsset,UK Operations,Finance,0.0,2721.44
+TXN50888,2024-06-07,Jun 2024,Professional Fees,Expense,Australia Pty Ltd,Marketing,8221.57,0.0
+TXN50888,2024-06-07,Jun 2024,Cash - Payroll,Bank,Australia Pty Ltd,Marketing,0.0,8221.57
+TXN50889,2024-06-04,Jun 2024,Marketing and Advertising,Expense,Australia Pty Ltd,Engineering,12530.89,0.0
+TXN50889,2024-06-04,Jun 2024,Accounts Receivable,AcctRec,Australia Pty Ltd,Engineering,0.0,12530.89
+TXN50890,2024-06-28,Jun 2024,Interest Expense,OthExpense,Germany GmbH,Engineering,17491.93,0.0
+TXN50890,2024-06-28,Jun 2024,Cash - Payroll,Bank,Germany GmbH,Engineering,0.0,17491.93
+TXN50891,2024-06-10,Jun 2024,Salaries and Wages,Expense,France SAS,Finance,1626.03,0.0
+TXN50891,2024-06-10,Jun 2024,Inventory - Finished Goods,OthCurrAsset,France SAS,Finance,0.0,1626.03
+TXN50892,2024-06-07,Jun 2024,Marketing and Advertising,Expense,Canada Inc,Operations,37642.58,0.0
+TXN50892,2024-06-07,Jun 2024,Sales Tax Payable,OthCurrLiab,Canada Inc,Operations,0.0,37642.58
+TXN50893,2024-06-20,Jun 2024,Professional Fees,Expense,Australia Pty Ltd,Sales,34906.02,0.0
+TXN50893,2024-06-20,Jun 2024,Cash - Operating,Bank,Australia Pty Ltd,Sales,0.0,34906.02
+TXN50894,2024-06-13,Jun 2024,Rent Expense,Expense,Canada Inc,,26576.55,0.0
+TXN50894,2024-06-13,Jun 2024,Accounts Receivable,AcctRec,Canada Inc,,0.0,26576.55
+TXN50895,2024-06-02,Jun 2024,Marketing and Advertising,Expense,Germany GmbH,Sales,39564.83,0.0
+TXN50895,2024-06-02,Jun 2024,Prepaid Insurance,OthCurrAsset,Germany GmbH,Sales,0.0,39564.83
+TXN50896,2024-06-02,Jun 2024,Cost of Goods Sold,COGS,France SAS,,47286.24,0.0
+TXN50896,2024-06-02,Jun 2024,Payroll Liabilities,OthCurrLiab,France SAS,,0.0,47286.24
+TXN50897,2024-06-22,Jun 2024,Professional Fees,Expense,Germany GmbH,,42678.11,0.0
+TXN50897,2024-06-22,Jun 2024,Accounts Payable,AcctPay,Germany GmbH,,0.0,42678.11
+TXN50898,2024-06-28,Jun 2024,Professional Fees,Expense,US Headquarters,Engineering,14978.53,0.0
+TXN50898,2024-06-28,Jun 2024,Payroll Liabilities,OthCurrLiab,US Headquarters,Engineering,0.0,14978.53
+TXN50899,2024-06-08,Jun 2024,Cost of Goods Sold,COGS,France SAS,Operations,48842.29,0.0
+TXN50899,2024-06-08,Jun 2024,Accounts Payable,AcctPay,France SAS,Operations,0.0,48842.29
+TXN50900,2024-06-16,Jun 2024,Salaries and Wages,Expense,Canada Inc,Operations,4857.02,0.0
+TXN50900,2024-06-16,Jun 2024,Sales Tax Payable,OthCurrLiab,Canada Inc,Operations,0.0,4857.02
+TXN50901,2024-06-18,Jun 2024,Marketing and Advertising,Expense,Australia Pty Ltd,Engineering,2467.74,0.0
+TXN50901,2024-06-18,Jun 2024,Prepaid Insurance,OthCurrAsset,Australia Pty Ltd,Engineering,0.0,2467.74
+TXN50902,2024-06-11,Jun 2024,Cost of Goods Sold,COGS,France SAS,Finance,37347.34,0.0
+TXN50902,2024-06-11,Jun 2024,Accounts Payable,AcctPay,France SAS,Finance,0.0,37347.34
+TXN50903,2024-06-22,Jun 2024,Salaries and Wages,Expense,Germany GmbH,Marketing,31448.93,0.0
+TXN50903,2024-06-22,Jun 2024,Prepaid Insurance,OthCurrAsset,Germany GmbH,Marketing,0.0,31448.93
+TXN50904,2024-06-26,Jun 2024,Utilities,Expense,US Headquarters,,13255.13,0.0
+TXN50904,2024-06-26,Jun 2024,Cash - Operating,Bank,US Headquarters,,0.0,13255.13
+TXN50905,2024-06-18,Jun 2024,Utilities,Expense,Germany GmbH,Sales,8009.55,0.0
+TXN50905,2024-06-18,Jun 2024,Accounts Receivable,AcctRec,Germany GmbH,Sales,0.0,8009.55
+TXN50906,2024-06-03,Jun 2024,Professional Fees,Expense,Australia Pty Ltd,Finance,26275.53,0.0
+TXN50906,2024-06-03,Jun 2024,Inventory - Finished Goods,OthCurrAsset,Australia Pty Ltd,Finance,0.0,26275.53
+TXN50907,2024-06-14,Jun 2024,Rent Expense,Expense,UK Operations,Operations,8061.08,0.0
+TXN50907,2024-06-14,Jun 2024,Accounts Payable,AcctPay,UK Operations,Operations,0.0,8061.08
+TXN50908,2024-06-15,Jun 2024,Salaries and Wages,Expense,Canada Inc,Sales,10734.49,0.0
+TXN50908,2024-06-15,Jun 2024,Inventory - Finished Goods,OthCurrAsset,Canada Inc,Sales,0.0,10734.49
+TXN50909,2024-06-28,Jun 2024,Marketing and Advertising,Expense,UK Operations,Marketing,34582.34,0.0
+TXN50909,2024-06-28,Jun 2024,Accounts Receivable,AcctRec,UK Operations,Marketing,0.0,34582.34
+TXN50910,2024-06-14,Jun 2024,Salaries and Wages,Expense,UK Operations,,46684.98,0.0
+TXN50910,2024-06-14,Jun 2024,Accounts Payable,AcctPay,UK Operations,,0.0,46684.98
+TXN50911,2024-06-03,Jun 2024,Cost of Goods Sold,COGS,Canada Inc,Operations,47455.78,0.0
+TXN50911,2024-06-03,Jun 2024,Accounts Receivable,AcctRec,Canada Inc,Operations,0.0,47455.78
+TXN50912,2024-06-11,Jun 2024,Rent Expense,Expense,UK Operations,,1959.43,0.0
+TXN50912,2024-06-11,Jun 2024,Payroll Liabilities,OthCurrLiab,UK Operations,,0.0,1959.43
+TXN50913,2024-06-14,Jun 2024,Interest Expense,OthExpense,Germany GmbH,Finance,37407.68,0.0
+TXN50913,2024-06-14,Jun 2024,Prepaid Insurance,OthCurrAsset,Germany GmbH,Finance,0.0,37407.68
+TXN50914,2024-06-05,Jun 2024,Cost of Goods Sold,COGS,UK Operations,Engineering,7011.52,0.0
+TXN50914,2024-06-05,Jun 2024,Prepaid Insurance,OthCurrAsset,UK Operations,Engineering,0.0,7011.52
+TXN50915,2024-06-20,Jun 2024,Salaries and Wages,Expense,Canada Inc,Operations,11930.11,0.0
+TXN50915,2024-06-20,Jun 2024,Inventory - Finished Goods,OthCurrAsset,Canada Inc,Operations,0.0,11930.11
+TXN50916,2024-06-22,Jun 2024,Interest Expense,OthExpense,US Headquarters,Marketing,4434.03,0.0
+TXN50916,2024-06-22,Jun 2024,Sales Tax Payable,OthCurrLiab,US Headquarters,Marketing,0.0,4434.03
+TXN50917,2024-06-05,Jun 2024,Professional Fees,Expense,Canada Inc,Operations,23703.79,0.0
+TXN50917,2024-06-05,Jun 2024,Accounts Payable,AcctPay,Canada Inc,Operations,0.0,23703.79
+TXN50918,2024-06-06,Jun 2024,Salaries and Wages,Expense,France SAS,Finance,23955.42,0.0
+TXN50918,2024-06-06,Jun 2024,Inventory - Finished Goods,OthCurrAsset,France SAS,Finance,0.0,23955.42
+TXN50919,2024-06-08,Jun 2024,Cost of Goods Sold,COGS,US Headquarters,Finance,38344.67,0.0
+TXN50919,2024-06-08,Jun 2024,Prepaid Insurance,OthCurrAsset,US Headquarters,Finance,0.0,38344.67
+TXN50920,2024-06-14,Jun 2024,Salaries and Wages,Expense,UK Operations,,33731.28,0.0
+TXN50920,2024-06-14,Jun 2024,Inventory - Finished Goods,OthCurrAsset,UK Operations,,0.0,33731.28
+TXN50921,2024-06-03,Jun 2024,Utilities,Expense,UK Operations,Finance,43422.89,0.0
+TXN50921,2024-06-03,Jun 2024,Accounts Payable,AcctPay,UK Operations,Finance,0.0,43422.89
+TXN50922,2024-06-28,Jun 2024,Interest Expense,OthExpense,France SAS,Sales,21664.01,0.0
+TXN50922,2024-06-28,Jun 2024,Cash - Operating,Bank,France SAS,Sales,0.0,21664.01
+TXN50923,2024-06-20,Jun 2024,Utilities,Expense,Australia Pty Ltd,Finance,36149.95,0.0
+TXN50923,2024-06-20,Jun 2024,Cash - Operating,Bank,Australia Pty Ltd,Finance,0.0,36149.95
+TXN50924,2024-06-17,Jun 2024,Cost of Goods Sold,COGS,US Headquarters,Finance,23116.57,0.0
+TXN50924,2024-06-17,Jun 2024,Inventory - Finished Goods,OthCurrAsset,US Headquarters,Finance,0.0,23116.57
+TXN50925,2024-06-17,Jun 2024,Cost of Goods Sold,COGS,Canada Inc,Finance,49199.62,0.0
+TXN50925,2024-06-17,Jun 2024,Payroll Liabilities,OthCurrLiab,Canada Inc,Finance,0.0,49199.62
+TXN50926,2024-06-17,Jun 2024,Utilities,Expense,Australia Pty Ltd,Engineering,9897.59,0.0
+TXN50926,2024-06-17,Jun 2024,Payroll Liabilities,OthCurrLiab,Australia Pty Ltd,Engineering,0.0,9897.59
+TXN50927,2024-06-29,Jun 2024,Utilities,Expense,Germany GmbH,Marketing,23336.68,0.0
+TXN50927,2024-06-29,Jun 2024,Prepaid Insurance,OthCurrAsset,Germany GmbH,Marketing,0.0,23336.68
+TXN50928,2024-06-20,Jun 2024,Salaries and Wages,Expense,US Headquarters,,26090.0,0.0
+TXN50928,2024-06-20,Jun 2024,Sales Tax Payable,OthCurrLiab,US Headquarters,,0.0,26090.0
+TXN50929,2024-06-27,Jun 2024,Marketing and Advertising,Expense,Australia Pty Ltd,Finance,4976.82,0.0
+TXN50929,2024-06-27,Jun 2024,Cash - Payroll,Bank,Australia Pty Ltd,Finance,0.0,4976.82
+TXN50930,2024-06-06,Jun 2024,Utilities,Expense,Canada Inc,,27547.15,0.0
+TXN50930,2024-06-06,Jun 2024,Payroll Liabilities,OthCurrLiab,Canada Inc,,0.0,27547.15
+TXN50931,2024-06-11,Jun 2024,Marketing and Advertising,Expense,France SAS,Engineering,9354.49,0.0
+TXN50931,2024-06-11,Jun 2024,Inventory - Finished Goods,OthCurrAsset,France SAS,Engineering,0.0,9354.49
+TXN50932,2024-06-29,Jun 2024,Professional Fees,Expense,France SAS,Engineering,12879.07,0.0
+TXN50932,2024-06-29,Jun 2024,Accounts Receivable,AcctRec,France SAS,Engineering,0.0,12879.07
+TXN50933,2024-06-23,Jun 2024,Professional Fees,Expense,Australia Pty Ltd,Engineering,5013.97,0.0
+TXN50933,2024-06-23,Jun 2024,Sales Tax Payable,OthCurrLiab,Australia Pty Ltd,Engineering,0.0,5013.97
+TXN50934,2024-06-21,Jun 2024,Utilities,Expense,Germany GmbH,Engineering,26428.96,0.0
+TXN50934,2024-06-21,Jun 2024,Accounts Receivable,AcctRec,Germany GmbH,Engineering,0.0,26428.96
+TXN50935,2024-06-13,Jun 2024,Salaries and Wages,Expense,Canada Inc,Finance,2673.35,0.0
+TXN50935,2024-06-13,Jun 2024,Accounts Payable,AcctPay,Canada Inc,Finance,0.0,2673.35
+TXN50936,2024-06-19,Jun 2024,Salaries and Wages,Expense,Australia Pty Ltd,Sales,8525.14,0.0
+TXN50936,2024-06-19,Jun 2024,Accounts Receivable,AcctRec,Australia Pty Ltd,Sales,0.0,8525.14
+TXN50937,2024-06-25,Jun 2024,Rent Expense,Expense,Australia Pty Ltd,Engineering,21269.29,0.0
+TXN50937,2024-06-25,Jun 2024,Sales Tax Payable,OthCurrLiab,Australia Pty Ltd,Engineering,0.0,21269.29
+TXN50938,2024-06-10,Jun 2024,Salaries and Wages,Expense,Australia Pty Ltd,Sales,6318.92,0.0
+TXN50938,2024-06-10,Jun 2024,Inventory - Finished Goods,OthCurrAsset,Australia Pty Ltd,Sales,0.0,6318.92
+TXN50939,2024-06-01,Jun 2024,Utilities,Expense,Canada Inc,Marketing,1104.28,0.0
+TXN50939,2024-06-01,Jun 2024,Sales Tax Payable,OthCurrLiab,Canada Inc,Marketing,0.0,1104.28
+TXN50940,2024-06-18,Jun 2024,Salaries and Wages,Expense,US Headquarters,Operations,44193.79,0.0
+TXN50940,2024-06-18,Jun 2024,Inventory - Finished Goods,OthCurrAsset,US Headquarters,Operations,0.0,44193.79
+TXN50941,2024-06-19,Jun 2024,Utilities,Expense,Australia Pty Ltd,Finance,22960.05,0.0
+TXN50941,2024-06-19,Jun 2024,Cash - Payroll,Bank,Australia Pty Ltd,Finance,0.0,22960.05
+TXN50942,2024-06-20,Jun 2024,Marketing and Advertising,Expense,Canada Inc,Engineering,12613.3,0.0
+TXN50942,2024-06-20,Jun 2024,Prepaid Insurance,OthCurrAsset,Canada Inc,Engineering,0.0,12613.3
+TXN50943,2024-06-20,Jun 2024,Salaries and Wages,Expense,Australia Pty Ltd,Operations,41096.01,0.0
+TXN50943,2024-06-20,Jun 2024,Cash - Operating,Bank,Australia Pty Ltd,Operations,0.0,41096.01
+TXN50944,2024-06-06,Jun 2024,Cost of Goods Sold,COGS,UK Operations,Engineering,32837.21,0.0
+TXN50944,2024-06-06,Jun 2024,Accounts Receivable,AcctRec,UK Operations,Engineering,0.0,32837.21
+TXN50945,2024-06-28,Jun 2024,Marketing and Advertising,Expense,US Headquarters,,29115.59,0.0
+TXN50945,2024-06-28,Jun 2024,Prepaid Insurance,OthCurrAsset,US Headquarters,,0.0,29115.59
+TXN50946,2024-06-11,Jun 2024,Salaries and Wages,Expense,US Headquarters,Engineering,5889.94,0.0
+TXN50946,2024-06-11,Jun 2024,Accounts Receivable,AcctRec,US Headquarters,Engineering,0.0,5889.94
+TXN50947,2024-06-22,Jun 2024,Professional Fees,Expense,Germany GmbH,Operations,33215.77,0.0
+TXN50947,2024-06-22,Jun 2024,Accounts Receivable,AcctRec,Germany GmbH,Operations,0.0,33215.77
+TXN50948,2024-06-15,Jun 2024,Cost of Goods Sold,COGS,Australia Pty Ltd,Operations,18329.34,0.0
+TXN50948,2024-06-15,Jun 2024,Cash - Payroll,Bank,Australia Pty Ltd,Operations,0.0,18329.34
+TXN50949,2024-06-25,Jun 2024,Utilities,Expense,Germany GmbH,Marketing,18744.19,0.0
+TXN50949,2024-06-25,Jun 2024,Cash - Payroll,Bank,Germany GmbH,Marketing,0.0,18744.19
+TXN50950,2024-06-25,Jun 2024,Utilities,Expense,France SAS,Operations,3713.83,0.0
+TXN50950,2024-06-25,Jun 2024,Accounts Receivable,AcctRec,France SAS,Operations,0.0,3713.83
+TXN50951,2024-06-04,Jun 2024,Utilities,Expense,Australia Pty Ltd,Marketing,16795.82,0.0
+TXN50951,2024-06-04,Jun 2024,Inventory - Finished Goods,OthCurrAsset,Australia Pty Ltd,Marketing,0.0,16795.82
+TXN50952,2024-06-23,Jun 2024,Marketing and Advertising,Expense,UK Operations,Operations,3380.14,0.0
+TXN50952,2024-06-23,Jun 2024,Cash - Payroll,Bank,UK Operations,Operations,0.0,3380.14
+TXN50953,2024-06-16,Jun 2024,Interest Expense,OthExpense,Australia Pty Ltd,,30436.51,0.0
+TXN50953,2024-06-16,Jun 2024,Prepaid Insurance,OthCurrAsset,Australia Pty Ltd,,0.0,30436.51
+TXN50954,2024-06-14,Jun 2024,Marketing and Advertising,Expense,Canada Inc,Marketing,13353.17,0.0
+TXN50954,2024-06-14,Jun 2024,Accounts Payable,AcctPay,Canada Inc,Marketing,0.0,13353.17
+TXN50955,2024-06-30,Jun 2024,Marketing and Advertising,Expense,UK Operations,Operations,28350.4,0.0
+TXN50955,2024-06-30,Jun 2024,Sales Tax Payable,OthCurrLiab,UK Operations,Operations,0.0,28350.4
+TXN50956,2024-06-16,Jun 2024,Rent Expense,Expense,UK Operations,Operations,12019.72,0.0
+TXN50956,2024-06-16,Jun 2024,Inventory - Finished Goods,OthCurrAsset,UK Operations,Operations,0.0,12019.72
+TXN50957,2024-06-01,Jun 2024,Interest Expense,OthExpense,US Headquarters,Engineering,23511.84,0.0
+TXN50957,2024-06-01,Jun 2024,Cash - Payroll,Bank,US Headquarters,Engineering,0.0,23511.84
+TXN50958,2024-06-24,Jun 2024,Utilities,Expense,UK Operations,Operations,49949.86,0.0
+TXN50958,2024-06-24,Jun 2024,Cash - Operating,Bank,UK Operations,Operations,0.0,49949.86
+TXN50959,2024-06-11,Jun 2024,Salaries and Wages,Expense,Germany GmbH,Operations,40399.15,0.0
+TXN50959,2024-06-11,Jun 2024,Cash - Operating,Bank,Germany GmbH,Operations,0.0,40399.15
+TXN50960,2024-06-21,Jun 2024,Interest Expense,OthExpense,UK Operations,,14440.52,0.0
+TXN50960,2024-06-21,Jun 2024,Cash - Payroll,Bank,UK Operations,,0.0,14440.52
+TXN50961,2024-06-10,Jun 2024,Interest Expense,OthExpense,Germany GmbH,Operations,27724.68,0.0
+TXN50961,2024-06-10,Jun 2024,Cash - Operating,Bank,Germany GmbH,Operations,0.0,27724.68
+TXN50962,2024-06-04,Jun 2024,Professional Fees,Expense,Australia Pty Ltd,Marketing,17397.4,0.0
+TXN50962,2024-06-04,Jun 2024,Cash - Operating,Bank,Australia Pty Ltd,Marketing,0.0,17397.4
+TXN50963,2024-06-27,Jun 2024,Rent Expense,Expense,UK Operations,Sales,16860.48,0.0
+TXN50963,2024-06-27,Jun 2024,Sales Tax Payable,OthCurrLiab,UK Operations,Sales,0.0,16860.48
+TXN50964,2024-06-30,Jun 2024,Utilities,Expense,France SAS,Engineering,32459.78,0.0
+TXN50964,2024-06-30,Jun 2024,Accounts Receivable,AcctRec,France SAS,Engineering,0.0,32459.78
+TXN50965,2024-06-21,Jun 2024,Utilities,Expense,France SAS,Operations,44848.47,0.0
+TXN50965,2024-06-21,Jun 2024,Payroll Liabilities,OthCurrLiab,France SAS,Operations,0.0,44848.47
+TXN50966,2024-06-30,Jun 2024,Rent Expense,Expense,Australia Pty Ltd,Engineering,41837.73,0.0
+TXN50966,2024-06-30,Jun 2024,Accounts Payable,AcctPay,Australia Pty Ltd,Engineering,0.0,41837.73
+TXN50967,2024-06-18,Jun 2024,Professional Fees,Expense,Canada Inc,Engineering,10808.99,0.0
+TXN50967,2024-06-18,Jun 2024,Accounts Payable,AcctPay,Canada Inc,Engineering,0.0,10808.99
+TXN50968,2024-06-26,Jun 2024,Rent Expense,Expense,Germany GmbH,Engineering,48495.86,0.0
+TXN50968,2024-06-26,Jun 2024,Cash - Operating,Bank,Germany GmbH,Engineering,0.0,48495.86
+TXN50969,2024-06-11,Jun 2024,Salaries and Wages,Expense,France SAS,,26946.52,0.0
+TXN50969,2024-06-11,Jun 2024,Payroll Liabilities,OthCurrLiab,France SAS,,0.0,26946.52
+TXN50970,2024-06-06,Jun 2024,Interest Expense,OthExpense,Canada Inc,Engineering,43297.39,0.0
+TXN50970,2024-06-06,Jun 2024,Prepaid Insurance,OthCurrAsset,Canada Inc,Engineering,0.0,43297.39
+TXN50971,2024-06-23,Jun 2024,Utilities,Expense,Germany GmbH,,2065.6,0.0
+TXN50971,2024-06-23,Jun 2024,Cash - Payroll,Bank,Germany GmbH,,0.0,2065.6
+TXN50972,2024-06-16,Jun 2024,Rent Expense,Expense,UK Operations,Marketing,22869.36,0.0
+TXN50972,2024-06-16,Jun 2024,Inventory - Finished Goods,OthCurrAsset,UK Operations,Marketing,0.0,22869.36
+TXN50973,2024-06-17,Jun 2024,Interest Expense,OthExpense,Germany GmbH,Sales,6055.45,0.0
+TXN50973,2024-06-17,Jun 2024,Cash - Operating,Bank,Germany GmbH,Sales,0.0,6055.45
+TXN50974,2024-06-25,Jun 2024,Cost of Goods Sold,COGS,UK Operations,Engineering,22466.82,0.0
+TXN50974,2024-06-25,Jun 2024,Sales Tax Payable,OthCurrLiab,UK Operations,Engineering,0.0,22466.82
+TXN50975,2024-06-29,Jun 2024,Utilities,Expense,Canada Inc,Sales,9915.48,0.0
+TXN50975,2024-06-29,Jun 2024,Prepaid Insurance,OthCurrAsset,Canada Inc,Sales,0.0,9915.48
+TXN50976,2024-06-25,Jun 2024,Cost of Goods Sold,COGS,Germany GmbH,Sales,38589.33,0.0
+TXN50976,2024-06-25,Jun 2024,Accounts Receivable,AcctRec,Germany GmbH,Sales,0.0,38589.33
+TXN50977,2024-06-07,Jun 2024,Professional Fees,Expense,Australia Pty Ltd,Engineering,23238.74,0.0
+TXN50977,2024-06-07,Jun 2024,Cash - Payroll,Bank,Australia Pty Ltd,Engineering,0.0,23238.74
+TXN50978,2024-06-01,Jun 2024,Marketing and Advertising,Expense,Germany GmbH,Engineering,34509.09,0.0
+TXN50978,2024-06-01,Jun 2024,Cash - Payroll,Bank,Germany GmbH,Engineering,0.0,34509.09
+TXN50979,2024-06-11,Jun 2024,Interest Expense,OthExpense,France SAS,Engineering,5603.59,0.0
+TXN50979,2024-06-11,Jun 2024,Prepaid Insurance,OthCurrAsset,France SAS,Engineering,0.0,5603.59
+TXN50980,2024-06-01,Jun 2024,Salaries and Wages,Expense,Canada Inc,Marketing,32123.12,0.0
+TXN50980,2024-06-01,Jun 2024,Accounts Payable,AcctPay,Canada Inc,Marketing,0.0,32123.12
+TXN50981,2024-06-07,Jun 2024,Rent Expense,Expense,UK Operations,Marketing,14194.15,0.0
+TXN50981,2024-06-07,Jun 2024,Sales Tax Payable,OthCurrLiab,UK Operations,Marketing,0.0,14194.15
+TXN50982,2024-06-22,Jun 2024,Rent Expense,Expense,US Headquarters,Marketing,7891.38,0.0
+TXN50982,2024-06-22,Jun 2024,Cash - Payroll,Bank,US Headquarters,Marketing,0.0,7891.38
+TXN50983,2024-06-01,Jun 2024,Salaries and Wages,Expense,Canada Inc,Operations,25946.0,0.0
+TXN50983,2024-06-01,Jun 2024,Accounts Payable,AcctPay,Canada Inc,Operations,0.0,25946.0
+TXN50984,2024-06-18,Jun 2024,Professional Fees,Expense,Germany GmbH,Marketing,7507.06,0.0
+TXN50984,2024-06-18,Jun 2024,Prepaid Insurance,OthCurrAsset,Germany GmbH,Marketing,0.0,7507.06
+TXN50985,2024-06-19,Jun 2024,Marketing and Advertising,Expense,UK Operations,Sales,4026.52,0.0
+TXN50985,2024-06-19,Jun 2024,Accounts Payable,AcctPay,UK Operations,Sales,0.0,4026.52
+TXN50986,2024-06-18,Jun 2024,Utilities,Expense,France SAS,Engineering,6938.66,0.0
+TXN50986,2024-06-18,Jun 2024,Cash - Operating,Bank,France SAS,Engineering,0.0,6938.66
+TXN50987,2024-06-04,Jun 2024,Utilities,Expense,France SAS,Engineering,4762.92,0.0
+TXN50987,2024-06-04,Jun 2024,Accounts Receivable,AcctRec,France SAS,Engineering,0.0,4762.92
+TXN50988,2024-06-23,Jun 2024,Professional Fees,Expense,Canada Inc,Operations,31658.8,0.0
+TXN50988,2024-06-23,Jun 2024,Sales Tax Payable,OthCurrLiab,Canada Inc,Operations,0.0,31658.8
+TXN50989,2024-06-20,Jun 2024,Salaries and Wages,Expense,Germany GmbH,Marketing,16950.44,0.0
+TXN50989,2024-06-20,Jun 2024,Cash - Payroll,Bank,Germany GmbH,Marketing,0.0,16950.44
+TXN_ORIG_001,2024-07-15,Jul 2024,Marketing and Advertising,Expense,Germany GmbH,Finance,33333.33,0.0
+TXN_ORIG_001,2024-07-15,Jul 2024,Accounts Payable,AcctPay,Germany GmbH,Finance,0.0,33333.33
+TXN_DUPE_001,2024-07-15,Jul 2024,Marketing and Advertising,Expense,Germany GmbH,Finance,33333.33,0.0
+TXN_DUPE_001,2024-07-15,Jul 2024,Accounts Payable,AcctPay,Germany GmbH,Finance,0.0,33333.33
+ACCR_SEP_001,2024-09-30,Sep 2024,Salaries and Wages,Expense,UK Operations,Finance,8750.0,0.0
+ACCR_SEP_001,2024-09-30,Sep 2024,Accrued Payroll,Expense,UK Operations,Finance,0.0,8750.0
